@@ -16,7 +16,7 @@ Site institucional da **Coordenada Geo** — consultoria em geotecnologias. Publ
 
 Fontes da identidade visual: **Comfortaa** (display) + **Urbanist** (texto), via `next/font`.
 
-Paleta baseada no Manual de Marca (`static/Manual de Marca _ Coordenada Geo.pdf`).
+Paleta baseada no Manual de Marca da Coordenada Geo.
 
 ## Rodando localmente
 
@@ -63,7 +63,6 @@ public/
   og/                # imagem OpenGraph
   CNAME              # coordenadageo.com.br
   .nojekyll          # desabilita Jekyll no GitHub Pages
-static/              # material fonte da marca (PDF, PNGs originais)
 ```
 
 ## Adicionando um post de blog
@@ -151,7 +150,6 @@ Checklist operacional completo:
 
 ## Licenças
 
-- Marca gráfica, Manual de Marca e fotografias: propriedade da Coordenada Geo. Ver
-  `static/Manual de Marca _ Coordenada Geo.pdf` para diretrizes de uso.
+- Marca gráfica, Manual de Marca e fotografias: propriedade da Coordenada Geo.
 - Código-fonte deste site: MIT (ou outra licença que você preferir — ajuste antes de tornar o
   repositório público).

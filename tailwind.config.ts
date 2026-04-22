@@ -1,7 +1,6 @@
 import type { Config } from 'tailwindcss';
 
-// Paleta oficial do Manual de Marca (Coordenada Geo).
-// Fonte: static/Manual de Marca _ Coordenada Geo.pdf, pagina 21.
+// Paleta oficial do Manual de Marca (Coordenada Geo), pagina 21.
 const config: Config = {
   darkMode: 'class',
   content: [
