@@ -27,7 +27,7 @@ export default function Logo({
       width={width}
       height={height}
       priority={priority}
-      className={clsx('h-auto w-auto', className)}
+      className={clsx('w-auto', className)}
     />
   );
 }

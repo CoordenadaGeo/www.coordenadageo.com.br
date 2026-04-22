@@ -36,9 +36,9 @@ export default function Header({ locale }: { locale: Locale }) {
   return (
     <header className="sticky top-0 z-40 border-b border-ink/10 bg-white/90 backdrop-blur dark:border-white/15 dark:bg-ink/90">
       <div className="container-x flex h-16 items-center justify-between gap-2 sm:h-20 sm:gap-4 lg:h-24">
-        <Link href={`${base}/`} className="flex shrink-0 items-center" aria-label="Coordenada Geo">
-          <Logo variant="horizontal" className="h-9 w-auto sm:h-11 lg:h-14 dark:hidden" priority />
-          <Logo variant="horiz-branco" className="hidden h-9 w-auto sm:h-11 lg:h-14 dark:block" priority />
+        <Link href={`${base}/`} className="flex min-w-0 shrink-0 items-center" aria-label="Coordenada Geo">
+          <Logo variant="horizontal" className="h-9 max-w-[8rem] sm:h-11 sm:max-w-none lg:h-14 dark:hidden" priority />
+          <Logo variant="horiz-branco" className="hidden h-9 max-w-[8rem] sm:h-11 sm:max-w-none lg:h-14 dark:block" priority />
         </Link>
         <DesktopNav groups={groups} />
         <div className="flex items-center gap-1 sm:gap-2">
