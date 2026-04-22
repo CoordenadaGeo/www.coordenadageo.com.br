@@ -1,4 +1,4 @@
-import type { Metadata } from 'next';
+import type { Metadata, Viewport } from 'next';
 import { Comfortaa, Urbanist } from 'next/font/google';
 import ThemeProvider from '@/components/ThemeProvider';
 import './globals.css';
@@ -15,6 +15,15 @@ const sans = Urbanist({
   display: 'swap',
   variable: '--font-sans',
 });
+
+export const viewport: Viewport = {
+  width: 'device-width',
+  initialScale: 1,
+  themeColor: [
+    { media: '(prefers-color-scheme: light)', color: '#E5DBC0' },
+    { media: '(prefers-color-scheme: dark)', color: '#012034' },
+  ],
+};
 
 export const metadata: Metadata = {
   title: 'Coordenada Geo',

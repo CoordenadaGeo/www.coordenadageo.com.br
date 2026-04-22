@@ -21,7 +21,7 @@ export default function Section({
   return (
     <section
       id={id}
-      className={clsx('py-16 sm:py-20 lg:py-24 transition-colors duration-300', tones[tone], className)}
+      className={clsx('py-12 sm:py-16 lg:py-24 transition-colors duration-300', tones[tone], className)}
     >
       <div className="container-x">{children}</div>
     </section>

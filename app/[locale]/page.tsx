@@ -40,7 +40,7 @@ export default async function HomePage({ params }: { params: { locale: string } 
     <>
       {/* Hero */}
       <section className="relative overflow-hidden bg-sand-light dark:bg-ink-800 transition-colors duration-300">
-        <div className="container-x grid gap-10 py-20 sm:py-24 lg:min-h-[22rem] lg:py-28">
+        <div className="container-x grid gap-10 py-14 sm:py-20 lg:min-h-[22rem] lg:py-28">
           <div className="max-w-3xl">
             <p className="eyebrow">{messages.hero.eyebrow}</p>
             <h1 className="heading-xl mt-3">{messages.hero.title}</h1>
