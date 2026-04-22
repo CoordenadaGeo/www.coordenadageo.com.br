@@ -17,7 +17,7 @@ Site institucional da **Coordenada Geo** — consultoria em geotecnologias. Publ
 Fontes da identidade visual: **Comfortaa** (display) + **Urbanist** (texto), via `next/font`.
 
 Paleta baseada no Manual de Marca (`static/Manual de Marca _ Coordenada Geo.pdf`). Ver
-[docs/brand-notes.md](docs/brand-notes.md) para um resumo dos extratos utilizados.
+[runbooks/brand-notes.md](runbooks/brand-notes.md) para um resumo dos extratos utilizados.
 
 ## Rodando localmente
 
@@ -65,7 +65,6 @@ public/
   CNAME              # coordenadageo.com.br
   .nojekyll          # desabilita Jekyll no GitHub Pages
 static/              # material fonte da marca (PDF, PNGs originais)
-docs/                # build estático servido pelo GitHub Pages (gerado pelo CI)
 ```
 
 ## Adicionando um post de blog
@@ -105,12 +104,13 @@ valores em toda a UI.
   `NEXT_PUBLIC_GA_ID` com o valor.
 - No próximo build o script é injetado. Sem essa variável, o site sobe sem tracking.
 
-## Deploy (GitHub Pages via `/docs`)
+## Deploy (GitHub Pages via GitHub Actions)
 
-Fluxo recomendado de pipeline:
+Fluxo do pipeline:
 
-- **CI (`.github/workflows/ci.yml`)**: roda lint + build em PR e push para `main`.
-- **Deploy (`.github/workflows/deploy.yml`)**: gera `out/`, sincroniza em `docs/` e publica no Pages.
+- **CI (`.github/workflows/ci.yml`)**: roda lint + build em PRs para `main`.
+- **Deploy (`.github/workflows/deploy.yml`)**: em cada push em `main`, gera `out/` e publica no
+  GitHub Pages via `actions/upload-pages-artifact` + `actions/deploy-pages` (sem commits extras).
 
 1. **Criar o repositório no GitHub** (primeira vez):
    ```bash
@@ -121,11 +121,10 @@ Fluxo recomendado de pipeline:
    git push -u origin main
    ```
 
-2. **Habilitar Pages**: Settings → Pages → Source: `Deploy from a branch`,
-   Branch: `main`, Pasta: `/docs`. Salvar.
+2. **Habilitar Pages**: Settings → Pages → Build and deployment → Source: **GitHub Actions**.
 
 3. **Configurar DNS** no Registro.br (zona `coordenadageo.com.br`):
-   - Registros `A` para o apex (@):
+   - Registros `A` para o apex:
      ```
      185.199.108.153
      185.199.109.153
@@ -134,12 +133,9 @@ Fluxo recomendado de pipeline:
      ```
    - Registro `CNAME` para `www` → `<usuario>.github.io.`
 
-4. **Dominio custom no GitHub**: Settings → Pages → Custom domain: `coordenadageo.com.br` → Save.
+4. **Domínio custom no GitHub**: Settings → Pages → Custom domain: `coordenadageo.com.br` → Save.
    Aguarde a verificação do DNS e marque **Enforce HTTPS** (Let's Encrypt é provisionado
-   automaticamente).
-
-5. **Workflow do CI**: `.github/workflows/deploy.yml` faz `npm ci`, `npm run build`, sincroniza
-   `out/` → `docs/` e commita no `main` com `[skip ci]` para não se auto-disparar.
+   automaticamente). O arquivo `public/CNAME` já está comitado no repositório.
 
 Checklist operacional completo:
 

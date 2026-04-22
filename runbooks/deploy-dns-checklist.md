@@ -6,9 +6,7 @@
 
 - Repositorio no GitHub com branch `main`.
 - GitHub Pages habilitado em `Settings -> Pages`:
-  - Source: `Deploy from a branch`
-  - Branch: `main`
-  - Folder: `/docs`
+  - Source: **GitHub Actions** (nao "Deploy from a branch")
 - Arquivo `public/CNAME` com o dominio final:
 
 ```txt
@@ -18,19 +16,19 @@ coordenadageo.com.br
 ### Workflows
 
 - CI: `.github/workflows/ci.yml`
-  - Dispara em PR e push na `main`.
+  - Dispara apenas em PRs para `main`.
   - Valida `npm ci`, `npm run lint`, `npm run build`.
 - Deploy: `.github/workflows/deploy.yml`
-  - Dispara em push na `main`.
-  - Gera build estatico (`out/`) e sincroniza para `docs/`.
-  - Commita mudancas de `docs/` com `[skip ci]`.
+  - Dispara em push na `main` e via `workflow_dispatch`.
+  - Gera build estatico (`out/`), faz upload via `actions/upload-pages-artifact`
+    e publica via `actions/deploy-pages` (sem commits extras no repositorio).
 
 ### Sequencia de release
 
 1. Abrir PR para `main`.
 2. Aguardar CI verde.
 3. Fazer merge na `main`.
-4. Confirmar sucesso do deploy workflow.
+4. Confirmar sucesso do workflow "Deploy to GitHub Pages".
 5. Confirmar site publicado no Pages.
 
 ## 2) Checklist DNS (Registro.br + GitHub Pages)
@@ -92,8 +90,8 @@ Resultado esperado:
 ## 5) Troubleshooting rapido
 
 - `404` apos deploy:
-  - Verificar se `docs/` foi atualizado no ultimo commit.
-  - Verificar se Pages aponta para `main /docs`.
+  - Conferir se a run mais recente do workflow "Deploy to GitHub Pages" concluiu com sucesso.
+  - Confirmar `Settings -> Pages -> Source: GitHub Actions`.
 - Dominio sem HTTPS:
   - Confirmar `Custom domain` salvo no GitHub.
   - Aguardar propagacao DNS e emissao do certificado.
