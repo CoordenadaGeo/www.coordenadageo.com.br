@@ -49,6 +49,11 @@ export async function generateMetadata({
       description: t('description'),
       images: ['/og/og-default.png'],
     },
+    icons: {
+      icon: '/favicon.png',
+      shortcut: '/favicon.png',
+      apple: '/favicon.png',
+    },
   };
 }
 
