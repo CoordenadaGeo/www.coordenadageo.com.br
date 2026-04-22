@@ -107,6 +107,11 @@ valores em toda a UI.
 
 ## Deploy (GitHub Pages via `/docs`)
 
+Fluxo recomendado de pipeline:
+
+- **CI (`.github/workflows/ci.yml`)**: roda lint + build em PR e push para `main`.
+- **Deploy (`.github/workflows/deploy.yml`)**: gera `out/`, sincroniza em `docs/` e publica no Pages.
+
 1. **Criar o repositório no GitHub** (primeira vez):
    ```bash
    git init -b main
@@ -135,6 +140,10 @@ valores em toda a UI.
 
 5. **Workflow do CI**: `.github/workflows/deploy.yml` faz `npm ci`, `npm run build`, sincroniza
    `out/` → `docs/` e commita no `main` com `[skip ci]` para não se auto-disparar.
+
+Checklist operacional completo:
+
+- Veja `runbooks/deploy-dns-checklist.md` para o passo a passo de deploy + verificação de DNS.
 
 ## Checklist pós-deploy
 

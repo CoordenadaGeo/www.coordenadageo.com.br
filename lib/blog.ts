@@ -44,7 +44,8 @@ export function getPosts(locale: Locale): PostMeta[] {
   return readDir(locale)
     .map((file) => {
       const p = readFile(locale, file);
-      const { content: _c, ...meta } = p;
+      const { content, ...meta } = p;
+      void content;
       return meta;
     })
     .sort((a, b) => (a.date < b.date ? 1 : -1));

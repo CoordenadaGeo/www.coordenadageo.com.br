@@ -29,11 +29,11 @@ const serviceIcons = [Compass, Satellite, LayoutDashboard, Workflow, AppWindow, 
 const useCaseIcons = [Leaf, TrafficCone, Landmark, Sprout];
 const valueIcons = [Target, Handshake, Shuffle, HeartHandshake];
 
-type Dict = Record<string, any>;
+type Messages = typeof import('@/messages/pt.json');
 
 export default async function HomePage({ params }: { params: { locale: string } }) {
   const locale = params.locale as Locale;
-  const messages = (await import(`@/messages/${locale}.json`)).default as Dict;
+  const messages = (await import(`@/messages/${locale}.json`)).default as Messages;
   const posts = getPosts(locale).slice(0, 3);
 
   return (
