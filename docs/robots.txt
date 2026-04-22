@@ -1,0 +1,5 @@
+User-Agent: *
+Allow: /
+
+Host: https://coordenadageo.com.br
+Sitemap: https://coordenadageo.com.br/sitemap.xml
