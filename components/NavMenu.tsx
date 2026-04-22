@@ -159,64 +159,83 @@ export function MobileNav({ groups, ctaHref, ctaLabel }: { groups: NavGroup[]; c
       </button>
       {open ? (
         <div className="fixed inset-0 z-50 lg:hidden" role="dialog" aria-modal="true">
+          {/* backdrop — closes on tap outside the panel */}
           <button
             type="button"
             aria-label="Fechar"
             onClick={() => setOpen(false)}
             className="absolute inset-0 bg-ink/60 backdrop-blur-sm"
           />
-          <div className="absolute inset-x-0 top-0 max-h-full overflow-y-auto bg-white p-6 pt-24 shadow-2xl dark:bg-ink-800">
-            <ul className="space-y-1">
-              {groups.map((g) => (
-                <li key={g.label}>
-                  {g.items?.length ? (
-                    <>
-                      <button
-                        type="button"
-                        aria-expanded={expanded === g.label}
-                        onClick={() => setExpanded((v) => (v === g.label ? null : g.label))}
-                        className="flex w-full items-center justify-between rounded-xl px-4 py-3 text-left font-display text-lg font-bold text-ink transition hover:bg-sand-light dark:text-sand-light dark:hover:bg-white/5"
+          {/* drawer panel — flex column so header is always visible */}
+          <div className="absolute inset-x-0 top-0 flex max-h-svh flex-col bg-white shadow-2xl dark:bg-ink-800">
+            {/* sticky drawer header with explicit close button */}
+            <div className="flex shrink-0 items-center justify-between border-b border-ink/10 px-6 py-4 dark:border-white/10">
+              <span className="font-display text-base font-bold text-ink dark:text-sand-light">Menu</span>
+              <button
+                type="button"
+                aria-label="Fechar menu"
+                onClick={() => setOpen(false)}
+                className="inline-flex h-9 w-9 items-center justify-center rounded-full border border-ink/15 text-ink transition hover:border-terracota hover:text-terracota dark:border-white/15 dark:text-sand-light"
+              >
+                <svg aria-hidden viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.5" className="h-4 w-4">
+                  <path strokeLinecap="round" d="M2 2l12 12M14 2L2 14" />
+                </svg>
+              </button>
+            </div>
+            {/* scrollable nav links */}
+            <div className="overflow-y-auto overscroll-contain p-6">
+              <ul className="space-y-1">
+                {groups.map((g) => (
+                  <li key={g.label}>
+                    {g.items?.length ? (
+                      <>
+                        <button
+                          type="button"
+                          aria-expanded={expanded === g.label}
+                          onClick={() => setExpanded((v) => (v === g.label ? null : g.label))}
+                          className="flex w-full items-center justify-between rounded-xl px-4 py-3 text-left font-display text-lg font-bold text-ink transition hover:bg-sand-light dark:text-sand-light dark:hover:bg-white/5"
+                        >
+                          {g.label}
+                          <ChevronDown aria-hidden className={`h-4 w-4 transition-transform duration-200 ${expanded === g.label ? 'rotate-180' : ''}`} />
+                        </button>
+                        <div className={`grid transition-[grid-template-rows] duration-200 ${expanded === g.label ? 'grid-rows-[1fr]' : 'grid-rows-[0fr]'}`}>
+                          <ul className="overflow-hidden">
+                            {g.items.map((it) => (
+                              <li key={it.href}>
+                                <Link
+                                  href={it.href}
+                                  onClick={() => setOpen(false)}
+                                  className="block rounded-lg px-6 py-2 text-sm text-ink/80 transition hover:bg-sand-light hover:text-ink dark:text-sand-light/90 dark:hover:bg-white/5"
+                                >
+                                  {it.label}
+                                </Link>
+                              </li>
+                            ))}
+                          </ul>
+                        </div>
+                      </>
+                    ) : (
+                      <Link
+                        href={g.href ?? '#'}
+                        onClick={() => setOpen(false)}
+                        className="block rounded-xl px-4 py-3 font-display text-lg font-bold text-ink transition hover:bg-sand-light dark:text-sand-light dark:hover:bg-white/5"
                       >
                         {g.label}
-                        <ChevronDown aria-hidden className={`h-4 w-4 transition-transform duration-200 ${expanded === g.label ? 'rotate-180' : ''}`} />
-                      </button>
-                      <div className={`grid transition-[grid-template-rows] duration-200 ${expanded === g.label ? 'grid-rows-[1fr]' : 'grid-rows-[0fr]'}`}>
-                        <ul className="overflow-hidden">
-                          {g.items.map((it) => (
-                            <li key={it.href}>
-                              <Link
-                                href={it.href}
-                                onClick={() => setOpen(false)}
-                                className="block rounded-lg px-6 py-2 text-sm text-ink/80 transition hover:bg-sand-light hover:text-ink dark:text-sand-light/90 dark:hover:bg-white/5"
-                              >
-                                {it.label}
-                              </Link>
-                            </li>
-                          ))}
-                        </ul>
-                      </div>
-                    </>
-                  ) : (
-                    <Link
-                      href={g.href ?? '#'}
-                      onClick={() => setOpen(false)}
-                      className="block rounded-xl px-4 py-3 font-display text-lg font-bold text-ink transition hover:bg-sand-light dark:text-sand-light dark:hover:bg-white/5"
-                    >
-                      {g.label}
-                    </Link>
-                  )}
-                </li>
-              ))}
-            </ul>
-            <a
-              href={ctaHref}
-              target="_blank"
-              rel="noopener noreferrer"
-              onClick={() => setOpen(false)}
-              className="mt-6 inline-flex w-full items-center justify-center rounded-full bg-terracota px-5 py-3 text-sm font-semibold text-white transition hover:bg-terracota-dark"
-            >
-              {ctaLabel}
-            </a>
+                      </Link>
+                    )}
+                  </li>
+                ))}
+              </ul>
+              <a
+                href={ctaHref}
+                target="_blank"
+                rel="noopener noreferrer"
+                onClick={() => setOpen(false)}
+                className="mt-6 inline-flex w-full items-center justify-center rounded-full bg-terracota px-5 py-3 text-sm font-semibold text-white transition hover:bg-terracota-dark"
+              >
+                {ctaLabel}
+              </a>
+            </div>
           </div>
         </div>
       ) : null}
