@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { useTranslations } from 'next-intl';
-import { unstable_setRequestLocale } from 'next-intl/server';
+import { setRequestLocale } from 'next-intl/server';
 import type { Metadata } from 'next';
 import Section from '@/components/Section';
 import { getPosts } from '@/lib/blog';
@@ -16,7 +16,7 @@ export async function generateMetadata({
 }
 
 export default function BlogIndex({ params: { locale } }: { params: { locale: Locale } }) {
-  unstable_setRequestLocale(locale);
+  setRequestLocale(locale);
   const posts = getPosts(locale);
   return <BlogList locale={locale} posts={posts} />;
 }

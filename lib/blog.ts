@@ -42,11 +42,9 @@ function readFile(locale: Locale, file: string): Post {
 
 export function getPosts(locale: Locale): PostMeta[] {
   return readDir(locale)
-    .map((file) => {
-      const p = readFile(locale, file);
-      const { content, ...meta } = p;
-      void content;
-      return meta;
+    .map((file): PostMeta => {
+      const { slug, title, excerpt, date, cover, tags } = readFile(locale, file);
+      return { slug, locale, title, excerpt, date, cover, tags };
     })
     .sort((a, b) => (a.date < b.date ? 1 : -1));
 }

@@ -16,8 +16,7 @@ Site institucional da **Coordenada Geo** — consultoria em geotecnologias. Publ
 
 Fontes da identidade visual: **Comfortaa** (display) + **Urbanist** (texto), via `next/font`.
 
-Paleta baseada no Manual de Marca (`static/Manual de Marca _ Coordenada Geo.pdf`). Ver
-[runbooks/brand-notes.md](runbooks/brand-notes.md) para um resumo dos extratos utilizados.
+Paleta baseada no Manual de Marca (`static/Manual de Marca _ Coordenada Geo.pdf`).
 
 ## Rodando localmente
 
@@ -91,10 +90,10 @@ dois arquivos.
 
 Logos principais em `public/brand/*`. Imagem OpenGraph em `public/og/og-default.png` (ideal: 1200×630).
 
-## Contato e redes (placeholders)
+## Contato e redes
 
-Edite `lib/site.ts` para colocar e-mail real, WhatsApp (E.164 em `whatsapp`, formatação humana em
-`whatsappDisplay`), cidade, LinkedIn, Instagram. Os links de `mailto:` e `wa.me/` consomem esses
+Edite `lib/site.ts` para ajustar e-mail, WhatsApp (E.164 em `whatsapp`, formatação humana em
+`whatsappDisplay`), cidade e LinkedIn. Os links de `mailto:` e `wa.me/` consomem esses
 valores em toda a UI.
 
 ## Google Analytics 4

@@ -3,7 +3,7 @@ import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { MDXRemote } from 'next-mdx-remote/rsc';
 import remarkGfm from 'remark-gfm';
-import { unstable_setRequestLocale, getTranslations } from 'next-intl/server';
+import { setRequestLocale, getTranslations } from 'next-intl/server';
 import Section from '@/components/Section';
 import { getAllPostSlugs, getPost } from '@/lib/blog';
 import type { Locale } from '@/i18n';
@@ -29,7 +29,7 @@ export default async function PostPage({
   params: { locale: Locale; slug: string };
 }) {
   if (!locales.includes(locale)) notFound();
-  unstable_setRequestLocale(locale);
+  setRequestLocale(locale);
   const post = getPost(locale, slug);
   if (!post) notFound();
 
