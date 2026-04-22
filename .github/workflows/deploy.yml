@@ -1,0 +1,57 @@
+name: Build and deploy to /docs
+
+on:
+  push:
+    branches: [main]
+    paths-ignore:
+      - 'docs/**'
+      - 'README.md'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: pages-docs
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build static site
+        env:
+          NEXT_PUBLIC_GA_ID: ${{ vars.NEXT_PUBLIC_GA_ID }}
+        run: npm run build
+
+      - name: Sync out/ into docs/
+        run: |
+          rm -rf docs
+          mkdir -p docs
+          cp -r out/. docs/
+          # Ensure GitHub Pages serves files verbatim (no Jekyll processing)
+          touch docs/.nojekyll
+
+      - name: Commit docs/
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs
+          if git diff --staged --quiet; then
+            echo "No changes in docs/."
+          else
+            git commit -m "chore(pages): rebuild docs/ [skip ci]"
+            git push
+          fi

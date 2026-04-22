@@ -1,0 +1,160 @@
+{
+  "site": {
+    "name": "Coordenada Geo",
+    "tagline": "Consultoria especializada em geotecnologias",
+    "description": "A Coordenada Geo é uma consultoria especializada em geotecnologias que transforma dados espaciais em conhecimento aplicado para apoiar decisões estratégicas sobre o território."
+  },
+  "nav": {
+    "about": {
+      "label": "Sobre",
+      "items": {
+        "who": "Quem somos",
+        "purpose": "Propósito",
+        "values": "Valores"
+      }
+    },
+    "services": {
+      "label": "Serviços",
+      "items": {
+        "offer": "O que entregamos",
+        "platform": "Plataforma SaaS",
+        "useCases": "Casos de uso"
+      }
+    },
+    "content": "Conteúdo",
+    "contact": "Contato",
+    "openApp": "Acessar plataforma",
+    "toggleTheme": "Alternar tema"
+  },
+  "hero": {
+    "eyebrow": "Consultoria em geotecnologias",
+    "title": "Dados espaciais que viram conhecimento aplicado",
+    "subtitle": "Atuamos na interface entre ciência, tecnologia e gestão, desenvolvendo análises, diagnósticos e soluções sob medida — com rigor científico, colaboração próxima e propósito socioambiental.",
+    "primaryCta": "Fale com a equipe",
+    "secondaryCta": "Conhecer serviços"
+  },
+  "about": {
+    "eyebrow": "Quem somos",
+    "title": "Consultoria na interface entre ciência, tecnologia e gestão",
+    "body": "A Coordenada Geo é uma consultoria especializada em geotecnologias que transforma dados espaciais em conhecimento aplicado para apoiar decisões estratégicas sobre o território. Desenvolvemos análises, diagnósticos e soluções sob medida, guiados por rigor científico, pelo Manifesto Ágil e pela colaboração próxima ao cliente. Nossos fundamentos são confiança, precisão técnica e transparência.",
+    "bullets": [
+      "Comunicação inteligente, objetiva e acessível — didática e colaborativa.",
+      "Rigor científico aliado a entregas iterativas inspiradas no Manifesto Ágil.",
+      "Equipe que transmite confiança, precisão e transparência em cada projeto."
+    ]
+  },
+  "purpose": {
+    "eyebrow": "Propósito",
+    "title": "Conhecimento aplicado para decisões conscientes sobre o território",
+    "body": "Transformar dados geográficos em conhecimento aplicado para apoiar decisões mais conscientes sobre o território. Integramos ciência, tecnologia e experiência técnica para tornar informações espaciais claras, acessíveis e úteis."
+  },
+  "values": {
+    "eyebrow": "Valores",
+    "title": "O que nos orienta",
+    "items": [
+      {
+        "title": "Precisão técnica",
+        "body": "Rigor científico na escolha de métodos, bases e validações, sem abrir mão da clareza."
+      },
+      {
+        "title": "Colaboração",
+        "body": "Construímos soluções próximas ao cliente, integrando conhecimento técnico e de domínio."
+      },
+      {
+        "title": "Adaptabilidade",
+        "body": "Ajustamos escopo, ferramentas e entregas à realidade de cada projeto e escala."
+      },
+      {
+        "title": "Propósito socioambiental",
+        "body": "Priorizamos iniciativas que geram impacto positivo em pessoas, territórios e ecossistemas."
+      }
+    ]
+  },
+  "services": {
+    "eyebrow": "Serviços",
+    "title": "Geotecnologias aplicadas de ponta a ponta",
+    "intro": "Soluções sob medida em sensoriamento remoto, geoprocessamento e análise espacial — do diagnóstico à operação.",
+    "items": [
+      {
+        "title": "Sensoriamento remoto",
+        "body": "Classificação de imagens, monitoramento de uso e cobertura do solo, detecção de mudanças e séries temporais."
+      },
+      {
+        "title": "Geoprocessamento e análise espacial",
+        "body": "Modelagem de dados geográficos, álgebra de mapas, estatística espacial e estudos territoriais."
+      },
+      {
+        "title": "Dashboards e visualização",
+        "body": "Mapas interativos e painéis web para acompanhar indicadores, áreas de interesse e séries temporais."
+      },
+      {
+        "title": "Automação e pipelines de dados",
+        "body": "ETL geoespacial, integração com APIs públicas e orquestração de coleta, processamento e publicação."
+      },
+      {
+        "title": "Plataformas geoespaciais sob medida",
+        "body": "Desenvolvimento de aplicações web e APIs geoespaciais, do protótipo à operação em produção."
+      },
+      {
+        "title": "Capacitação e suporte técnico",
+        "body": "Treinamentos, code reviews e mentoria para equipes que trabalham com dados geográficos."
+      }
+    ]
+  },
+  "platform": {
+    "eyebrow": "Plataforma SaaS",
+    "title": "Nossa plataforma geoespacial para operar em escala",
+    "body": "Desenvolvemos e operamos uma plataforma SaaS proprietária que leva geotecnologias ao dia a dia dos clientes: catálogo de camadas, automações, APIs, dashboards e áreas de trabalho dedicadas — com acesso sob demanda e planos alinhados ao escopo contratado.",
+    "cta": "Abrir plataforma"
+  },
+  "useCases": {
+    "eyebrow": "Casos de uso",
+    "title": "Onde atuamos",
+    "items": [
+      {
+        "title": "Meio ambiente e clima",
+        "body": "Monitoramento de cobertura vegetal, áreas protegidas, risco climático e passivo ambiental."
+      },
+      {
+        "title": "Infraestrutura e logística",
+        "body": "Planejamento de rotas, análise de redes, avaliação de ativos e impacto no território."
+      },
+      {
+        "title": "Setor público e políticas territoriais",
+        "body": "Subsídios para planejamento urbano, regularização fundiária e monitoramento de programas."
+      },
+      {
+        "title": "Agro e uso do solo",
+        "body": "Caracterização de propriedades, aptidão agrícola e dinâmica de uso e ocupação do solo."
+      }
+    ]
+  },
+  "blog": {
+    "eyebrow": "Conteúdo",
+    "title": "Do nosso radar",
+    "subtitle": "Notas da equipe sobre geotecnologias, métodos e projetos.",
+    "readMore": "Ler artigo",
+    "all": "Ver todos os artigos",
+    "empty": "Em breve publicaremos nossos primeiros artigos.",
+    "backToList": "Voltar para o blog",
+    "publishedOn": "Publicado em"
+  },
+  "contact": {
+    "eyebrow": "Contato",
+    "title": "Vamos conversar sobre o seu desafio geoespacial",
+    "body": "Conte o contexto do projeto, objetivos e prazos. Respondemos com uma proposta inicial de abordagem em poucos dias úteis.",
+    "emailCta": "Enviar e-mail",
+    "whatsappCta": "Abrir conversa"
+  },
+  "footer": {
+    "tagline": "Consultoria especializada em geotecnologias. Transformamos dados espaciais em conhecimento aplicado para decisões mais conscientes sobre o território.",
+    "product": "Soluções",
+    "connect": "Conecte-se",
+    "rights": "Todos os direitos reservados."
+  },
+  "notFound": {
+    "title": "Página não encontrada",
+    "body": "O conteúdo que você procura pode ter sido movido ou ainda não existe.",
+    "cta": "Voltar para a home"
+  }
+}
