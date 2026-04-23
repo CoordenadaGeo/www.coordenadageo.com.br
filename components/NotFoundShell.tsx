@@ -15,7 +15,15 @@ const messagesByLocale: Record<Locale, typeof ptMessages> = {
   en: enMessages,
 };
 
-function detectLocale(): Locale {
+function detectLocaleFromPath(): Locale | null {
+  if (typeof window === 'undefined') return null;
+  const first = window.location.pathname.split('/').filter(Boolean)[0]?.toLowerCase();
+  if (first === 'en') return 'en';
+  if (first === 'pt') return 'pt';
+  return null;
+}
+
+function detectLocaleFromNavigator(): Locale {
   if (typeof navigator === 'undefined') return 'pt';
   const candidates = [
     ...(navigator.languages ?? []),
@@ -27,6 +35,12 @@ function detectLocale(): Locale {
     if (short === 'pt') return 'pt';
   }
   return 'pt';
+}
+
+function detectLocale(): Locale {
+  // URL path wins: GitHub Pages serves the same 404.html regardless of the
+  // requested path, so a visitor on /en/anything should still see English.
+  return detectLocaleFromPath() ?? detectLocaleFromNavigator();
 }
 
 export default function NotFoundShell() {
