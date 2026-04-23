@@ -1,13 +1,15 @@
 import Link from 'next/link';
 import { useTranslations } from 'next-intl';
 import Logo from './Logo';
-import { SITE } from '@/lib/site';
+import { SITE, getAppHref, isAppExternal } from '@/lib/site';
 import type { Locale } from '@/i18n';
 
 export default function Footer({ locale }: { locale: Locale }) {
   const t = useTranslations();
   const base = `/${locale}`;
   const year = new Date().getFullYear();
+  const appHref = getAppHref(locale);
+  const appExternal = isAppExternal();
 
   return (
     <footer className="mt-8 bg-ink text-white dark:bg-ink-900">
@@ -32,7 +34,12 @@ export default function Footer({ locale }: { locale: Locale }) {
               </Link>
             </li>
             <li>
-              <a href={SITE.appUrl} target="_blank" rel="noopener noreferrer" className="hover:text-white">
+              <a
+                href={appHref}
+                target={appExternal ? '_blank' : undefined}
+                rel={appExternal ? 'noopener noreferrer' : undefined}
+                className="hover:text-white"
+              >
                 {t('nav.openApp')}
               </a>
             </li>

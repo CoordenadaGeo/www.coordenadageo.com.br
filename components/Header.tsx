@@ -5,12 +5,14 @@ import Button from './Button';
 import LocaleSwitcher from './LocaleSwitcher';
 import ThemeToggle from './ThemeToggle';
 import { DesktopNav, MobileNav, type NavGroup } from './NavMenu';
-import { SITE } from '@/lib/site';
+import { getAppHref, isAppExternal } from '@/lib/site';
 import type { Locale } from '@/i18n';
 
 export default function Header({ locale }: { locale: Locale }) {
   const t = useTranslations('nav');
   const base = `/${locale}`;
+  const appHref = getAppHref(locale);
+  const appExternal = isAppExternal();
 
   const groups: NavGroup[] = [
     {
@@ -44,10 +46,10 @@ export default function Header({ locale }: { locale: Locale }) {
         <div className="flex items-center gap-1 sm:gap-2">
           <LocaleSwitcher current={locale} />
           <ThemeToggle label={t('toggleTheme')} />
-          <Button href={SITE.appUrl} variant="primary" external className="hidden w-48 justify-center sm:inline-flex">
+          <Button href={appHref} variant="primary" external={appExternal} className="hidden w-48 justify-center sm:inline-flex">
             {t('openApp')}
           </Button>
-          <MobileNav groups={groups} ctaHref={SITE.appUrl} ctaLabel={t('openApp')} />
+          <MobileNav groups={groups} ctaHref={appHref} ctaLabel={t('openApp')} />
         </div>
       </div>
     </header>

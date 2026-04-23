@@ -21,7 +21,7 @@ import {
 import Section from '@/components/Section';
 import Card from '@/components/Card';
 import Button from '@/components/Button';
-import { SITE } from '@/lib/site';
+import { SITE, getAppHref, isAppExternal } from '@/lib/site';
 import { getPosts, type PostMeta } from '@/lib/blog';
 import type { Locale } from '@/i18n';
 
@@ -128,7 +128,7 @@ export default async function HomePage({ params }: { params: { locale: string } 
             </h2>
             <p className="mt-5 text-lg text-ink-100">{messages.platform.body}</p>
             <div className="mt-8">
-              <Button href={SITE.appUrl} variant="onDark" external>
+              <Button href={getAppHref(locale)} variant="onDark" external={isAppExternal()}>
                 {messages.platform.cta} <ArrowRight className="h-4 w-4" />
               </Button>
             </div>

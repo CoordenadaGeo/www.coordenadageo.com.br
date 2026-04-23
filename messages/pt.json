@@ -156,5 +156,23 @@
     "title": "Página não encontrada",
     "body": "O conteúdo que você procura pode ter sido movido ou ainda não existe.",
     "cta": "Voltar para a home"
+  },
+  "comingSoon": {
+    "platform": {
+      "eyebrow": "Em breve",
+      "status": "Em desenvolvimento",
+      "title": "Nossa plataforma está quase pronta",
+      "body": "Estamos finalizando os últimos detalhes da plataforma geoespacial da Coordenada Geo — catálogo de camadas, automações, APIs e dashboards. Em breve abriremos acesso aos primeiros clientes. Enquanto isso, fale com a nossa equipe para conhecer o roadmap ou participar do programa beta.",
+      "eta": "Previsão de abertura: primeiros acessos em etapas, sob demanda.",
+      "steps": [
+        { "label": "Pesquisa e arquitetura concluídas", "state": "done" },
+        { "label": "Desenvolvimento em andamento", "state": "current" },
+        { "label": "Beta privado com clientes selecionados", "state": "next" }
+      ],
+      "contactHeading": "Quer ser avisado na abertura ou entrar no beta? Escreva para a gente.",
+      "homeCta": "Voltar para o site",
+      "emailCta": "Falar por e-mail",
+      "whatsappCta": "Falar no WhatsApp"
+    }
   }
 }

@@ -156,5 +156,23 @@
     "title": "Page not found",
     "body": "The content you are looking for may have been moved or does not exist yet.",
     "cta": "Back to home"
+  },
+  "comingSoon": {
+    "platform": {
+      "eyebrow": "Coming soon",
+      "status": "In development",
+      "title": "Our platform is almost ready",
+      "body": "We are putting the finishing touches on Coordenada Geo's geospatial platform — layer catalogue, automations, APIs and dashboards. Early access will be rolled out gradually to our first clients. In the meantime, talk to our team to learn about the roadmap or join the beta programme.",
+      "eta": "Launch plan: on-demand access opening in stages.",
+      "steps": [
+        { "label": "Research and architecture completed", "state": "done" },
+        { "label": "Development in progress", "state": "current" },
+        { "label": "Private beta with selected clients", "state": "next" }
+      ],
+      "contactHeading": "Want to be notified at launch or join the beta? Get in touch.",
+      "homeCta": "Back to the site",
+      "emailCta": "Send an email",
+      "whatsappCta": "Chat on WhatsApp"
+    }
   }
 }
