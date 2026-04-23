@@ -153,9 +153,14 @@
     "rights": "Todos os direitos reservados."
   },
   "notFound": {
-    "title": "Página não encontrada",
-    "body": "O conteúdo que você procura pode ter sido movido ou ainda não existe.",
-    "cta": "Voltar para a home"
+    "eyebrow": "Erro 404",
+    "status": "Coordenada fora do mapa",
+    "title": "Essa coordenada não existe no nosso mapa",
+    "body": "A página que você procura pode ter sido movida, renomeada ou ainda não foi publicada. Use os atalhos abaixo para voltar ao território conhecido.",
+    "cta": "Voltar para a home",
+    "secondaryCta": "Conhecer serviços",
+    "blogCta": "Ver o blog",
+    "illustrationLabel": "Ilustração de uma coordenada não localizada"
   },
   "comingSoon": {
     "platform": {

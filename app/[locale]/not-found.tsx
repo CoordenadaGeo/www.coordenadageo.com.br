@@ -1,21 +1,23 @@
-import Link from 'next/link';
-import { useTranslations } from 'next-intl';
-import Section from '@/components/Section';
+import { useTranslations, useLocale } from 'next-intl';
+import NotFoundHero from '@/components/NotFoundHero';
 
 export default function LocaleNotFound() {
   const t = useTranslations('notFound');
+  const locale = useLocale();
+  const base = `/${locale}`;
   return (
-    <Section tone="light">
-      <div className="mx-auto max-w-xl text-center">
-        <h1 className="heading-lg">{t('title')}</h1>
-        <p className="mt-4 text-lg text-ink-400">{t('body')}</p>
-        <Link
-          href="/"
-          className="mt-8 inline-flex items-center gap-2 rounded-full bg-terracota px-5 py-2.5 text-sm font-semibold text-white hover:bg-terracota-dark"
-        >
-          {t('cta')}
-        </Link>
-      </div>
-    </Section>
+    <NotFoundHero
+      eyebrow={t('eyebrow')}
+      statusLabel={t('status')}
+      title={t('title')}
+      body={t('body')}
+      homeHref={`${base}/`}
+      homeLabel={t('cta')}
+      secondaryHref={`${base}/#services`}
+      secondaryLabel={t('secondaryCta')}
+      tertiaryHref={`${base}/blog/`}
+      tertiaryLabel={t('blogCta')}
+      illustrationLabel={t('illustrationLabel')}
+    />
   );
 }

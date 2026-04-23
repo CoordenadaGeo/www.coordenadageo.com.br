@@ -153,9 +153,14 @@
     "rights": "All rights reserved."
   },
   "notFound": {
-    "title": "Page not found",
-    "body": "The content you are looking for may have been moved or does not exist yet.",
-    "cta": "Back to home"
+    "eyebrow": "Error 404",
+    "status": "Coordinate off the map",
+    "title": "This coordinate is off our map",
+    "body": "The page you are looking for may have been moved, renamed or has not been published yet. Use the shortcuts below to get back to familiar territory.",
+    "cta": "Back to home",
+    "secondaryCta": "Explore services",
+    "blogCta": "Read the blog",
+    "illustrationLabel": "Illustration of an unlocated coordinate"
   },
   "comingSoon": {
     "platform": {
