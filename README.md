@@ -1,6 +1,6 @@
 # www.coordenadageo.com.br
 
-Site institucional da **Coordenada Geo** — consultoria em geotecnologias. Publicado no domínio
+Site institucional da **Coordenada Geo** — soluções especializadas em geotecnologias. Publicado no domínio
 [coordenadageo.com.br](https://coordenadageo.com.br) via GitHub Pages.
 
 > O app SaaS da Coordenada Geo vive em outro repositório e no domínio

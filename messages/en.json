@@ -1,8 +1,8 @@
 {
   "site": {
     "name": "Coordenada Geo",
-    "tagline": "A consultancy specialised in geospatial technologies",
-    "description": "Coordenada Geo is a consultancy specialised in geospatial technologies that turns spatial data into applied knowledge to support strategic decisions about the territory."
+    "tagline": "Specialised solutions in geospatial technologies",
+    "description": "Coordenada Geo delivers specialised solutions in geospatial technologies — from our SaaS platform to tailored technical support — turning spatial data into applied knowledge to support strategic decisions about the territory."
   },
   "nav": {
     "about": {
@@ -27,7 +27,7 @@
     "toggleTheme": "Toggle theme"
   },
   "hero": {
-    "eyebrow": "Geospatial technology consultancy",
+    "eyebrow": "Specialised geospatial solutions",
     "title": "Spatial data turned into applied knowledge",
     "subtitle": "We work at the interface of science, technology and management, developing analysis, diagnostics and tailor-made solutions — with scientific rigour, close collaboration and a social-environmental purpose.",
     "primaryCta": "Talk to the team",
@@ -36,7 +36,7 @@
   "about": {
     "eyebrow": "Who we are",
     "title": "At the interface of science, technology and management",
-    "body": "Coordenada Geo is a consultancy specialised in geospatial technologies that turns spatial data into applied knowledge to support strategic decisions about the territory. We develop analysis, diagnostics and tailor-made solutions, guided by scientific rigour, the Agile Manifesto and close client collaboration. Our foundations are trust, technical precision and transparency.",
+    "body": "Coordenada Geo delivers specialised solutions in geospatial technologies — combining our own SaaS platform with tailored technical support — to turn spatial data into applied knowledge that supports strategic decisions about the territory. We develop analysis, diagnostics and products guided by scientific rigour, the Agile Manifesto and close client collaboration. Our foundations are trust, technical precision and transparency.",
     "bullets": [
       "Intelligent, objective and accessible communication — didactic and collaborative.",
       "Scientific rigour combined with iterative delivery inspired by the Agile Manifesto.",
@@ -147,7 +147,7 @@
     "whatsappCta": "Open chat"
   },
   "footer": {
-    "tagline": "A consultancy specialised in geospatial technologies. We turn spatial data into applied knowledge for more conscious decisions about the territory.",
+    "tagline": "Specialised solutions in geospatial technologies. We turn spatial data into applied knowledge for more conscious decisions about the territory.",
     "product": "Solutions",
     "connect": "Connect",
     "rights": "All rights reserved."

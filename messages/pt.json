@@ -1,8 +1,8 @@
 {
   "site": {
     "name": "Coordenada Geo",
-    "tagline": "Consultoria especializada em geotecnologias",
-    "description": "A Coordenada Geo é uma consultoria especializada em geotecnologias que transforma dados espaciais em conhecimento aplicado para apoiar decisões estratégicas sobre o território."
+    "tagline": "Soluções especializadas em geotecnologias",
+    "description": "A Coordenada Geo oferece soluções especializadas em geotecnologias — da plataforma SaaS ao acompanhamento técnico — que transformam dados espaciais em conhecimento aplicado para apoiar decisões estratégicas sobre o território."
   },
   "nav": {
     "about": {
@@ -27,7 +27,7 @@
     "toggleTheme": "Alternar tema"
   },
   "hero": {
-    "eyebrow": "Consultoria em geotecnologias",
+    "eyebrow": "Soluções especializadas em geotecnologias",
     "title": "Dados espaciais que viram conhecimento aplicado",
     "subtitle": "Atuamos na interface entre ciência, tecnologia e gestão, desenvolvendo análises, diagnósticos e soluções sob medida — com rigor científico, colaboração próxima e propósito socioambiental.",
     "primaryCta": "Fale com a equipe",
@@ -35,8 +35,8 @@
   },
   "about": {
     "eyebrow": "Quem somos",
-    "title": "Consultoria na interface entre ciência, tecnologia e gestão",
-    "body": "A Coordenada Geo é uma consultoria especializada em geotecnologias que transforma dados espaciais em conhecimento aplicado para apoiar decisões estratégicas sobre o território. Desenvolvemos análises, diagnósticos e soluções sob medida, guiados por rigor científico, pelo Manifesto Ágil e pela colaboração próxima ao cliente. Nossos fundamentos são confiança, precisão técnica e transparência.",
+    "title": "Soluções especializadas na interface entre ciência, tecnologia e gestão",
+    "body": "A Coordenada Geo oferece soluções especializadas em geotecnologias — combinando uma plataforma SaaS própria e acompanhamento técnico sob medida — para transformar dados espaciais em conhecimento aplicado e apoiar decisões estratégicas sobre o território. Desenvolvemos análises, diagnósticos e produtos guiados por rigor científico, pelo Manifesto Ágil e pela colaboração próxima ao cliente. Nossos fundamentos são confiança, precisão técnica e transparência.",
     "bullets": [
       "Comunicação inteligente, objetiva e acessível — didática e colaborativa.",
       "Rigor científico aliado a entregas iterativas inspiradas no Manifesto Ágil.",
@@ -147,7 +147,7 @@
     "whatsappCta": "Abrir conversa"
   },
   "footer": {
-    "tagline": "Consultoria especializada em geotecnologias. Transformamos dados espaciais em conhecimento aplicado para decisões mais conscientes sobre o território.",
+    "tagline": "Soluções especializadas em geotecnologias. Transformamos dados espaciais em conhecimento aplicado para decisões mais conscientes sobre o território.",
     "product": "Soluções",
     "connect": "Conecte-se",
     "rights": "Todos os direitos reservados."
