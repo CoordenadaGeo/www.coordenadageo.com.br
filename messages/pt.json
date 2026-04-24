@@ -29,14 +29,14 @@
   "hero": {
     "eyebrow": "Soluções especializadas em geotecnologias",
     "title": "Dados espaciais que viram conhecimento aplicado",
-    "subtitle": "Atuamos na interface entre ciência, tecnologia e gestão, desenvolvendo análises, diagnósticos e soluções sob medida — com rigor científico, colaboração próxima e propósito socioambiental.",
+    "subtitle": "Atuamos na interface entre ciência, tecnologia e gestão, desenvolvendo análises, diagnósticos e soluções especializadas — com rigor científico, colaboração próxima e propósito socioambiental.",
     "primaryCta": "Fale com a equipe",
     "secondaryCta": "Conhecer serviços"
   },
   "about": {
     "eyebrow": "Quem somos",
     "title": "Soluções especializadas na interface entre ciência, tecnologia e gestão",
-    "body": "A Coordenada Geo oferece soluções especializadas em geotecnologias — combinando uma plataforma SaaS própria e acompanhamento técnico sob medida — para transformar dados espaciais em conhecimento aplicado e apoiar decisões estratégicas sobre o território. Desenvolvemos análises, diagnósticos e produtos guiados por rigor científico, pelo Manifesto Ágil e pela colaboração próxima ao cliente. Nossos fundamentos são confiança, precisão técnica e transparência.",
+    "body": "A Coordenada Geo oferece soluções especializadas em geotecnologias — combinando uma plataforma SaaS própria e acompanhamento técnico especializado — para transformar dados espaciais em conhecimento aplicado e apoiar decisões estratégicas sobre o território. Desenvolvemos análises, diagnósticos e produtos guiados por rigor científico, pelo Manifesto Ágil e pela colaboração próxima ao cliente. Nossos fundamentos são confiança, precisão técnica e transparência.",
     "bullets": [
       "Comunicação inteligente, objetiva e acessível — didática e colaborativa.",
       "Rigor científico aliado a entregas iterativas inspiradas no Manifesto Ágil.",
@@ -73,7 +73,7 @@
   "services": {
     "eyebrow": "Serviços",
     "title": "Geotecnologias aplicadas de ponta a ponta",
-    "intro": "Soluções sob medida em sensoriamento remoto, geoprocessamento e análise espacial — do diagnóstico à operação.",
+    "intro": "Soluções especializadas em sensoriamento remoto, geoprocessamento e análise espacial — do diagnóstico à operação.",
     "items": [
       {
         "title": "Sensoriamento remoto",
@@ -92,7 +92,7 @@
         "body": "ETL geoespacial, integração com APIs públicas e orquestração de coleta, processamento e publicação."
       },
       {
-        "title": "Plataformas geoespaciais sob medida",
+        "title": "Plataformas geoespaciais especializadas",
         "body": "Desenvolvimento de aplicações web e APIs geoespaciais, do protótipo à operação em produção."
       },
       {
