@@ -26,8 +26,8 @@ export default function Header({ locale }: { locale: Locale }) {
     {
       label: t('services.label'),
       items: [
-        { label: t('services.items.offer'), href: `${base}/#services` },
         { label: t('services.items.platform'), href: `${base}/#platform` },
+        { label: t('services.items.offer'), href: `${base}/#services` },
         { label: t('services.items.useCases'), href: `${base}/#use-cases` },
       ],
     },

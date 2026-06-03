@@ -3,16 +3,16 @@ import {
   ArrowRight,
   Mail,
   MessageCircle,
-  Compass,
   Satellite,
+  Layers,
   LayoutDashboard,
   Workflow,
   AppWindow,
   GraduationCap,
+  ShieldCheck,
   Leaf,
-  TrafficCone,
+  Map,
   Landmark,
-  Sprout,
   Target,
   Handshake,
   Shuffle,
@@ -25,8 +25,8 @@ import { SITE, getAppHref, isAppExternal } from '@/lib/site';
 import { getPosts, type PostMeta } from '@/lib/blog';
 import type { Locale } from '@/i18n';
 
-const serviceIcons = [Compass, Satellite, LayoutDashboard, Workflow, AppWindow, GraduationCap];
-const useCaseIcons = [Leaf, TrafficCone, Landmark, Sprout];
+const serviceIcons = [Satellite, Layers, LayoutDashboard, Workflow, AppWindow, GraduationCap];
+const useCaseIcons = [ShieldCheck, Leaf, Map, Landmark];
 const valueIcons = [Target, Handshake, Shuffle, HeartHandshake];
 
 type Messages = typeof import('@/messages/pt.json');
@@ -49,7 +49,7 @@ export default async function HomePage({ params }: { params: { locale: string } 
               <Button href="#contact" variant="primary">
                 {messages.hero.primaryCta} <ArrowRight className="h-4 w-4" />
               </Button>
-              <Button href="#services" variant="secondary">
+              <Button href="#platform" variant="secondary">
                 {messages.hero.secondaryCta}
               </Button>
             </div>
@@ -78,26 +78,33 @@ export default async function HomePage({ params }: { params: { locale: string } 
         </div>
       </Section>
 
-      {/* Purpose (Sobre -> Propósito) */}
-      <Section id="purpose" tone="moss">
-        <div className="mx-auto max-w-3xl text-center">
-          <p className="eyebrow">{messages.purpose.eyebrow}</p>
-          <h2 className="heading-lg mt-3">{messages.purpose.title}</h2>
-          <p className="mt-5 text-lg text-ink-400 dark:text-sand-light/90">{messages.purpose.body}</p>
-        </div>
-      </Section>
-
-      {/* Values (Sobre -> Valores) */}
-      <Section id="values" tone="light">
-        <div className="max-w-2xl">
-          <p className="eyebrow">{messages.values.eyebrow}</p>
-          <h2 className="heading-lg mt-3">{messages.values.title}</h2>
-        </div>
-        <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
-          {messages.values.items.map((v: { title: string; body: string }, i: number) => {
-            const Icon = valueIcons[i % valueIcons.length];
-            return <Card key={v.title} title={v.title} body={v.body} icon={<Icon className="h-5 w-5" />} />;
-          })}
+      {/* Platform (Serviços -> Plataforma) */}
+      <Section id="platform" tone="ink">
+        <div className="grid gap-10 lg:grid-cols-12 lg:items-center">
+          <div className="lg:col-span-7">
+            <p className="eyebrow">{messages.platform.eyebrow}</p>
+            <h2 className="mt-3 font-display text-3xl font-bold tracking-tight text-white sm:text-4xl">
+              {messages.platform.title}
+            </h2>
+            <p className="mt-5 text-lg text-ink-100">{messages.platform.body}</p>
+            <div className="mt-8">
+              <Button href={getAppHref(locale)} variant="onDark" external={isAppExternal()}>
+                {messages.platform.cta} <ArrowRight className="h-4 w-4" />
+              </Button>
+            </div>
+          </div>
+          <div className="lg:col-span-5">
+            <div className="rounded-3xl border border-white/10 bg-white/5 p-6">
+              <dl className="grid grid-cols-2 gap-5 text-white">
+                {messages.platform.highlights.map((h: { label: string; sub: string }) => (
+                  <div key={h.label}>
+                    <dt className="text-xs uppercase tracking-widest text-ocre">{h.label}</dt>
+                    <dd className="mt-1 text-sm text-ink-100">{h.sub}</dd>
+                  </div>
+                ))}
+              </dl>
+            </div>
+          </div>
         </div>
       </Section>
 
@@ -118,47 +125,7 @@ export default async function HomePage({ params }: { params: { locale: string } 
         </div>
       </Section>
 
-      {/* Platform (Serviços -> Plataforma SaaS) */}
-      <Section id="platform" tone="ink">
-        <div className="grid gap-10 lg:grid-cols-12 lg:items-center">
-          <div className="lg:col-span-7">
-            <p className="eyebrow">{messages.platform.eyebrow}</p>
-            <h2 className="mt-3 font-display text-3xl font-bold tracking-tight text-white sm:text-4xl">
-              {messages.platform.title}
-            </h2>
-            <p className="mt-5 text-lg text-ink-100">{messages.platform.body}</p>
-            <div className="mt-8">
-              <Button href={getAppHref(locale)} variant="onDark" external={isAppExternal()}>
-                {messages.platform.cta} <ArrowRight className="h-4 w-4" />
-              </Button>
-            </div>
-          </div>
-          <div className="lg:col-span-5">
-            <div className="rounded-3xl border border-white/10 bg-white/5 p-6">
-              <dl className="grid grid-cols-2 gap-5 text-white">
-                <div>
-                  <dt className="text-xs uppercase tracking-widest text-ocre">PostGIS</dt>
-                  <dd className="mt-1 text-sm text-ink-100">Banco geoespacial</dd>
-                </div>
-                <div>
-                  <dt className="text-xs uppercase tracking-widest text-ocre">APIs</dt>
-                  <dd className="mt-1 text-sm text-ink-100">REST / OGC</dd>
-                </div>
-                <div>
-                  <dt className="text-xs uppercase tracking-widest text-ocre">Mapbox</dt>
-                  <dd className="mt-1 text-sm text-ink-100">Visualização</dd>
-                </div>
-                <div>
-                  <dt className="text-xs uppercase tracking-widest text-ocre">Python</dt>
-                  <dd className="mt-1 text-sm text-ink-100">Pipelines</dd>
-                </div>
-              </dl>
-            </div>
-          </div>
-        </div>
-      </Section>
-
-      {/* Use cases (Serviços -> Casos de uso) */}
+      {/* Use cases (Serviços -> Para quem) */}
       <Section id="use-cases" tone="light">
         <div className="max-w-2xl">
           <p className="eyebrow">{messages.useCases.eyebrow}</p>
@@ -168,6 +135,29 @@ export default async function HomePage({ params }: { params: { locale: string } 
           {messages.useCases.items.map((u: { title: string; body: string }, i: number) => {
             const Icon = useCaseIcons[i % useCaseIcons.length];
             return <Card key={u.title} title={u.title} body={u.body} icon={<Icon className="h-5 w-5" />} />;
+          })}
+        </div>
+      </Section>
+
+      {/* Purpose (Sobre -> Propósito) */}
+      <Section id="purpose" tone="moss">
+        <div className="mx-auto max-w-3xl text-center">
+          <p className="eyebrow">{messages.purpose.eyebrow}</p>
+          <h2 className="heading-lg mt-3">{messages.purpose.title}</h2>
+          <p className="mt-5 text-lg text-ink-400 dark:text-sand-light/90">{messages.purpose.body}</p>
+        </div>
+      </Section>
+
+      {/* Values (Sobre -> Valores) */}
+      <Section id="values" tone="light">
+        <div className="max-w-2xl">
+          <p className="eyebrow">{messages.values.eyebrow}</p>
+          <h2 className="heading-lg mt-3">{messages.values.title}</h2>
+        </div>
+        <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
+          {messages.values.items.map((v: { title: string; body: string }, i: number) => {
+            const Icon = valueIcons[i % valueIcons.length];
+            return <Card key={v.title} title={v.title} body={v.body} icon={<Icon className="h-5 w-5" />} />;
           })}
         </div>
       </Section>
