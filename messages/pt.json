@@ -2,7 +2,7 @@
   "site": {
     "name": "Coordenada Geo",
     "tagline": "Geotecnologia especializada para o território, o campo e o meio ambiente",
-    "description": "A Coordenada Geo é uma casa de geotecnologia especializada: uma plataforma web para rastreabilidade de origem e conformidade socioambiental, somada a serviços de sensoriamento remoto, geoprocessamento e desenvolvimento de soluções sob medida — transformando dados espaciais em decisões sobre a terra, a produção e o meio ambiente."
+    "description": "A Coordenada Geo é uma empresa de geotecnologia especializada: uma plataforma web para rastreabilidade de origem e conformidade socioambiental, somada a serviços de sensoriamento remoto, geoprocessamento e desenvolvimento de soluções sob medida — transformando dados espaciais em decisões sobre a terra, a produção e o meio ambiente."
   },
   "nav": {
     "about": {
@@ -28,88 +28,89 @@
   },
   "hero": {
     "eyebrow": "Para quem decide sobre a terra, a produção e o meio ambiente",
-    "title": "Dados espaciais que viram conhecimento aplicado",
-    "subtitle": "Unimos uma plataforma web de rastreabilidade de origem e conformidade socioambiental a serviços especializados de sensoriamento remoto e geoprocessamento — para quem produz no campo, cuida do meio ambiente e decide sobre o território, do diagnóstico à operação.",
+    "title": "Dados geográficos transformados em conhecimento aplicável",
+    "subtitle": "Unimos uma plataforma web com soluções para gestão territorial e ambiental a serviços especializados de sensoriamento remoto e geoprocessamento. Ideal para quem produz no campo, cuida do meio ambiente e decide sobre o território, do diagnóstico à operação.",
     "primaryCta": "Fale com a equipe",
     "secondaryCta": "Conhecer as soluções"
   },
   "about": {
     "eyebrow": "Quem somos",
-    "title": "Especialistas em geotecnologia, da ciência à operação",
-    "body": "A Coordenada Geo atua na interface entre ciência, tecnologia e gestão do território. A exigência por transparência cresceu: novas regras de crédito, de exportação e de mercado passaram a pedir prova de origem e de regularidade socioambiental. Ajudamos quem produz no campo, quem cuida do meio ambiente e quem decide sobre o território a responder a isso com método e clareza — entregando valor de duas formas complementares: uma plataforma web que torna rastreabilidade e conformidade acessíveis e práticas, e serviços especializados de sensoriamento remoto, geoprocessamento e desenvolvimento sob medida para os desafios que vão além do que já está na plataforma.",
+    "title": "Especialistas em construir soluções que integram dados geográficos usando tecnologia da informação.",
+    "body": "A Coordenada Geo atua na interface entre tecnologia e dados geográficos. A exigência por qualidade e transparência cresceu: novas regras de crédito, de exportação e de mercado passaram a pedir comprovação de origem e de regularidade socioambiental. Ajudamos quem produz no campo, cuida do meio ambiente e decide sobre o território a operar com precisão — entregando valor de duas formas complementares: uma plataforma web que torna rastreabilidade e conformidade acessíveis e práticas, e serviços especializados de sensoriamento remoto, geoprocessamento e desenvolvimento sob medida para os desafios que vão além do que já está disponível na plataforma.",
     "bullets": [
-      "Uma plataforma como caminho rápido — e serviços sob medida quando o problema é único.",
+      "Uma plataforma modular com serviços prontos para os problemas comuns.",
+      "Módulos sob medida para soluções complexas e customizadas.",
       "Rigor científico na escolha de dados, métodos e validações, com entregas iterativas.",
       "Propósito socioambiental explícito: transparência a favor de pessoas, territórios e ecossistemas."
     ]
   },
   "purpose": {
     "eyebrow": "Propósito",
-    "title": "Conhecimento espacial para decisões conscientes sobre o território",
-    "body": "Transformar dados geográficos em conhecimento aplicado: tornar a origem dos produtos verificável, a conformidade socioambiental acessível e as decisões sobre o território mais conscientes — com rigor técnico, a favor de mercados mais transparentes e de ecossistemas protegidos."
+    "title": "Conhecimento aplicado para decisões conscientes sobre o território",
+    "body": "Transformar dados geográficos em conhecimento aplicado: tornar a origem dos produtos agrícolas e sua conformidade socioambiental verificável e acessível e as decisões sobre o território mais conscientes — com rigor técnico, a favor de consumidores mais conscientes, mercados mais transparentes e ecossistemas mais protegidos."
   },
   "values": {
     "eyebrow": "Valores",
     "title": "O que nos orienta",
     "items": [
       {
-        "title": "Precisão técnica",
-        "body": "Rigor científico na escolha de métodos, dados e validações, sem abrir mão da clareza."
+        "title": "Precisão",
+        "body": "Rigor técnico-científico na escolha de métodos, dados e validações, sem abrir mão da clareza nos resultados."
       },
       {
         "title": "Colaboração",
         "body": "Construímos soluções próximas ao cliente, integrando conhecimento técnico e de domínio."
       },
       {
-        "title": "Adaptabilidade",
-        "body": "Ajustamos escopo, ferramentas e entregas à realidade de cada projeto e escala."
+        "title": "Adaptação",
+        "body": "Adequamos cada solução, escopo, ferramentas e entregas à realidade de cada cliente e projeto."
       },
       {
-        "title": "Propósito socioambiental",
-        "body": "Priorizamos iniciativas que geram impacto positivo em pessoas, territórios e ecossistemas."
+        "title": "Revitalização",
+        "body": "Priorizamos iniciativas que geram impacto positivo em pessoas, ecossistemas e territórios."
       }
     ]
   },
   "platform": {
-    "eyebrow": "Plataforma web",
-    "title": "Rastreabilidade e conformidade, de forma acessível e prática",
-    "body": "Nosso produto carro-chefe coloca a conformidade socioambiental ao alcance de qualquer elo da cadeia. Você indica as áreas dos seus fornecedores — os polígonos das propriedades rurais, glebas e áreas de produção — e a plataforma as cruza com as bases que importam: alertas de desmatamento, áreas embargadas pelo IBAMA, unidades de conservação, terras indígenas e outras áreas protegidas. O resultado é um relatório por fornecedor, com as sobreposições, histórico e origem do dado em registro auditável — pronto para comprovar origem em auditorias e atender às exigências de crédito, exportação e mercado. Cada organização tem seu ambiente isolado, com APIs para integrar ao seu processo de compra.",
+    "eyebrow": "Plataforma Coordenada Geo",
+    "title": "Crie relatórios com análises espaciais e insights valiosos sobre o seu território de interesse.",
+    "body": "Nossa plataforma simplifica a análise dos territórios produtivos para fornecer as respostas necessárias à garantia da operação. Você indica as áreas de seu interesse (polígonos de propriedades rurais, glebas agrícolas e áreas de produção) e a plataforma as cruza com as bases que importam: alertas de desmatamento, áreas embargadas pelo IBAMA, unidades de conservação, terras indígenas e outras áreas protegidas. Os resultados são disponibilizados em relatórios customizáveis, com as sobreposições analisadas, histórico e origem dos dados em registro auditável — pronto para comprovar origem em auditorias e atender às exigências de crédito, exportação e de mercados consumidores. Cada organização tem seu próprio ambiente isolado, com APIs para integrar ao seu processo de compra e operação.",
     "cta": "Conhecer a plataforma",
     "highlights": [
-      { "label": "Imóveis rurais", "sub": "CAR, SIGEF e SNCI" },
-      { "label": "Desmatamento recente", "sub": "PRODES, DETER e MapBiomas Alerta" },
+      { "label": "Cadastros rurais", "sub": "CAR, SIGEF e SNCI" },
+      { "label": "Desmatamento", "sub": "PRODES, DETER e MapBiomas Alerta" },
       { "label": "Embargos", "sub": "Áreas embargadas pelo IBAMA e 'Lista Suja' do MTE" },
       { "label": "Áreas protegidas", "sub": "Unidades de conservação, terras indígenas, quilombolas e Florestas Públicas Tipo B" }
     ]
   },
   "services": {
     "eyebrow": "Serviços especializados",
-    "title": "Quando o desafio pede uma solução sob medida",
-    "intro": "A plataforma resolve o caminho mais comum. Para outros desafios, atuamos ponta a ponta em sensoriamento remoto, geoprocessamento e desenvolvimento geoespacial — do diagnóstico à operação, com métodos validados e bases confiáveis.",
+    "title": "Quando o problema pede uma solução sob medida",
+    "intro": "A nossa plataforma oferece soluções para desafios comuns ao mercado. Para problemas específicos, atuamos de ponta a ponta — do diagnóstico e planejamento à execução e operação — com métodos validados para projetos de sensoriamento remoto, geoprocessamento e desenvolvimento de software.",
     "items": [
       {
         "title": "Sensoriamento remoto aplicado",
-        "body": "Análise de imagens de satélite para detecção de mudanças, desmatamento e regeneração, uso e cobertura do solo, áreas queimadas, recursos hídricos e passivos ambientais."
+        "body": "Análise de conjuntos de imagens de satélite para detecção de mudanças no uso e cobertura do solo, desmatamento e regeneração, áreas queimadas, recursos hídricos e passivos ambientais."
       },
       {
         "title": "Geoprocessamento e análise espacial",
-        "body": "Modelagem de dados geográficos, álgebra de mapas, estatística espacial e cruzamento de bases públicas e próprias para responder perguntas sobre o território."
+        "body": "Modelagem de dados geográficos, análise espacial e geoestatística, combinação de bases de dados multimodais para responder perguntas complexas sobre o território."
       },
       {
         "title": "Dashboards e visualização",
-        "body": "Mapas interativos e painéis web para acompanhar indicadores, áreas de interesse e séries temporais."
+        "body": "Construção de mapas interativos e dashboards web para acompanhar indicadores, áreas de interesse e séries temporais de dados geográficos."
       },
       {
         "title": "Automação e pipelines de dados",
-        "body": "ETL geoespacial, integração com APIs públicas e orquestração de coleta, processamento e publicação de dados."
+        "body": "Automações, ETL geoespacial, integração com APIs e pipelines para orquestração de coleta, processamento e publicação de dados geográficos."
       },
       {
         "title": "Plataformas e APIs geoespaciais sob medida",
-        "body": "Desenvolvimento de aplicações web e APIs geoespaciais, do protótipo à operação em produção."
+        "body": "Desenvolvimento de aplicações web e APIs geoespaciais, do conceito à operação em produção."
       },
       {
         "title": "Capacitação e suporte técnico",
-        "body": "Treinamentos, code reviews e mentoria para equipes que trabalham com dados geográficos."
+        "body": "Treinamentos e mentoria para equipes que trabalham com desenvolvimento unindo sensoriamento remoto, dados geográficos e geoprocessamento."
       }
     ]
   },
@@ -123,7 +124,7 @@
       },
       {
         "title": "Meio ambiente e clima",
-        "body": "Desmatamento e regeneração, cobertura vegetal, áreas protegidas, passivos e risco ambiental."
+        "body": "Desmatamento e regeneração, cobertura vegetal, áreas protegidas, passivos e risco ambiental. Estimativas de emissões e remoções de gases de efeito estufa provenientes da mudança de uso e cobertura da terra."
       },
       {
         "title": "Território e uso do solo",
@@ -153,7 +154,7 @@
     "whatsappCta": "Abrir conversa"
   },
   "footer": {
-    "tagline": "Geotecnologia especializada para o território, o campo e o meio ambiente. Uma plataforma web de rastreabilidade e conformidade socioambiental, somada a serviços sob medida que transformam dados espaciais em decisões.",
+    "tagline": "Geotecnologia aplicada para o território, o campo e o meio ambiente. Uma plataforma web de rastreabilidade e conformidade socioambiental, somada a serviços sob medida que transformam dados espaciais em decisões.",
     "product": "Soluções",
     "connect": "Conecte-se",
     "rights": "Todos os direitos reservados."

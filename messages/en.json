@@ -2,7 +2,7 @@
   "site": {
     "name": "Coordenada Geo",
     "tagline": "Specialised geospatial technology for land, rural production and the environment",
-    "description": "Coordenada Geo is a specialised geospatial-technology firm: a web platform for origin traceability and socio-environmental compliance, plus remote sensing, geoprocessing and bespoke solution development — turning spatial data into decisions about land, production and the environment."
+    "description": "Coordenada Geo is a specialised geospatial-technology company: a web platform for origin traceability and socio-environmental compliance, plus remote sensing, geoprocessing and bespoke solution development — turning spatial data into decisions about land, production and the environment."
   },
   "nav": {
     "about": {
@@ -28,88 +28,89 @@
   },
   "hero": {
     "eyebrow": "For those who decide about land, production and the environment",
-    "title": "Spatial data turned into applied knowledge",
-    "subtitle": "We combine a web platform for origin traceability and socio-environmental compliance with specialised remote sensing and geoprocessing services — for those who produce on the land, care for the environment and decide about the territory, from assessment to operation.",
+    "title": "Geographic data turned into applicable knowledge",
+    "subtitle": "We combine a web platform with solutions for territorial and environmental management with specialised remote sensing and geoprocessing services. Ideal for those who produce on the land, care for the environment and decide about the territory, from assessment to operation.",
     "primaryCta": "Talk to the team",
     "secondaryCta": "Explore the solutions"
   },
   "about": {
     "eyebrow": "Who we are",
-    "title": "Geospatial specialists, from science to operation",
-    "body": "Coordenada Geo works at the interface of science, technology and territorial management. The demand for transparency has grown: new rules for credit, exports and markets now require proof of origin and socio-environmental compliance. We help those who produce on the land, those who care for the environment and those who decide about the territory respond to that with method and clarity — delivering value in two complementary ways: a web platform that makes traceability and compliance accessible and practical, and specialised remote sensing, geoprocessing and bespoke development services for the challenges that go beyond what is already in the platform.",
+    "title": "Specialists in building solutions that integrate geographic data using information technology.",
+    "body": "Coordenada Geo works at the interface of technology and geographic data. The demand for quality and transparency has grown: new rules for credit, exports and markets now require proof of origin and socio-environmental compliance. We help those who produce on the land, care for the environment and decide about the territory operate with precision — delivering value in two complementary ways: a web platform that makes traceability and compliance accessible and practical, and specialised remote sensing, geoprocessing and bespoke development services for challenges that go beyond what is already available on the platform.",
     "bullets": [
-      "A platform as the fast track — and bespoke services when the problem is unique.",
+      "A modular platform with ready-made services for common problems.",
+      "Bespoke modules for complex, customised solutions.",
       "Scientific rigour when choosing data, methods and validations, with iterative delivery.",
       "An explicit social-environmental commitment: transparency for people, territories and ecosystems."
     ]
   },
   "purpose": {
     "eyebrow": "Purpose",
-    "title": "Spatial knowledge for more conscious decisions about the territory",
-    "body": "To turn geographic data into applied knowledge: to make the origin of products verifiable, socio-environmental compliance accessible, and decisions about the territory more conscious — with technical rigour, in favour of more transparent markets and protected ecosystems."
+    "title": "Applied knowledge for conscious decisions about the territory",
+    "body": "To turn geographic data into applied knowledge: to make the origin of agricultural products and their socio-environmental compliance verifiable and accessible, and decisions about the territory more conscious — with technical rigour, in favour of more conscious consumers, more transparent markets and more protected ecosystems."
   },
   "values": {
     "eyebrow": "Values",
     "title": "What guides us",
     "items": [
       {
-        "title": "Technical precision",
-        "body": "Scientific rigour when choosing methods, data and validations, without sacrificing clarity."
+        "title": "Precision",
+        "body": "Technical and scientific rigour when choosing methods, data and validations, without sacrificing clarity in the results."
       },
       {
         "title": "Collaboration",
         "body": "We build solutions close to the client, integrating technical and domain expertise."
       },
       {
-        "title": "Adaptability",
-        "body": "We adjust scope, tools and deliverables to the reality of each project and scale."
+        "title": "Adaptation",
+        "body": "We tailor each solution, scope, tools and deliverables to the reality of each client and project."
       },
       {
-        "title": "Social-environmental purpose",
-        "body": "We prioritise initiatives that generate positive impact on people, territories and ecosystems."
+        "title": "Revitalisation",
+        "body": "We prioritise initiatives that generate positive impact on people, ecosystems and territories."
       }
     ]
   },
   "platform": {
-    "eyebrow": "Web platform",
-    "title": "Traceability and compliance, made accessible and practical",
-    "body": "Our flagship product puts socio-environmental compliance within reach of every link in the chain. You indicate your suppliers' areas — the polygons of rural properties, plots and production areas — and the platform cross-references them with the datasets that matter: deforestation alerts, areas embargoed by IBAMA, conservation units, indigenous lands and other protected areas. The result is a report per supplier, with the overlaps, history and data provenance in an auditable record — ready to prove origin in audits and meet credit, export and market requirements. Each organisation has its own isolated environment, with APIs to integrate with your procurement process.",
+    "eyebrow": "Coordenada Geo Platform",
+    "title": "Create reports with spatial analysis and valuable insights about your territory of interest.",
+    "body": "Our platform simplifies the analysis of productive territories to deliver the answers needed to secure your operation. You indicate your areas of interest (polygons of rural properties, farmland plots and production areas) and the platform cross-references them with the datasets that matter: deforestation alerts, areas embargoed by IBAMA, conservation units, indigenous lands and other protected areas. Results are delivered in customisable reports, with the overlaps analysed, history and data provenance in an auditable record — ready to prove origin in audits and meet credit, export and consumer-market requirements. Each organisation has its own isolated environment, with APIs to integrate with your procurement and operations process.",
     "cta": "Explore the platform",
     "highlights": [
-      { "label": "Rural properties", "sub": "CAR, SIGEF and SNCI" },
-      { "label": "Recent deforestation", "sub": "PRODES, DETER and MapBiomas Alerta" },
+      { "label": "Rural registries", "sub": "CAR, SIGEF and SNCI" },
+      { "label": "Deforestation", "sub": "PRODES, DETER and MapBiomas Alerta" },
       { "label": "Embargoes", "sub": "IBAMA embargoes and the slave-labour 'Dirty List'" },
       { "label": "Protected areas", "sub": "Conservation units, indigenous and quilombola lands, and Type B public forests" }
     ]
   },
   "services": {
     "eyebrow": "Specialised services",
-    "title": "When the challenge calls for a bespoke solution",
-    "intro": "The platform handles the most common path. For other challenges, we work end to end in remote sensing, geoprocessing and geospatial development — from assessment to operation, with validated methods and trusted datasets.",
+    "title": "When the problem calls for a bespoke solution",
+    "intro": "Our platform offers solutions for challenges common to the market. For specific problems, we work end to end — from assessment and planning to execution and operation — with validated methods for remote sensing, geoprocessing and software development projects.",
     "items": [
       {
         "title": "Applied remote sensing",
-        "body": "Satellite imagery analysis for change detection, deforestation and regeneration, land use and land cover, burn scars, water resources and environmental liabilities."
+        "body": "Analysis of satellite imagery sets for detecting changes in land use and land cover, deforestation and regeneration, burn scars, water resources and environmental liabilities."
       },
       {
         "title": "Geoprocessing and spatial analysis",
-        "body": "Geographic data modelling, map algebra, spatial statistics and cross-referencing of public and proprietary datasets to answer questions about the territory."
+        "body": "Geographic data modelling, spatial analysis and geostatistics, combining multimodal datasets to answer complex questions about the territory."
       },
       {
         "title": "Dashboards and visualisation",
-        "body": "Interactive maps and web panels to follow indicators, areas of interest and time series."
+        "body": "Building interactive maps and web dashboards to track indicators, areas of interest and time series of geographic data."
       },
       {
         "title": "Automation and data pipelines",
-        "body": "Geospatial ETL, integration with public APIs and orchestration of data collection, processing and publishing."
+        "body": "Automations, geospatial ETL, API integration and pipelines to orchestrate the collection, processing and publishing of geographic data."
       },
       {
         "title": "Bespoke geospatial platforms and APIs",
-        "body": "Development of geospatial web applications and APIs, from prototype to production."
+        "body": "Development of geospatial web applications and APIs, from concept to production operation."
       },
       {
         "title": "Training and technical support",
-        "body": "Training, code reviews and mentoring for teams working with geographic data."
+        "body": "Training and mentoring for teams working on development that combines remote sensing, geographic data and geoprocessing."
       }
     ]
   },
@@ -123,7 +124,7 @@
       },
       {
         "title": "Environment and climate",
-        "body": "Deforestation and regeneration, vegetation cover, protected areas, environmental liabilities and risk."
+        "body": "Deforestation and regeneration, vegetation cover, protected areas, environmental liabilities and risk. Estimates of greenhouse gas emissions and removals from land use and land cover change."
       },
       {
         "title": "Territory and land use",
@@ -153,7 +154,7 @@
     "whatsappCta": "Open chat"
   },
   "footer": {
-    "tagline": "Specialised geospatial technology for land, rural production and the environment. A web platform for traceability and socio-environmental compliance, plus bespoke services that turn spatial data into decisions.",
+    "tagline": "Applied geospatial technology for land, rural production and the environment. A web platform for traceability and socio-environmental compliance, plus bespoke services that turn spatial data into decisions.",
     "product": "Solutions",
     "connect": "Connect",
     "rights": "All rights reserved."

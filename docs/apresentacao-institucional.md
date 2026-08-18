@@ -22,7 +22,7 @@ A Coordenada Geo é uma empresa de tecnologia de Florianópolis (SC) especializa
 
 ## Descrição (~150 palavras)
 
-A Coordenada Geo é uma casa de geotecnologia especializada que ajuda quem produz no campo, cuida do meio ambiente e decide sobre o território a transformar dados espaciais em decisões. A régua socioambiental subiu: do Manual de Crédito Rural (MCR), que condiciona o crédito rural à regularidade ambiental, ao EUDR (Regulamento UE 2023/1115), que exige prova de origem livre de desmatamento para exportar — comprovar origem e conformidade virou condição de crédito, contrato e mercado.
+A Coordenada Geo é uma empresa de geotecnologia especializada que ajuda quem produz no campo, cuida do meio ambiente e decide sobre o território a transformar dados espaciais em decisões. A régua socioambiental subiu: do Manual de Crédito Rural (MCR), que condiciona o crédito rural à regularidade ambiental, ao EUDR (Regulamento UE 2023/1115), que exige prova de origem livre de desmatamento para exportar — comprovar origem e conformidade virou condição de crédito, contrato e mercado.
 
 Entregamos valor por dois caminhos complementares. O **carro-chefe** é uma plataforma SaaS que torna a conformidade acessível e prática: recebe os polígonos das propriedades dos fornecedores e os cruza com bases oficiais (CAR, alertas de desmatamento do MapBiomas, embargos do IBAMA, áreas protegidas), gerando vereditos auditáveis. Quando o desafio vai além do produto, atuamos com **serviços especializados** de sensoriamento remoto, geoprocessamento, análise espacial e desenvolvimento geoespacial sob medida. Sede em Florianópolis, Santa Catarina.
 
