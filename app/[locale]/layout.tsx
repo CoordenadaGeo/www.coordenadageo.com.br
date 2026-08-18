@@ -17,9 +17,10 @@ export function generateStaticParams() {
 export async function generateMetadata({
   params,
 }: {
-  params: { locale: string };
+  params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
-  const t = await getTranslations({ locale: params.locale, namespace: 'site' });
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: 'site' });
   return {
     metadataBase: new URL(SITE.url),
     title: {
@@ -28,7 +29,7 @@ export async function generateMetadata({
     },
     description: t('description'),
     alternates: {
-      canonical: `/${params.locale}/`,
+      canonical: `/${locale}/`,
       languages: {
         'pt-BR': '/pt/',
         en: '/en/',
@@ -39,8 +40,8 @@ export async function generateMetadata({
       siteName: t('name'),
       title: `${t('name')} — ${t('tagline')}`,
       description: t('description'),
-      url: `${SITE.url}/${params.locale}/`,
-      locale: params.locale === 'en' ? 'en_US' : 'pt_BR',
+      url: `${SITE.url}/${locale}/`,
+      locale: locale === 'en' ? 'en_US' : 'pt_BR',
       images: [{ url: '/og/og-default.png', width: 1200, height: 630 }],
     },
     twitter: {
@@ -62,10 +63,11 @@ export default async function LocaleLayout({
   params,
 }: {
   children: React.ReactNode;
-  params: { locale: string };
+  params: Promise<{ locale: string }>;
 }) {
-  if (!locales.includes(params.locale as Locale)) notFound();
-  const locale = params.locale as Locale;
+  const { locale: rawLocale } = await params;
+  if (!locales.includes(rawLocale as Locale)) notFound();
+  const locale = rawLocale as Locale;
   setRequestLocale(locale);
   const messages = await getMessages();
 

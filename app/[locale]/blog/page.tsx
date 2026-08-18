@@ -7,15 +7,17 @@ import { getPosts } from '@/lib/blog';
 import type { Locale } from '@/i18n';
 
 export async function generateMetadata({
-  params: { locale },
+  params,
 }: {
-  params: { locale: Locale };
+  params: Promise<{ locale: Locale }>;
 }): Promise<Metadata> {
+  const { locale } = await params;
   const t = (await import(`@/messages/${locale}.json`)).default.blog;
   return { title: t.title, description: t.subtitle };
 }
 
-export default function BlogIndex({ params: { locale } }: { params: { locale: Locale } }) {
+export default async function BlogIndex({ params }: { params: Promise<{ locale: Locale }> }) {
+  const { locale } = await params;
   setRequestLocale(locale);
   const posts = getPosts(locale);
   return <BlogList locale={locale} posts={posts} />;

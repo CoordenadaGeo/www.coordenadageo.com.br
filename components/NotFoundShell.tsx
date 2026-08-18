@@ -49,6 +49,7 @@ export default function NotFoundShell() {
   const [locale, setLocale] = useState<Locale>('pt');
 
   useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect -- intentional post-hydration swap from the server-rendered default locale
     setLocale(detectLocale());
   }, []);
 

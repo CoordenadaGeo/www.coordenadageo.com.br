@@ -9,7 +9,7 @@ sob medida. Publicado no domínio [coordenadageo.com.br](https://coordenadageo.c
 
 ## Stack
 
-- **Next.js 14** (App Router, `output: 'export'` — SSG puro)
+- **Next.js 16** (App Router, `output: 'export'` — SSG puro)
 - **TypeScript** + **Tailwind CSS**
 - **next-intl** (PT-BR e EN, `/pt` como padrão)
 - **next-mdx-remote** + `gray-matter` para o blog em Markdown

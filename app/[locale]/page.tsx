@@ -31,8 +31,9 @@ const valueIcons = [Target, Handshake, Shuffle, HeartHandshake];
 
 type Messages = typeof import('@/messages/pt.json');
 
-export default async function HomePage({ params }: { params: { locale: string } }) {
-  const locale = params.locale as Locale;
+export default async function HomePage({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale: rawLocale } = await params;
+  const locale = rawLocale as Locale;
   const messages = (await import(`@/messages/${locale}.json`)).default as Messages;
   const posts = getPosts(locale).slice(0, 3);
 

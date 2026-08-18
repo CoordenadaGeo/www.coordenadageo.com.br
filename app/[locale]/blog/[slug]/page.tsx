@@ -15,20 +15,22 @@ export function generateStaticParams() {
 }
 
 export async function generateMetadata({
-  params: { locale, slug },
+  params,
 }: {
-  params: { locale: Locale; slug: string };
+  params: Promise<{ locale: Locale; slug: string }>;
 }): Promise<Metadata> {
+  const { locale, slug } = await params;
   const post = getPost(locale, slug);
   if (!post) return {};
   return { title: post.title, description: post.excerpt };
 }
 
 export default async function PostPage({
-  params: { locale, slug },
+  params,
 }: {
-  params: { locale: Locale; slug: string };
+  params: Promise<{ locale: Locale; slug: string }>;
 }) {
+  const { locale, slug } = await params;
   if (!locales.includes(locale)) notFound();
   setRequestLocale(locale);
   const post = getPost(locale, slug);

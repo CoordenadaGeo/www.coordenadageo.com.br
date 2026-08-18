@@ -13,16 +13,17 @@ type Messages = typeof import('@/messages/pt.json');
 export async function generateMetadata({
   params,
 }: {
-  params: { locale: string };
+  params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
-  const t = await getTranslations({ locale: params.locale, namespace: 'comingSoon.platform' });
-  const site = await getTranslations({ locale: params.locale, namespace: 'site' });
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: 'comingSoon.platform' });
+  const site = await getTranslations({ locale, namespace: 'site' });
   return {
     title: `${t('title')} — ${site('name')}`,
     description: t('body'),
     robots: { index: false, follow: true },
     alternates: {
-      canonical: `/${params.locale}/em-breve/`,
+      canonical: `/${locale}/em-breve/`,
       languages: {
         'pt-BR': '/pt/em-breve/',
         en: '/en/em-breve/',
@@ -31,8 +32,9 @@ export async function generateMetadata({
   };
 }
 
-export default async function ComingSoonPage({ params }: { params: { locale: string } }) {
-  const locale = params.locale as Locale;
+export default async function ComingSoonPage({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale: rawLocale } = await params;
+  const locale = rawLocale as Locale;
   setRequestLocale(locale);
   const messages = (await import(`@/messages/${locale}.json`)).default as Messages;
   const m = messages.comingSoon.platform;
