@@ -1,8 +1,8 @@
 {
   "site": {
     "name": "Coordenada Geo",
-    "tagline": "Specialised geospatial technology for land, rural production and the environment",
-    "description": "Coordenada Geo is a specialised geospatial-technology company: a web platform for origin traceability and socio-environmental compliance, plus remote sensing, geoprocessing and bespoke solution development — turning spatial data into decisions about land, production and the environment."
+    "tagline": "We turn geographic data into insights",
+    "description": "Coordenada Geo turns geographic data into insights: interactive web apps with maps, charts and tables to analyse, present and share more easily. Your data stays in your browser."
   },
   "nav": {
     "about": {
@@ -14,11 +14,11 @@
       }
     },
     "services": {
-      "label": "Solutions",
+      "label": "Platform",
       "items": {
-        "platform": "Platform",
-        "offer": "Specialised services",
-        "useCases": "Where we work"
+        "platform": "How it works",
+        "offer": "Benefits",
+        "useCases": "Who it's for"
       }
     },
     "content": "Content",
@@ -27,27 +27,46 @@
     "toggleTheme": "Toggle theme"
   },
   "hero": {
-    "eyebrow": "For those who decide about land, production and the environment",
-    "title": "Geographic data turned into applicable knowledge",
-    "subtitle": "We combine a web platform with solutions for territorial and environmental management with specialised remote sensing and geoprocessing services. Ideal for those who produce on the land, care for the environment and decide about the territory, from assessment to operation.",
-    "primaryCta": "Talk to the team",
-    "secondaryCta": "Explore the solutions"
+    "eyebrow": "For those who see beauty in geographic data",
+    "title": "We turn geographic data into eureka.",
+    "subtitle": "Interactive maps, charts and tables, brought together in web apps that reveal the insights hidden in your data and take the discovery to anyone you choose to show. All in your browser, with your data under your control.",
+    "primaryCta": "Join the beta",
+    "secondaryCta": "See how it works",
+    "note": "Privacy by design: your data is processed in your browser and only leaves it if you ask and authorise."
+  },
+  "problem": {
+    "eyebrow": "More value from your data",
+    "title": "Your data is already good. It can get even better.",
+    "items": [
+      {
+        "title": "Easier to analyse",
+        "body": "Map, charts and tables in one place to spot patterns, compare and filter without switching tools."
+      },
+      {
+        "title": "Easier to present",
+        "body": "Instead of screenshots and static exports, an interactive app where your audience navigates, zooms and explores every detail of your work."
+      },
+      {
+        "title": "Easier to share",
+        "body": "Your conclusions reach clients, managers and the general public without requiring specialised software or GIS knowledge."
+      }
+    ],
+    "closing": "You've done the hard part: producing the data. Now make it seen, understood and remembered. Coordenada Geo turns your file into an interactive app that showcases your work and takes your conclusions to the people who decide, without having to give up control over your data."
   },
   "about": {
     "eyebrow": "Who we are",
-    "title": "Specialists in building solutions that integrate geographic data using information technology.",
-    "body": "Coordenada Geo works at the interface of technology and geographic data. The demand for quality and transparency has grown: new rules for credit, exports and markets now require proof of origin and socio-environmental compliance. We help those who produce on the land, care for the environment and decide about the territory operate with precision — delivering value in two complementary ways: a web platform that makes traceability and compliance accessible and practical, and specialised remote sensing, geoprocessing and bespoke development services for challenges that go beyond what is already available on the platform.",
+    "title": "Over twenty years of geoprocessing, now as a product.",
+    "body": "The Coordenada Geo team brings over twenty years of experience in geoprocessing and in developing technologies for modelling and analysis in geographic information systems. We bring that knowledge to a product that delivers the rigour of geospatial analysis to anyone who wants to analyse, present and share their data more easily.",
     "bullets": [
-      "A modular platform with ready-made services for common problems.",
-      "Bespoke modules for complex, customised solutions.",
-      "Scientific rigour when choosing data, methods and validations, with iterative delivery.",
-      "An explicit social-environmental commitment: transparency for people, territories and ecosystems."
+      "Over 20 years of experience in geoprocessing and geographic information systems.",
+      "Experience developing technologies for geospatial modelling and analysis.",
+      "Privacy by design: your data stays in your browser."
     ]
   },
   "purpose": {
     "eyebrow": "Purpose",
-    "title": "Applied knowledge for conscious decisions about the territory",
-    "body": "To turn geographic data into applied knowledge: to make the origin of agricultural products and their socio-environmental compliance verifiable and accessible, and decisions about the territory more conscious — with technical rigour, in favour of more conscious consumers, more transparent markets and more protected ecosystems."
+    "title": "Geographic information with more reach and more impact",
+    "body": "Geographic data holds answers about health, production, the environment, security and the economy. But the impact of those answers depends on how many people can access and understand them. Our purpose is to make geographic information easier to access and to consume, so it reaches further and changes more decisions."
   },
   "values": {
     "eyebrow": "Values",
@@ -55,84 +74,122 @@
     "items": [
       {
         "title": "Precision",
-        "body": "Technical and scientific rigour when choosing methods, data and validations, without sacrificing clarity in the results."
+        "body": "Technical and scientific rigour in methods and in how data is represented, so every map, chart and table shows what the data really says."
       },
       {
         "title": "Collaboration",
-        "body": "We build solutions close to the client, integrating technical and domain expertise."
+        "body": "We build the product together with the people who use it, listening to analysts, companies and users to evolve the platform where it matters."
       },
       {
         "title": "Adaptation",
-        "body": "We tailor each solution, scope, tools and deliverables to the reality of each client and project."
+        "body": "A flexible platform that adapts to different data types, fields of work and visualisation needs, and keeps evolving."
       },
       {
         "title": "Revitalisation",
-        "body": "We prioritise initiatives that generate positive impact on people, ecosystems and territories."
+        "body": "We prioritise uses with a positive impact on people, ecosystems and territories."
       }
     ]
   },
   "platform": {
-    "eyebrow": "Coordenada Geo Platform",
-    "title": "Create reports with spatial analysis and valuable insights about your territory of interest.",
-    "body": "Our platform simplifies the analysis of productive territories to deliver the answers needed to secure your operation. You indicate your areas of interest (polygons of rural properties, farmland plots and production areas) and the platform cross-references them with the datasets that matter: deforestation alerts, areas embargoed by IBAMA, conservation units, indigenous lands and other protected areas. Results are delivered in customisable reports, with the overlaps analysed, history and data provenance in an auditable record — ready to prove origin in audits and meet credit, export and consumer-market requirements. Each organisation has its own isolated environment, with APIs to integrate with your procurement and operations process.",
-    "cta": "Explore the platform",
-    "highlights": [
-      { "label": "Rural registries", "sub": "CAR, SIGEF and SNCI" },
-      { "label": "Deforestation", "sub": "PRODES, DETER and MapBiomas Alerta" },
-      { "label": "Embargoes", "sub": "IBAMA embargoes and the slave-labour 'Dirty List'" },
-      { "label": "Protected areas", "sub": "Conservation units, indigenous and quilombola lands, and Type B public forests" }
+    "eyebrow": "How it works",
+    "title": "From file to interactive app, simply.",
+    "body": "Our goal is for the path from your file to an interactive app to be short, fast and free of technical know-how. It all happens in your browser.",
+    "cta": "Join the beta",
+    "steps": [
+      {
+        "title": "Open your file",
+        "body": "Select the file on your computer. It is read in your browser and never leaves your machine."
+      },
+      {
+        "title": "Shape the data",
+        "body": "Choose how to present it: map, charts and tables arranged to tell what matters."
+      },
+      {
+        "title": "Explore and share",
+        "body": "Browse the results and, if you want, share — only when and with whom you decide."
+      }
     ]
   },
   "services": {
-    "eyebrow": "Specialised services",
-    "title": "When the problem calls for a bespoke solution",
-    "intro": "Our platform offers solutions for challenges common to the market. For specific problems, we work end to end — from assessment and planning to execution and operation — with validated methods for remote sensing, geoprocessing and software development projects.",
+    "eyebrow": "Benefits",
+    "title": "What changes when your data becomes an interactive app",
+    "intro": "Less time preparing material, more impact for what you found.",
     "items": [
       {
-        "title": "Applied remote sensing",
-        "body": "Analysis of satellite imagery sets for detecting changes in land use and land cover, deforestation and regeneration, burn scars, water resources and environmental liabilities."
+        "title": "Impress in the presentation",
+        "body": "An interactive app, with zoom, layers and details on click for every element, shows far more than any screenshot or PDF."
       },
       {
-        "title": "Geoprocessing and spatial analysis",
-        "body": "Geographic data modelling, spatial analysis and geostatistics, combining multimodal datasets to answer complex questions about the territory."
+        "title": "Discover more in your data",
+        "body": "Charts and tables built from the attributes reveal distributions, comparisons and patterns a map alone can't show."
       },
       {
-        "title": "Dashboards and visualisation",
-        "body": "Building interactive maps and web dashboards to track indicators, areas of interest and time series of geographic data."
+        "title": "No information gets lost",
+        "body": "Every attribute in the file is available to query, sort and filter, by you and by whoever you invite."
       },
       {
-        "title": "Automation and data pipelines",
-        "body": "Automations, geospatial ETL, API integration and pipelines to orchestrate the collection, processing and publishing of geographic data."
+        "title": "Tell the story of the territory",
+        "body": "Build a step-by-step narrative with text, images and camera moves on the map to guide readers to the conclusion."
       },
       {
-        "title": "Bespoke geospatial platforms and APIs",
-        "body": "Development of geospatial web applications and APIs, from concept to production operation."
+        "title": "Your data, under your control",
+        "body": "Your data stays in your browser. Sending anything outside it is your decision, taken explicitly and with your authorisation."
       },
       {
-        "title": "Training and technical support",
-        "body": "Training and mentoring for teams working on development that combines remote sensing, geographic data and geoprocessing."
+        "title": "No technical barrier",
+        "body": "Creators don't need to code. Viewers don't need to install GIS software."
       }
     ]
   },
   "useCases": {
-    "eyebrow": "Where we work",
-    "title": "Sectors and challenges we serve",
+    "eyebrow": "Who it's for",
+    "title": "If you have geographic data, you have an app waiting",
     "items": [
       {
-        "title": "Rural production and supply chains",
-        "body": "Origin traceability, supplier verification and meeting credit, export and market requirements."
+        "title": "You're a geo analyst",
+        "body": "Present your analysis in an interactive app instead of screenshots and PDFs. Your client explores, and your work gets the spotlight it deserves."
       },
       {
-        "title": "Environment and climate",
-        "body": "Deforestation and regeneration, vegetation cover, protected areas, environmental liabilities and risk. Estimates of greenhouse gas emissions and removals from land use and land cover change."
+        "title": "You lead a company or a team",
+        "body": "Bring locations, areas and territorial indicators to the meeting or the report and decide with everyone looking at the same map."
       },
       {
-        "title": "Territory and land use",
-        "body": "Characterisation of rural properties, land use and occupation dynamics, regularisation and CAR status."
+        "title": "You work in agriculture or the environment",
+        "body": "Properties, protected areas, vegetation cover, deforestation: present the cartography of your work to producers, agencies, funders and communities."
       },
       {
-        "title": "Public sector and infrastructure",
-        "body": "Inputs for planning and territorial policy, programme monitoring and analysis of assets and networks."
+        "title": "You work in health, security, the economy or public policy",
+        "body": "Cases, incidents, facilities, regional indicators: an interactive map conveys in seconds what a table takes pages to explain."
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Before you start",
+    "items": [
+      {
+        "q": "Does my data leave my computer?",
+        "a": "No, unless you ask and authorise it. Your data is processed in your browser and only goes to our servers if you explicitly request it, for example to share."
+      },
+      {
+        "q": "Do I need to know GIS or how to code?",
+        "a": "No. You open the file and the platform builds the interactive app. Whoever accesses it only needs a browser."
+      },
+      {
+        "q": "Which file formats are supported?",
+        "a": "The formats most used in geoprocessing. The full list will be announced at launch, and you can tell us which format you're missing."
+      },
+      {
+        "q": "How does sharing work?",
+        "a": "Sharing is optional and always your decision. Details of the sharing options will be announced at launch."
+      },
+      {
+        "q": "Does it work for any field?",
+        "a": "Yes. Agriculture and the environment have a strong culture of geographic data, but the same goes for health, security, the economy, logistics and the public sector: where there is territory, there is something to show."
+      },
+      {
+        "q": "How much does it cost?",
+        "a": "The platform is in beta. Terms will be announced at launch, and beta users talk directly with the team and help shape the product."
       }
     ]
   },
@@ -147,15 +204,15 @@
     "publishedOn": "Published on"
   },
   "contact": {
-    "eyebrow": "Contact",
-    "title": "Let's talk about your challenge",
-    "body": "Share the context — a supplier base to make traceable, a territorial or environmental analysis, a system to build. We reply with an initial approach within a few business days.",
-    "emailCta": "Send email",
-    "whatsappCta": "Open chat"
+    "eyebrow": "Beta",
+    "title": "Ready to wow and win people over with your data?",
+    "body": "We're opening the beta to our first users. Tell us what you want to show and we'll let you know when it's your turn.",
+    "emailCta": "Join the beta",
+    "whatsappCta": "Chat on WhatsApp"
   },
   "footer": {
-    "tagline": "Applied geospatial technology for land, rural production and the environment. A web platform for traceability and socio-environmental compliance, plus bespoke services that turn spatial data into decisions.",
-    "product": "Solutions",
+    "tagline": "We turn geographic data into insights. Interactive web apps with maps, charts and tables, with your data protected in your browser.",
+    "product": "Platform",
     "connect": "Connect",
     "rights": "All rights reserved."
   },
@@ -165,7 +222,7 @@
     "title": "This coordinate is off our map",
     "body": "The page you are looking for may have been moved, renamed or has not been published yet. Use the shortcuts below to get back to familiar territory.",
     "cta": "Back to home",
-    "secondaryCta": "Explore solutions",
+    "secondaryCta": "Explore the platform",
     "blogCta": "Read the blog",
     "illustrationLabel": "Illustration of an unlocated coordinate"
   },
@@ -173,15 +230,24 @@
     "platform": {
       "eyebrow": "Coming soon",
       "status": "In development",
-      "title": "Our platform is almost ready",
-      "body": "We are putting the finishing touches on Coordenada Geo's origin-traceability and socio-environmental-compliance platform — cross-referencing suppliers' properties with CAR, deforestation alerts, IBAMA embargoes and protected areas, with panels and auditable records. Early access will be rolled out gradually to our first clients. In the meantime, talk to our team to learn about the roadmap, commission a specialised service or join the beta programme.",
+      "title": "The platform is almost ready",
+      "body": "You open a geographic file and the platform turns it into an interactive web app with maps, charts and tables, right in your browser. We're finishing the last details and opening access to our first users in stages. Get in touch to join the beta and hear when it's your turn.",
       "eta": "Launch plan: on-demand access opening in stages.",
       "steps": [
-        { "label": "Research and architecture completed", "state": "done" },
-        { "label": "Development in progress", "state": "current" },
-        { "label": "Private beta with selected clients", "state": "next" }
+        {
+          "label": "Research and architecture completed",
+          "state": "done"
+        },
+        {
+          "label": "Development in progress",
+          "state": "current"
+        },
+        {
+          "label": "Private beta with selected clients",
+          "state": "next"
+        }
       ],
-      "contactHeading": "Want to be notified at launch or join the beta? Get in touch.",
+      "contactHeading": "Want to join the beta or hear about the launch? Get in touch.",
       "homeCta": "Back to the site",
       "emailCta": "Send an email",
       "whatsappCta": "Chat on WhatsApp"

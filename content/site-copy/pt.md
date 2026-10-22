@@ -6,16 +6,20 @@ Não mexa nos títulos entre `[colchetes]` (são só marcadores de campo) nem na
 
 ---
 
+---
+
+---
+
 ## Metadados do site (aba do navegador, SEO, compartilhamento)
 
 **[Nome do site]**
 Coordenada Geo
 
 **[Tagline curta]**
-Geotecnologia especializada para o território, o campo e o meio ambiente
+Transformamos dados geográficos em insights
 
 **[Descrição / resumo para SEO]**
-A Coordenada Geo é uma empresa de geotecnologia especializada: uma plataforma web para rastreabilidade de origem e conformidade socioambiental, somada a serviços de sensoriamento remoto, geoprocessamento e desenvolvimento de soluções sob medida — transformando dados espaciais em decisões sobre a terra, a produção e o meio ambiente.
+A Coordenada Geo transforma dados geográficos em insights: apps web interativos com mapas, gráficos e tabelas para analisar, apresentar e compartilhar com mais facilidade. Seus dados ficam no seu navegador.
 
 ---
 
@@ -28,12 +32,12 @@ Sobre
 - Propósito
 - Valores
 
-**[Menu "Soluções"]**
-Soluções
+**[Menu "Plataforma"]**
+Plataforma
 
-- Plataforma
-- Serviços especializados
-- Onde atuamos
+- Como funciona
+- Benefícios
+- Para quem
 
 **[Item "Conteúdo"]**
 Conteúdo
@@ -46,58 +50,254 @@ Acessar plataforma
 
 ---
 
-## Hero (topo, primeira dobra)
+## 1. Hero (promessa)
 
 **[Chamada acima do título]**
-Para quem decide sobre a terra, a produção e o meio ambiente
+Para quem vê beleza nos dados geográficos
 
 **[Título principal]**
-Dados geográficos transformados em conhecimento aplicável
+Transformamos dados geográficos em eureka.
 
 **[Subtítulo]**
-Unimos uma plataforma web com soluções para gestão territorial e ambiental a serviços especializados de sensoriamento remoto e geoprocessamento. Ideal para quem produz no campo, cuida do meio ambiente e decide sobre o território, do diagnóstico à operação.
+Mapas, gráficos e tabelas interativos, reunidos em apps web que revelam os insights escondidos nos seus dados e levam a descoberta a quem você quiser mostrar. Tudo no seu navegador, com seus dados sob o seu controle.
 
 **[Botão principal]**
-Fale com a equipe
+Quero participar do beta
 
 **[Botão secundário]**
-Conhecer as soluções
+Ver como funciona
+
+**[Linha de apoio abaixo dos botões (privacidade)]**
+Privacidade desde o projeto: seus dados são processados no seu navegador e só saem dele se você pedir e autorizar.
 
 ---
 
-## Sobre (Quem somos)
+## 2. Mais valor dos seus dados
 
 **[Chamada]**
-Quem somos
+Mais valor dos seus dados
 
 **[Título]**
-Especialistas em construir soluções que integram dados geográficos usando tecnologia da informação.
+Seu dado já é bom. Pode ficar ainda melhor.
 
-**[Texto principal]**
-A Coordenada Geo atua na interface entre tecnologia e dados geográficos. A exigência por qualidade e transparência cresceu: novas regras de crédito, de exportação e de mercado passaram a pedir comprovação de origem e de regularidade socioambiental. Ajudamos quem produz no campo, cuida do meio ambiente e decide sobre o território a operar com precisão — entregando valor de duas formas complementares: uma plataforma web que torna rastreabilidade e conformidade acessíveis e práticas, e serviços especializados de sensoriamento remoto, geoprocessamento e desenvolvimento sob medida para os desafios que vão além do que já está disponível na plataforma.
+**[Ponto 1 — título]**
+Mais fácil de analisar
 
-**[Lista de destaques]**
-- Uma plataforma modular com serviços prontos para os problemas comuns.
-- Módulos sob medida para soluções complexas e customizadas.
-- Rigor científico na escolha de dados, métodos e validações, com entregas iterativas.
-- Propósito socioambiental explícito: transparência a favor de pessoas, territórios e ecossistemas.
+**[Ponto 1 — texto]**
+Mapa, gráficos e tabelas reunidos no mesmo lugar para enxergar padrões, comparar e filtrar sem alternar entre ferramentas.
+
+**[Ponto 2 — título]**
+Mais fácil de apresentar
+
+**[Ponto 2 — texto]**
+Em vez de prints e exportações estáticas, um app interativo em que o público navega, dá zoom e explora cada detalhe do seu trabalho.
+
+**[Ponto 3 — título]**
+Mais fácil de compartilhar
+
+**[Ponto 3 — texto]**
+Suas conclusões chegam a clientes, gestores e ao público em geral sem exigir software especializado nem conhecimento de SIG.
+
+**[Frase de fechamento (argumento de venda)]**
+Você já fez o trabalho difícil: produzir o dado. Agora faça ele ser visto, compreendido e lembrado. A Coordenada Geo transforma seu arquivo em um app interativo que valoriza o seu trabalho e leva suas conclusões a quem decide, sem precisar abrir mão do controle sobre os seus dados.
 
 ---
 
-## Propósito
+## 3. Como funciona
+
+**[Chamada]**
+Como funciona
+
+**[Título]**
+Do arquivo ao app interativo, de forma simples.
+
+**[Texto]**
+Nossa meta é que o caminho entre o seu arquivo e um app interativo seja curto, rápido e sem exigir conhecimento técnico. Tudo acontece no seu navegador.
+
+**[Botão]**
+Quero participar do beta
+
+**[Passo 1 — título]**
+Abra seu arquivo
+
+**[Passo 1 — texto]**
+Selecione o arquivo no seu computador. Ele é lido no seu navegador e não sai da sua máquina.
+
+**[Passo 2 — título]**
+Dê forma aos dados
+
+**[Passo 2 — texto]**
+Escolha como apresentar: mapa, gráficos e tabelas organizados para contar o que importa.
+
+**[Passo 3 — título]**
+Explore e compartilhe
+
+**[Passo 3 — texto]**
+Navegue pelos resultados e, se quiser, compartilhe — só quando e com quem você decidir.
+
+---
+
+## 4. Benefícios
+
+**[Chamada]**
+Benefícios
+
+**[Título]**
+O que muda quando seus dados viram um app interativo
+
+**[Introdução]**
+Menos tempo preparando material, mais impacto no que você descobriu.
+
+**[Benefício 1 — título]**
+Impressione na apresentação
+
+**[Benefício 1 — texto]**
+Um app interativo, com zoom, camadas e detalhes ao clicar em cada elemento, mostra muito mais do que qualquer print ou PDF.
+
+**[Benefício 2 — título]**
+Descubra mais nos seus dados
+
+**[Benefício 2 — texto]**
+Gráficos e tabelas construídos a partir dos atributos revelam distribuições, comparações e padrões que um mapa sozinho não mostra.
+
+**[Benefício 3 — título]**
+Nenhuma informação se perde
+
+**[Benefício 3 — texto]**
+Todos os atributos do arquivo ficam disponíveis para consultar, ordenar e filtrar, por você e por quem você convidar.
+
+**[Benefício 4 — título]**
+Conte a história do território
+
+**[Benefício 4 — texto]**
+Monte uma narrativa passo a passo, com textos, imagens e movimentos de câmera no mapa, para guiar o leitor até a conclusão.
+
+**[Benefício 5 — título]**
+Seus dados, sob seu controle
+
+**[Benefício 5 — texto]**
+Os dados ficam no seu navegador. Enviar algo para fora dele é uma decisão sua, tomada de forma expressa e com a sua autorização.
+
+**[Benefício 6 — título]**
+Sem barreira técnica
+
+**[Benefício 6 — texto]**
+Quem cria não precisa programar. Quem acessa não precisa instalar software de SIG.
+
+---
+
+## 5. Para quem (cenários)
+
+**[Chamada]**
+Para quem
+
+**[Título]**
+Se você tem dados geográficos, tem um app esperando
+
+**[Cenário 1 — título]**
+Você é analista de geo
+
+**[Cenário 1 — texto]**
+Apresente o resultado da sua análise em um app interativo, e não em prints e PDFs. Seu cliente explora, e o seu trabalho ganha o destaque que merece.
+
+**[Cenário 2 — título]**
+Você lidera uma empresa ou equipe
+
+**[Cenário 2 — texto]**
+Leve localizações, áreas e indicadores territoriais para a reunião ou o relatório e decida com todos olhando para o mesmo mapa.
+
+**[Cenário 3 — título]**
+Você atua no agro ou no meio ambiente
+
+**[Cenário 3 — texto]**
+Propriedades, áreas protegidas, cobertura vegetal, desmatamento: apresente a cartografia do seu trabalho a produtores, órgãos, financiadores e comunidades.
+
+**[Cenário 4 — título]**
+Você trabalha com saúde, segurança, economia ou políticas públicas
+
+**[Cenário 4 — texto]**
+Casos, ocorrências, equipamentos, indicadores regionais: um mapa interativo comunica em segundos o que uma tabela leva páginas para explicar.
+
+---
+
+## 6. Perguntas frequentes
+
+**[Chamada]**
+Perguntas frequentes
+
+**[Título]**
+Antes de começar
+
+**[Pergunta 1]**
+Meus dados saem do meu computador?
+
+**[Resposta 1]**
+Não, a menos que você peça e autorize. Seus dados são processados no seu navegador e só vão para os nossos servidores se você solicitar expressamente, por exemplo para compartilhar.
+
+**[Pergunta 2]**
+Preciso saber usar SIG ou programar?
+
+**[Resposta 2]**
+Não. Você abre o arquivo e a plataforma monta o app interativo. Quem acessa só precisa de um navegador.
+
+**[Pergunta 3]**
+Quais formatos de arquivo são aceitos?
+
+**[Resposta 3]**
+Os formatos mais usados em geoprocessamento. A lista completa será divulgada no lançamento, e você pode nos dizer qual formato faz falta para você.
+
+**[Pergunta 4]**
+Como funciona o compartilhamento?
+
+**[Resposta 4]**
+Compartilhar é opcional e sempre uma decisão sua. Os detalhes das opções de compartilhamento serão divulgados no lançamento.
+
+**[Pergunta 5]**
+Funciona para qualquer área?
+
+**[Resposta 5]**
+Sim. Agro e meio ambiente têm forte cultura de dados geográficos, mas o mesmo vale para saúde, segurança, economia, logística e setor público: onde há território, há o que mostrar.
+
+**[Pergunta 6]**
+Quanto custa?
+
+**[Resposta 6]**
+A plataforma está em fase de beta. As condições serão divulgadas no lançamento, e quem entra no beta conversa direto com a equipe e ajuda a moldar o produto.
+
+---
+
+## 7. Propósito
 
 **[Chamada]**
 Propósito
 
 **[Título]**
-Conhecimento aplicado para decisões conscientes sobre o território
+Informação geográfica com mais alcance e mais impacto
 
 **[Texto]**
-Transformar dados geográficos em conhecimento aplicado: tornar a origem dos produtos agrícolas e sua conformidade socioambiental verificável e acessível e as decisões sobre o território mais conscientes — com rigor técnico, a favor de consumidores mais conscientes, mercados mais transparentes e ecossistemas mais protegidos.
+Dados geográficos guardam respostas sobre saúde, produção, meio ambiente, segurança e economia. Mas o impacto dessas respostas depende de quantas pessoas conseguem acessá-las e entendê-las. Nosso propósito é tornar a informação geográfica mais fácil de acessar e de consumir, para que ela chegue mais longe e transforme mais decisões.
 
 ---
 
-## Valores
+## 8. Quem somos
+
+**[Chamada]**
+Quem somos
+
+**[Título]**
+Mais de vinte anos de geoprocessamento, agora em forma de produto.
+
+**[Texto]**
+A equipe da Coordenada Geo reúne mais de vinte anos de experiência com geoprocessamento e com o desenvolvimento de tecnologias para modelagem e análise em sistemas de informações geográficas. Levamos esse conhecimento para um produto que traz o rigor da análise geoespacial para quem quer analisar, apresentar e compartilhar seus dados com mais facilidade.
+
+**[Destaques]**
+- Mais de 20 anos de experiência em geoprocessamento e sistemas de informações geográficas.
+- Experiência no desenvolvimento de tecnologias para modelagem e análise geoespacial.
+- Privacidade desde o projeto: seus dados ficam no seu navegador.
+
+---
+
+## 9. Valores
 
 **[Chamada]**
 Valores
@@ -107,132 +307,27 @@ O que nos orienta
 
 **[Valor 1 — título]**
 Precisão
+
 **[Valor 1 — texto]**
-Rigor técnico-científico na escolha de métodos, dados e validações, sem abrir mão da clareza nos resultados.
+Rigor técnico-científico nos métodos e na representação dos dados, para que cada mapa, gráfico e tabela mostre o que os dados realmente dizem.
 
 **[Valor 2 — título]**
 Colaboração
+
 **[Valor 2 — texto]**
-Construímos soluções próximas ao cliente, integrando conhecimento técnico e de domínio.
+Construímos o produto junto com quem o usa, ouvindo analistas, empresas e usuários para evoluir a plataforma no que realmente importa.
 
 **[Valor 3 — título]**
 Adaptação
+
 **[Valor 3 — texto]**
-Adequamos cada solução, escopo, ferramentas e entregas à realidade de cada cliente e projeto.
+Uma plataforma flexível, que se adapta a diferentes tipos de dado, áreas de atuação e necessidades de visualização, e evolui continuamente.
 
 **[Valor 4 — título]**
 Revitalização
+
 **[Valor 4 — texto]**
-Priorizamos iniciativas que geram impacto positivo em pessoas, ecossistemas e territórios.
-
----
-
-## Plataforma web
-
-**[Chamada]**
-Plataforma Coordenada Geo
-
-**[Título]**
-Crie relatórios com análises espaciais e insights valiosos sobre o seu território de interesse.
-
-**[Texto principal]**
-Nossa plataforma simplifica a análise dos territórios produtivos para fornecer as respostas necessárias à garantia da operação. Você indica as áreas de seu interesse (polígonos de propriedades rurais, glebas agrícolas e áreas de produção) e a plataforma as cruza com as bases que importam: alertas de desmatamento, áreas embargadas pelo IBAMA, unidades de conservação, terras indígenas e outras áreas protegidas. Os resultados são disponibilizados em relatórios customizáveis, com as sobreposições analisadas, histórico e origem dos dados em registro auditável — pronto para comprovar origem em auditorias e atender às exigências de crédito, exportação e de mercados consumidores. Cada organização tem seu próprio ambiente isolado, com APIs para integrar ao seu processo de compra e operação.
-
-**[Botão]**
-Conhecer a plataforma
-
-**[Destaque 1 — rótulo]**
-Cadastros rurais
-**[Destaque 1 — subtexto]**
-CAR, SIGEF e SNCI
-
-**[Destaque 2 — rótulo]**
-Desmatamento
-**[Destaque 2 — subtexto]**
-PRODES, DETER e MapBiomas Alerta
-
-**[Destaque 3 — rótulo]**
-Embargos
-**[Destaque 3 — subtexto]**
-Áreas embargadas pelo IBAMA e "Lista Suja" do MTE
-
-**[Destaque 4 — rótulo]**
-Áreas protegidas
-**[Destaque 4 — subtexto]**
-Unidades de conservação, terras indígenas, quilombolas e Florestas Públicas Tipo B
-
----
-
-## Serviços especializados
-
-**[Chamada]**
-Serviços especializados
-
-**[Título]**
-Quando o problema pede uma solução sob medida
-
-**[Texto de introdução]**
-A nossa plataforma oferece soluções para desafios comuns ao mercado. Para problemas específicos, atuamos de ponta a ponta — do diagnóstico e planejamento à execução e operação — com métodos validados para projetos de sensoriamento remoto, geoprocessamento e desenvolvimento de software.
-
-**[Serviço 1 — título]**
-Sensoriamento remoto aplicado
-**[Serviço 1 — texto]**
-Análise de conjuntos de imagens de satélite para detecção de mudanças no uso e cobertura do solo, desmatamento e regeneração, áreas queimadas, recursos hídricos e passivos ambientais.
-
-**[Serviço 2 — título]**
-Geoprocessamento e análise espacial
-**[Serviço 2 — texto]**
-Modelagem de dados geográficos, análise espacial e geoestatística, combinação de bases de dados multimodais para responder perguntas complexas sobre o território.
-
-**[Serviço 3 — título]**
-Dashboards e visualização
-**[Serviço 3 — texto]**
-Construção de mapas interativos e dashboards web para acompanhar indicadores, áreas de interesse e séries temporais de dados geográficos.
-
-**[Serviço 4 — título]**
-Automação e pipelines de dados
-**[Serviço 4 — texto]**
-Automações, ETL geoespacial, integração com APIs e pipelines para orquestração de coleta, processamento e publicação de dados geográficos.
-
-**[Serviço 5 — título]**
-Plataformas e APIs geoespaciais sob medida
-**[Serviço 5 — texto]**
-Desenvolvimento de aplicações web e APIs geoespaciais, do conceito à operação em produção.
-
-**[Serviço 6 — título]**
-Capacitação e suporte técnico
-**[Serviço 6 — texto]**
-Treinamentos e mentoria para equipes que trabalham com desenvolvimento unindo sensoriamento remoto, dados geográficos e geoprocessamento.
-
----
-
-## Onde atuamos
-
-**[Chamada]**
-Onde atuamos
-
-**[Título]**
-Setores e desafios que atendemos
-
-**[Setor 1 — título]**
-Produção rural e cadeias de fornecimento
-**[Setor 1 — texto]**
-Rastreabilidade de origem, verificação de fornecedores e adequação às exigências de crédito, exportação e mercado.
-
-**[Setor 2 — título]**
-Meio ambiente e clima
-**[Setor 2 — texto]**
-Desmatamento e regeneração, cobertura vegetal, áreas protegidas, passivos e risco ambiental. Estimativas de emissões e remoções de gases de efeito estufa provenientes da mudança de uso e cobertura da terra.
-
-**[Setor 3 — título]**
-Território e uso do solo
-**[Setor 3 — texto]**
-Caracterização de imóveis rurais, dinâmica de uso e ocupação, regularização e situação no CAR.
-
-**[Setor 4 — título]**
-Setor público e infraestrutura
-**[Setor 4 — texto]**
-Subsídios a planejamento e políticas territoriais, monitoramento de programas e análise de ativos e redes.
+Priorizamos usos que geram impacto positivo em pessoas, ecossistemas e territórios.
 
 ---
 
@@ -267,29 +362,29 @@ Publicado em
 ## Contato
 
 **[Chamada]**
-Contato
+Beta
 
 **[Título]**
-Vamos conversar sobre o seu desafio
+Pronto para encantar e conquistar com seus dados?
 
 **[Texto]**
-Conte o contexto — uma cadeia de fornecedores para tornar rastreável, uma análise territorial ou ambiental, um sistema a desenvolver. Respondemos com uma proposta de abordagem em poucos dias úteis.
+Estamos abrindo o beta para os primeiros usuários. Conte o que você quer mostrar e avisamos quando for a sua vez.
 
 **[Botão e-mail]**
-Enviar e-mail
+Quero participar do beta
 
 **[Botão WhatsApp]**
-Abrir conversa
+Falar no WhatsApp
 
 ---
 
 ## Rodapé
 
 **[Tagline do rodapé]**
-Geotecnologia aplicada para o território, o campo e o meio ambiente. Uma plataforma web de rastreabilidade e conformidade socioambiental, somada a serviços sob medida que transformam dados espaciais em decisões.
+Transformamos dados geográficos em insights. Apps web interativos, com mapas, gráficos e tabelas, e com seus dados protegidos no seu navegador.
 
 **[Título da coluna "produto"]**
-Soluções
+Plataforma
 
 **[Título da coluna "conecte-se"]**
 Conecte-se
@@ -319,7 +414,7 @@ A página que você procura pode ter sido movida, renomeada ou ainda não foi pu
 Voltar para a home
 
 **[Botão soluções]**
-Conhecer soluções
+Conhecer a plataforma
 
 **[Botão blog]**
 Ver o blog
@@ -336,10 +431,10 @@ Em breve
 Em desenvolvimento
 
 **[Título]**
-Nossa plataforma está quase pronta
+A plataforma está quase pronta
 
 **[Texto]**
-Estamos finalizando os últimos detalhes da plataforma de rastreabilidade de origem e conformidade socioambiental da Coordenada Geo — cruzamento das propriedades dos fornecedores com CAR, alertas de desmatamento, embargos do IBAMA e áreas protegidas, com painéis e registros auditáveis. Em breve abriremos acesso aos primeiros clientes. Enquanto isso, fale com a nossa equipe para conhecer o roadmap, contratar um serviço especializado ou participar do programa beta.
+Você abre um arquivo geográfico e a plataforma o transforma em um app web interativo, com mapas, gráficos e tabelas, direto no seu navegador. Estamos finalizando os últimos detalhes e abrindo o acesso aos primeiros usuários em etapas. Escreva para a gente para entrar no beta e ser avisado quando chegar a sua vez.
 
 **[Previsão]**
 Previsão de abertura: primeiros acessos em etapas, sob demanda.
@@ -354,7 +449,7 @@ Desenvolvimento em andamento
 Beta privado com clientes selecionados
 
 **[Chamada de contato]**
-Quer ser avisado na abertura ou entrar no beta? Escreva para a gente.
+Quer entrar no beta ou ser avisado no lançamento? Escreva para a gente.
 
 **[Botão voltar ao site]**
 Voltar para o site
