@@ -6,10 +6,6 @@ Não mexa nos títulos entre `[colchetes]` (são só marcadores de campo) nem na
 
 ---
 
----
-
----
-
 ## Metadados do site (aba do navegador, SEO, compartilhamento)
 
 **[Nome do site]**
@@ -19,7 +15,7 @@ Coordenada Geo
 Transformamos dados geográficos em insights
 
 **[Descrição / resumo para SEO]**
-A Coordenada Geo transforma dados geográficos em insights: apps web interativos com mapas, gráficos e tabelas para analisar, apresentar e compartilhar com mais facilidade. Seus dados ficam no seu navegador.
+A Coordenada Geo é uma empresa de inteligência geográfica: unimos business intelligence e dados geográficos (BI+) para produzir, analisar e comunicar dados de localização com rigor técnico-científico, por meio de análise espacial, mapas colaborativos e apps interativos sem código.
 
 ---
 
@@ -35,8 +31,8 @@ Sobre
 **[Menu "Plataforma"]**
 Plataforma
 
+- Soluções
 - Como funciona
-- Benefícios
 - Para quem
 
 **[Item "Conteúdo"]**
@@ -59,168 +55,217 @@ Para quem vê beleza nos dados geográficos
 Transformamos dados geográficos em eureka.
 
 **[Subtítulo]**
-Mapas, gráficos e tabelas interativos, reunidos em apps web que revelam os insights escondidos nos seus dados e levam a descoberta a quem você quiser mostrar. Tudo no seu navegador, com seus dados sob o seu controle.
+Inteligência geográfica para empresas e instituições: produzimos, analisamos e comunicamos dados de localização com rigor técnico-científico, em uma plataforma que coloca mapas, indicadores e análises espaciais ao alcance de quem decide, sem exigir conhecimento especializado em SIG.
 
 **[Botão principal]**
 Quero participar do beta
 
 **[Botão secundário]**
-Ver como funciona
-
-**[Linha de apoio abaixo dos botões (privacidade)]**
-Privacidade desde o projeto: seus dados são processados no seu navegador e só saem dele se você pedir e autorizar.
+Conhecer as soluções
 
 ---
 
-## 2. Mais valor dos seus dados
+## 2. BI+G (business intelligence com dados geográficos)
 
 **[Chamada]**
-Mais valor dos seus dados
+BI+: business intelligence com dados geográficos
 
 **[Título]**
-Seu dado já é bom. Pode ficar ainda melhor.
+Toda decisão acontece em algum lugar.
+
+**[Texto]**
+Indicadores de negócio ganham outra leitura quando se sabe onde eles acontecem. Ao incorporar a dimensão geográfica ao business intelligence, relações de proximidade, concentração e vizinhança passam a fazer parte da análise e explicam o que tabelas e gráficos convencionais não mostram.
+
+**[Citação]**
+Todas as coisas estão relacionadas com todas as outras, mas coisas próximas estão mais relacionadas do que coisas distantes.
+
+**[Autor da citação]**
+Waldo Tobler, Primeira Lei da Geografia (1970)
 
 **[Ponto 1 — título]**
-Mais fácil de analisar
+Onde acontece
 
 **[Ponto 1 — texto]**
-Mapa, gráficos e tabelas reunidos no mesmo lugar para enxergar padrões, comparar e filtrar sem alternar entre ferramentas.
+Localize clientes, ativos, ocorrências e oportunidades no território e veja a distribuição real dos seus indicadores.
 
 **[Ponto 2 — título]**
-Mais fácil de apresentar
+O que está por perto
 
 **[Ponto 2 — texto]**
-Em vez de prints e exportações estáticas, um app interativo em que o público navega, dá zoom e explora cada detalhe do seu trabalho.
+Relacione cada ponto ao seu entorno: concorrência, infraestrutura, população, uso do solo. A proximidade explica padrões.
 
 **[Ponto 3 — título]**
-Mais fácil de compartilhar
+Onde agir primeiro
 
 **[Ponto 3 — texto]**
-Suas conclusões chegam a clientes, gestores e ao público em geral sem exigir software especializado nem conhecimento de SIG.
+Priorize áreas, dimensione mercados e direcione recursos com base em evidências espaciais.
 
-**[Frase de fechamento (argumento de venda)]**
-Você já fez o trabalho difícil: produzir o dado. Agora faça ele ser visto, compreendido e lembrado. A Coordenada Geo transforma seu arquivo em um app interativo que valoriza o seu trabalho e leva suas conclusões a quem decide, sem precisar abrir mão do controle sobre os seus dados.
+**[Frase de fechamento]**
+É isso que chamamos de BI+ (BI plus): business intelligence somado à dimensão que faltava, o lugar.
 
 ---
 
-## 3. Como funciona
+## 3. Soluções
+
+**[Chamada]**
+Soluções
+
+**[Título]**
+Soluções para cada etapa, do dado à decisão
+
+**[Introdução]**
+Da produção do dado à comunicação dos resultados, você escolhe por onde começar e amplia conforme as necessidades da sua organização.
+
+**[Solução 1 — título]**
+Produção e estruturação de dados geográficos
+
+**[Solução 1 — texto]**
+Apoio técnico para levantar, organizar, padronizar e qualificar bases geográficas, com metodologia definida e controle de qualidade.
+
+**[Solução 2 — título]**
+Inteligência de localização e análise espacial
+
+**[Solução 2 — texto]**
+Cruze seus dados com outras bases, identifique padrões e áreas de oportunidade e responda onde atuar, investir ou intervir primeiro.
+
+**[Solução 3 — título]**
+Apps de dados geográficos, sem código
+
+**[Solução 3 — texto]**
+Transforme um arquivo geográfico em um app interativo com mapas, gráficos e tabelas, com a opção de processar tudo no navegador.
+
+**[Solução 4 — título]**
+Mapas colaborativos na web
+
+**[Solução 4 — texto]**
+Crie, organize e compartilhe mapas com equipes, clientes e parceiros, para que todos trabalhem sobre a mesma base de informação.
+
+**[Solução 5 — título]**
+Plataforma geoespacial corporativa
+
+**[Solução 5 — texto]**
+Um ambiente dedicado à sua organização para reunir dados geográficos, controlar permissões de acesso e integrar com os seus sistemas por API.
+
+---
+
+## 4. Como funciona
 
 **[Chamada]**
 Como funciona
 
 **[Título]**
-Do arquivo ao app interativo, de forma simples.
+Do dado à decisão, em três etapas.
 
 **[Texto]**
-Nossa meta é que o caminho entre o seu arquivo e um app interativo seja curto, rápido e sem exigir conhecimento técnico. Tudo acontece no seu navegador.
+Seja uma base da sua empresa, um arquivo geográfico ou um dado que ainda precisa ser produzido, o método é o mesmo: estruturar, analisar e comunicar, com rigor em cada etapa.
+
+**[Etapa 1 — título]**
+Dado
+
+**[Etapa 1 — texto]**
+Partimos das suas bases, arquivos e planilhas, ou apoiamos a produção dos dados de que você precisa.
+
+**[Etapa 2 — título]**
+Informação
+
+**[Etapa 2 — texto]**
+Exploração, cruzamento e análise espacial transformam registros em indicadores e padrões.
+
+**[Etapa 3 — título]**
+Decisão
+
+**[Etapa 3 — texto]**
+Os resultados chegam a quem decide em mapas, painéis e apps interativos, compartilhados com quem você escolher.
 
 **[Botão]**
 Quero participar do beta
 
-**[Passo 1 — título]**
-Abra seu arquivo
-
-**[Passo 1 — texto]**
-Selecione o arquivo no seu computador. Ele é lido no seu navegador e não sai da sua máquina.
-
-**[Passo 2 — título]**
-Dê forma aos dados
-
-**[Passo 2 — texto]**
-Escolha como apresentar: mapa, gráficos e tabelas organizados para contar o que importa.
-
-**[Passo 3 — título]**
-Explore e compartilhe
-
-**[Passo 3 — texto]**
-Navegue pelos resultados e, se quiser, compartilhe — só quando e com quem você decidir.
-
 ---
 
-## 4. Benefícios
+## 5. Benefícios
 
 **[Chamada]**
 Benefícios
 
 **[Título]**
-O que muda quando seus dados viram um app interativo
+O que muda quando a análise considera o território
 
 **[Introdução]**
-Menos tempo preparando material, mais impacto no que você descobriu.
+Menos tempo preparando dados, mais tempo compreendendo e decidindo.
 
 **[Benefício 1 — título]**
-Impressione na apresentação
+Decisões mais bem fundamentadas
 
 **[Benefício 1 — texto]**
-Um app interativo, com zoom, camadas e detalhes ao clicar em cada elemento, mostra muito mais do que qualquer print ou PDF.
+Análises espaciais e indicadores claros mostram onde estão riscos e oportunidades, com base em evidências.
 
 **[Benefício 2 — título]**
-Descubra mais nos seus dados
+Padrões que as planilhas não revelam
 
 **[Benefício 2 — texto]**
-Gráficos e tabelas construídos a partir dos atributos revelam distribuições, comparações e padrões que um mapa sozinho não mostra.
+Concentrações, tendências e relações de vizinhança aparecem quando os dados ganham mapa e contexto.
 
 **[Benefício 3 — título]**
-Nenhuma informação se perde
+Uma visão compartilhada
 
 **[Benefício 3 — texto]**
-Todos os atributos do arquivo ficam disponíveis para consultar, ordenar e filtrar, por você e por quem você convidar.
+Equipes, clientes e parceiros acessam a mesma informação no navegador, sem troca de arquivos por e-mail.
 
 **[Benefício 4 — título]**
-Conte a história do território
+Comunicação clara para quem decide
 
 **[Benefício 4 — texto]**
-Monte uma narrativa passo a passo, com textos, imagens e movimentos de câmera no mapa, para guiar o leitor até a conclusão.
+Mapas, painéis e apps interativos traduzem análises técnicas em uma leitura direta, que o público pode explorar por conta própria.
 
 **[Benefício 5 — título]**
-Seus dados, sob seu controle
+Privacidade e controle dos dados
 
 **[Benefício 5 — texto]**
-Os dados ficam no seu navegador. Enviar algo para fora dele é uma decisão sua, tomada de forma expressa e com a sua autorização.
+Você decide onde seus dados ficam: no ambiente isolado da sua organização ou, quando preferir, processados direto no navegador, sem sair da sua máquina. Nada é compartilhado sem a sua autorização.
 
 **[Benefício 6 — título]**
-Sem barreira técnica
+Acessível a quem não é especialista
 
 **[Benefício 6 — texto]**
-Quem cria não precisa programar. Quem acessa não precisa instalar software de SIG.
+Quem analisa não precisa programar. Quem consulta não precisa instalar software de SIG.
 
 ---
 
-## 5. Para quem (cenários)
+## 6. Para quem
 
 **[Chamada]**
 Para quem
 
 **[Título]**
-Se você tem dados geográficos, tem um app esperando
+Para organizações que decidem sobre o território
 
-**[Cenário 1 — título]**
-Você é analista de geo
+**[Público 1 — título]**
+Analistas e profissionais de geo
 
-**[Cenário 1 — texto]**
-Apresente o resultado da sua análise em um app interativo, e não em prints e PDFs. Seu cliente explora, e o seu trabalho ganha o destaque que merece.
+**[Público 1 — texto]**
+Mais agilidade nas análises e resultados entregues em mapas e apps interativos, que valorizam o trabalho técnico.
 
-**[Cenário 2 — título]**
-Você lidera uma empresa ou equipe
+**[Público 2 — título]**
+Empresas, equipes comerciais e de expansão
 
-**[Cenário 2 — texto]**
-Leve localizações, áreas e indicadores territoriais para a reunião ou o relatório e decida com todos olhando para o mesmo mapa.
+**[Público 2 — texto]**
+Entenda onde estão seus clientes, suas unidades e as melhores oportunidades de mercado, com toda a equipe sobre a mesma base.
 
-**[Cenário 3 — título]**
-Você atua no agro ou no meio ambiente
+**[Público 3 — título]**
+Agro e meio ambiente
 
-**[Cenário 3 — texto]**
-Propriedades, áreas protegidas, cobertura vegetal, desmatamento: apresente a cartografia do seu trabalho a produtores, órgãos, financiadores e comunidades.
+**[Público 3 — texto]**
+Propriedades, áreas protegidas, cobertura vegetal e desmatamento: analise o território e apresente os resultados a produtores, órgãos, financiadores e comunidades.
 
-**[Cenário 4 — título]**
-Você trabalha com saúde, segurança, economia ou políticas públicas
+**[Público 4 — título]**
+Setor público, saúde, segurança e economia
 
-**[Cenário 4 — texto]**
-Casos, ocorrências, equipamentos, indicadores regionais: um mapa interativo comunica em segundos o que uma tabela leva páginas para explicar.
+**[Público 4 — texto]**
+Casos, ocorrências, equipamentos e indicadores regionais: um mapa interativo comunica em segundos o que uma tabela leva páginas para explicar e ajuda a priorizar onde agir.
 
 ---
 
-## 6. Perguntas frequentes
+## 7. Perguntas frequentes
 
 **[Chamada]**
 Perguntas frequentes
@@ -229,75 +274,91 @@ Perguntas frequentes
 Antes de começar
 
 **[Pergunta 1]**
-Meus dados saem do meu computador?
+O que é BI+?
 
 **[Resposta 1]**
-Não, a menos que você peça e autorize. Seus dados são processados no seu navegador e só vão para os nossos servidores se você solicitar expressamente, por exemplo para compartilhar.
+É business intelligence somado à componente geográfica: o "plus" é o SIG. Além de responder quanto e quando, a análise passa a responder onde, e a considerar relações de proximidade e vizinhança entre clientes, unidades, ocorrências e o território ao redor.
 
 **[Pergunta 2]**
-Preciso saber usar SIG ou programar?
+Ainda não tenho dados organizados. Vocês podem ajudar?
 
 **[Resposta 2]**
-Não. Você abre o arquivo e a plataforma monta o app interativo. Quem acessa só precisa de um navegador.
+Sim. Apoiamos o levantamento, a organização e a qualificação de bases geográficas, para que a análise parta de dados consistentes.
 
 **[Pergunta 3]**
-Quais formatos de arquivo são aceitos?
+Onde meus dados ficam?
 
 **[Resposta 3]**
-Os formatos mais usados em geoprocessamento. A lista completa será divulgada no lançamento, e você pode nos dizer qual formato faz falta para você.
+Você escolhe. Os dados podem ficar no ambiente da sua organização, isolado e com controle de acesso, ou, em soluções como os apps criados a partir de arquivos, ser processados apenas no seu navegador, sem sair da sua máquina. Nada é compartilhado sem a sua autorização.
 
 **[Pergunta 4]**
-Como funciona o compartilhamento?
+Preciso saber usar SIG ou programar?
 
 **[Resposta 4]**
-Compartilhar é opcional e sempre uma decisão sua. Os detalhes das opções de compartilhamento serão divulgados no lançamento.
+Não. A plataforma foi pensada para quem precisa de respostas, não de ferramentas para configurar. Quem consulta o resultado só precisa de um navegador.
 
 **[Pergunta 5]**
-Funciona para qualquer área?
+A plataforma substitui o meu SIG?
 
 **[Resposta 5]**
-Sim. Agro e meio ambiente têm forte cultura de dados geográficos, mas o mesmo vale para saúde, segurança, economia, logística e setor público: onde há território, há o que mostrar.
+Não necessariamente. Ela complementa ferramentas como QGIS e ArcGIS: sua equipe continua usando o que já conhece e conta com a Coordenada Geo para analisar, integrar e comunicar com mais facilidade.
 
 **[Pergunta 6]**
-Quanto custa?
+Quais formatos de dados são aceitos?
 
 **[Resposta 6]**
-A plataforma está em fase de beta. As condições serão divulgadas no lançamento, e quem entra no beta conversa direto com a equipe e ajuda a moldar o produto.
+Os formatos mais usados em geoprocessamento e planilhas com coordenadas. A lista completa será divulgada no lançamento, e você pode nos indicar formatos de que precisa.
+
+**[Pergunta 7]**
+Funciona para qualquer setor?
+
+**[Resposta 7]**
+Sim. Agro e meio ambiente têm forte tradição em dados geográficos, mas o mesmo vale para varejo, expansão comercial, saúde, segurança, logística e setor público: onde há território, há o que descobrir.
+
+**[Pergunta 8]**
+Quanto custa?
+
+**[Resposta 8]**
+A plataforma está em fase de beta. As condições de cada solução serão divulgadas no lançamento, e quem participa do beta conversa diretamente com a equipe e contribui para a evolução do produto.
 
 ---
 
-## 7. Propósito
+## 8. Propósito
 
 **[Chamada]**
 Propósito
 
 **[Título]**
-Informação geográfica com mais alcance e mais impacto
+Encurtar o caminho entre o dado e a decisão
 
 **[Texto]**
-Dados geográficos guardam respostas sobre saúde, produção, meio ambiente, segurança e economia. Mas o impacto dessas respostas depende de quantas pessoas conseguem acessá-las e entendê-las. Nosso propósito é tornar a informação geográfica mais fácil de acessar e de consumir, para que ela chegue mais longe e transforme mais decisões.
+Dados geográficos guardam respostas sobre saúde, produção, meio ambiente, segurança e economia, mas essas respostas só geram impacto quando alguém consegue enxergá-las. Nosso propósito é facilitar esse momento de descoberta: tornar mais simples extrair, compreender e consumir a informação que os dados guardam, para que cada insight chegue mais longe e qualifique mais decisões.
 
 ---
 
-## 8. Quem somos
+## 9. Quem somos
 
 **[Chamada]**
 Quem somos
 
 **[Título]**
-Mais de vinte anos de geoprocessamento, agora em forma de produto.
+Mais de vinte anos de geoprocessamento, agora em forma de plataforma.
 
 **[Texto]**
-A equipe da Coordenada Geo reúne mais de vinte anos de experiência com geoprocessamento e com o desenvolvimento de tecnologias para modelagem e análise em sistemas de informações geográficas. Levamos esse conhecimento para um produto que traz o rigor da análise geoespacial para quem quer analisar, apresentar e compartilhar seus dados com mais facilidade.
+A equipe da Coordenada Geo reúne mais de vinte anos de experiência com geoprocessamento e com o desenvolvimento de tecnologias para modelagem e análise em sistemas de informações geográficas. Levamos esse conhecimento a uma plataforma e a serviços que trazem o rigor da análise geoespacial para empresas, instituições e analistas, com uma comunicação clara para quem não é especialista.
 
-**[Destaques]**
-- Mais de 20 anos de experiência em geoprocessamento e sistemas de informações geográficas.
-- Experiência no desenvolvimento de tecnologias para modelagem e análise geoespacial.
-- Privacidade desde o projeto: seus dados ficam no seu navegador.
+**[Destaque 1]**
+Mais de 20 anos de experiência em geoprocessamento e sistemas de informações geográficas.
+
+**[Destaque 2]**
+Desenvolvimento de tecnologias para modelagem e análise geoespacial.
+
+**[Destaque 3]**
+Rigor técnico-científico em cada etapa: da produção do dado à análise e à comunicação dos resultados.
 
 ---
 
-## 9. Valores
+## 10. Valores
 
 **[Chamada]**
 Valores
@@ -321,7 +382,7 @@ Construímos o produto junto com quem o usa, ouvindo analistas, empresas e usuá
 Adaptação
 
 **[Valor 3 — texto]**
-Uma plataforma flexível, que se adapta a diferentes tipos de dado, áreas de atuação e necessidades de visualização, e evolui continuamente.
+Uma plataforma flexível, que se adapta a diferentes tipos de dado, setores e necessidades de análise, e evolui continuamente.
 
 **[Valor 4 — título]**
 Revitalização
@@ -368,7 +429,7 @@ Beta
 Pronto para encantar e conquistar com seus dados?
 
 **[Texto]**
-Estamos abrindo o beta para os primeiros usuários. Conte o que você quer mostrar e avisamos quando for a sua vez.
+Estamos abrindo o beta para as primeiras organizações. Conte quais dados você tem, ou precisa ter, e o que quer descobrir com eles. Retornamos com os próximos passos.
 
 **[Botão e-mail]**
 Quero participar do beta
@@ -381,7 +442,7 @@ Falar no WhatsApp
 ## Rodapé
 
 **[Tagline do rodapé]**
-Transformamos dados geográficos em insights. Apps web interativos, com mapas, gráficos e tabelas, e com seus dados protegidos no seu navegador.
+Transformamos dados geográficos em insights. Business intelligence com dados geográficos (BI+) para produzir, analisar e comunicar informação de localização, com você no controle dos seus dados.
 
 **[Título da coluna "produto"]**
 Plataforma
@@ -434,24 +495,24 @@ Em desenvolvimento
 A plataforma está quase pronta
 
 **[Texto]**
-Você abre um arquivo geográfico e a plataforma o transforma em um app web interativo, com mapas, gráficos e tabelas, direto no seu navegador. Estamos finalizando os últimos detalhes e abrindo o acesso aos primeiros usuários em etapas. Escreva para a gente para entrar no beta e ser avisado quando chegar a sua vez.
+Estamos finalizando a plataforma de inteligência geográfica da Coordenada Geo: análise espacial, mapas colaborativos e apps interativos para explorar, analisar e compartilhar dados geográficos. Estamos abrindo o acesso aos primeiros usuários em etapas. Escreva para a gente para entrar no beta e ser avisado quando chegar a sua vez.
 
 **[Previsão]**
 Previsão de abertura: primeiros acessos em etapas, sob demanda.
 
-**[Etapa 1 — concluída]**
+**[Etapa 1 (done)]**
 Pesquisa e arquitetura concluídas
 
-**[Etapa 2 — em andamento]**
+**[Etapa 2 (current)]**
 Desenvolvimento em andamento
 
-**[Etapa 3 — próxima]**
+**[Etapa 3 (next)]**
 Beta privado com clientes selecionados
 
-**[Chamada de contato]**
+**[Chamada para contato]**
 Quer entrar no beta ou ser avisado no lançamento? Escreva para a gente.
 
-**[Botão voltar ao site]**
+**[Botão voltar]**
 Voltar para o site
 
 **[Botão e-mail]**

@@ -70,7 +70,7 @@ export default function NotFoundShell() {
             body={t.body}
             homeHref={`${base}/`}
             homeLabel={t.cta}
-            secondaryHref={`${base}/#services`}
+            secondaryHref={`${base}/#solutions`}
             secondaryLabel={t.secondaryCta}
             tertiaryHref={`${base}/blog/`}
             tertiaryLabel={t.blogCta}

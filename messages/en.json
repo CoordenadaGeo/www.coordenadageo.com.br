@@ -2,7 +2,7 @@
   "site": {
     "name": "Coordenada Geo",
     "tagline": "We turn geographic data into insights",
-    "description": "Coordenada Geo turns geographic data into insights: interactive web apps with maps, charts and tables to analyse, present and share more easily. Your data stays in your browser."
+    "description": "Coordenada Geo is a geographic intelligence company: we combine business intelligence and geographic data (BI+) to produce, analyse and communicate location data with technical and scientific rigour, through spatial analysis, collaborative maps and no-code interactive apps."
   },
   "nav": {
     "about": {
@@ -17,7 +17,7 @@
       "label": "Platform",
       "items": {
         "platform": "How it works",
-        "offer": "Benefits",
+        "offer": "Solutions",
         "useCases": "Who it's for"
       }
     },
@@ -29,44 +29,73 @@
   "hero": {
     "eyebrow": "For those who see beauty in geographic data",
     "title": "We turn geographic data into eureka.",
-    "subtitle": "Interactive maps, charts and tables, brought together in web apps that reveal the insights hidden in your data and take the discovery to anyone you choose to show. All in your browser, with your data under your control.",
+    "subtitle": "Geographic intelligence for companies and institutions: we produce, analyse and communicate location data with technical and scientific rigour, on a platform that puts maps, indicators and spatial analysis within reach of decision-makers, no GIS expertise required.",
     "primaryCta": "Join the beta",
-    "secondaryCta": "See how it works",
-    "note": "Privacy by design: your data is processed in your browser and only leaves it if you ask and authorise."
+    "secondaryCta": "Explore the solutions"
   },
   "problem": {
-    "eyebrow": "More value from your data",
-    "title": "Your data is already good. It can get even better.",
+    "eyebrow": "BI+: business intelligence with geographic data",
+    "title": "Every decision happens somewhere.",
+    "body": "Business indicators read differently once you know where they happen. By adding the geographic dimension to business intelligence, proximity, concentration and neighbourhood become part of the analysis and explain what conventional tables and charts cannot show.",
+    "quote": "Everything is related to everything else, but near things are more related than distant things.",
+    "quoteAuthor": "Waldo Tobler, First Law of Geography (1970)",
     "items": [
       {
-        "title": "Easier to analyse",
-        "body": "Map, charts and tables in one place to spot patterns, compare and filter without switching tools."
+        "title": "Where it happens",
+        "body": "Locate customers, assets, incidents and opportunities on the ground and see the real distribution of your indicators."
       },
       {
-        "title": "Easier to present",
-        "body": "Instead of screenshots and static exports, an interactive app where your audience navigates, zooms and explores every detail of your work."
+        "title": "What is nearby",
+        "body": "Relate each point to its surroundings: competition, infrastructure, population, land use. Proximity explains patterns."
       },
       {
-        "title": "Easier to share",
-        "body": "Your conclusions reach clients, managers and the general public without requiring specialised software or GIS knowledge."
+        "title": "Where to act first",
+        "body": "Prioritise areas, size markets and allocate resources based on spatial evidence."
       }
     ],
-    "closing": "You've done the hard part: producing the data. Now make it seen, understood and remembered. Coordenada Geo turns your file into an interactive app that showcases your work and takes your conclusions to the people who decide, without having to give up control over your data."
+    "closing": "That is what we call BI+ (BI plus): business intelligence plus the missing dimension, place."
+  },
+  "solutions": {
+    "eyebrow": "Solutions",
+    "title": "Solutions for every stage, from data to decision",
+    "intro": "From producing the data to communicating the results, you choose where to start and expand as your organisation's needs grow.",
+    "items": [
+      {
+        "title": "Geographic data production and structuring",
+        "body": "Technical support to survey, organise, standardise and qualify geographic datasets, with a defined methodology and quality control."
+      },
+      {
+        "title": "Location intelligence and spatial analysis",
+        "body": "Cross your data with other datasets, identify patterns and areas of opportunity, and answer where to operate, invest or intervene first."
+      },
+      {
+        "title": "No-code geographic data apps",
+        "body": "Turn a geographic file into an interactive app with maps, charts and tables, with the option to process everything in the browser."
+      },
+      {
+        "title": "Collaborative web maps",
+        "body": "Create, organise and share maps with teams, clients and partners, so everyone works from the same information."
+      },
+      {
+        "title": "Enterprise geospatial platform",
+        "body": "A dedicated environment for your organisation to bring geographic data together, manage access permissions and integrate with your systems via API."
+      }
+    ]
   },
   "about": {
-    "eyebrow": "Who we are",
-    "title": "Over twenty years of geoprocessing, now as a product.",
-    "body": "The Coordenada Geo team brings over twenty years of experience in geoprocessing and in developing technologies for modelling and analysis in geographic information systems. We bring that knowledge to a product that delivers the rigour of geospatial analysis to anyone who wants to analyse, present and share their data more easily.",
+    "eyebrow": "About us",
+    "title": "Over twenty years of geoprocessing, now as a platform.",
+    "body": "The Coordenada Geo team brings over twenty years of experience in geoprocessing and in developing modelling and analysis technologies for geographic information systems. We bring that knowledge to a platform and services that deliver the rigour of geospatial analysis to companies, institutions and analysts, with clear communication for non-specialists.",
     "bullets": [
       "Over 20 years of experience in geoprocessing and geographic information systems.",
-      "Experience developing technologies for geospatial modelling and analysis.",
-      "Privacy by design: your data stays in your browser."
+      "Development of technologies for geospatial modelling and analysis.",
+      "Technical and scientific rigour at every stage: from producing the data to analysing and communicating the results."
     ]
   },
   "purpose": {
     "eyebrow": "Purpose",
-    "title": "Geographic information with more reach and more impact",
-    "body": "Geographic data holds answers about health, production, the environment, security and the economy. But the impact of those answers depends on how many people can access and understand them. Our purpose is to make geographic information easier to access and to consume, so it reaches further and changes more decisions."
+    "title": "Shortening the path from data to decision",
+    "body": "Geographic data holds answers about health, production, the environment, security and the economy, but those answers only make an impact when someone can see them. Our purpose is to make that moment of discovery easier: to make it simpler to extract, understand and consume the information data holds, so every insight reaches further and informs more decisions."
   },
   "values": {
     "eyebrow": "Values",
@@ -82,7 +111,7 @@
       },
       {
         "title": "Adaptation",
-        "body": "A flexible platform that adapts to different data types, fields of work and visualisation needs, and keeps evolving."
+        "body": "A flexible platform that adapts to different data types, sectors and analysis needs, and keeps evolving."
       },
       {
         "title": "Revitalisation",
@@ -92,74 +121,74 @@
   },
   "platform": {
     "eyebrow": "How it works",
-    "title": "From file to interactive app, simply.",
-    "body": "Our goal is for the path from your file to an interactive app to be short, fast and free of technical know-how. It all happens in your browser.",
+    "title": "From data to decision, in three stages.",
+    "body": "Whether it's your company's database, a geographic file or data that still needs to be produced, the method is the same: structure, analyse and communicate, with rigour at every stage.",
     "cta": "Join the beta",
     "steps": [
       {
-        "title": "Open your file",
-        "body": "Select the file on your computer. It is read in your browser and never leaves your machine."
+        "title": "Data",
+        "body": "We start from your databases, files and spreadsheets, or support producing the data you need."
       },
       {
-        "title": "Shape the data",
-        "body": "Choose how to present it: map, charts and tables arranged to tell what matters."
+        "title": "Information",
+        "body": "Exploration, cross-referencing and spatial analysis turn records into indicators and patterns."
       },
       {
-        "title": "Explore and share",
-        "body": "Browse the results and, if you want, share — only when and with whom you decide."
+        "title": "Decision",
+        "body": "Results reach decision-makers as maps, dashboards and interactive apps, shared with whoever you choose."
       }
     ]
   },
   "services": {
     "eyebrow": "Benefits",
-    "title": "What changes when your data becomes an interactive app",
-    "intro": "Less time preparing material, more impact for what you found.",
+    "title": "What changes when analysis accounts for place",
+    "intro": "Less time preparing data, more time understanding and deciding.",
     "items": [
       {
-        "title": "Impress in the presentation",
-        "body": "An interactive app, with zoom, layers and details on click for every element, shows far more than any screenshot or PDF."
+        "title": "Better-grounded decisions",
+        "body": "Spatial analysis and clear indicators show where risks and opportunities lie, based on evidence."
       },
       {
-        "title": "Discover more in your data",
-        "body": "Charts and tables built from the attributes reveal distributions, comparisons and patterns a map alone can't show."
+        "title": "Patterns spreadsheets don't reveal",
+        "body": "Concentrations, trends and neighbourhood relationships emerge when data gains a map and context."
       },
       {
-        "title": "No information gets lost",
-        "body": "Every attribute in the file is available to query, sort and filter, by you and by whoever you invite."
+        "title": "A shared view",
+        "body": "Teams, clients and partners access the same information in the browser, without emailing files around."
       },
       {
-        "title": "Tell the story of the territory",
-        "body": "Build a step-by-step narrative with text, images and camera moves on the map to guide readers to the conclusion."
+        "title": "Clear communication for decision-makers",
+        "body": "Maps, dashboards and interactive apps translate technical analysis into a direct reading the audience can explore on its own."
       },
       {
-        "title": "Your data, under your control",
-        "body": "Your data stays in your browser. Sending anything outside it is your decision, taken explicitly and with your authorisation."
+        "title": "Data privacy and control",
+        "body": "You decide where your data lives: in your organisation's isolated environment or, when you prefer, processed right in your browser without leaving your machine. Nothing is shared without your authorisation."
       },
       {
-        "title": "No technical barrier",
-        "body": "Creators don't need to code. Viewers don't need to install GIS software."
+        "title": "Accessible to non-specialists",
+        "body": "Analysts don't need to code. Viewers don't need to install GIS software."
       }
     ]
   },
   "useCases": {
     "eyebrow": "Who it's for",
-    "title": "If you have geographic data, you have an app waiting",
+    "title": "For organisations that make decisions about places",
     "items": [
       {
-        "title": "You're a geo analyst",
-        "body": "Present your analysis in an interactive app instead of screenshots and PDFs. Your client explores, and your work gets the spotlight it deserves."
+        "title": "Analysts and geo professionals",
+        "body": "Faster analysis and results delivered as maps and interactive apps that showcase the technical work."
       },
       {
-        "title": "You lead a company or a team",
-        "body": "Bring locations, areas and territorial indicators to the meeting or the report and decide with everyone looking at the same map."
+        "title": "Companies, sales and expansion teams",
+        "body": "Understand where your customers, your locations and the best market opportunities are, with the whole team working from the same base."
       },
       {
-        "title": "You work in agriculture or the environment",
-        "body": "Properties, protected areas, vegetation cover, deforestation: present the cartography of your work to producers, agencies, funders and communities."
+        "title": "Agriculture and the environment",
+        "body": "Properties, protected areas, vegetation cover and deforestation: analyse the territory and present results to producers, agencies, funders and communities."
       },
       {
-        "title": "You work in health, security, the economy or public policy",
-        "body": "Cases, incidents, facilities, regional indicators: an interactive map conveys in seconds what a table takes pages to explain."
+        "title": "Public sector, health, security and economy",
+        "body": "Cases, incidents, facilities and regional indicators: an interactive map communicates in seconds what a table takes pages to explain, and helps prioritise where to act."
       }
     ]
   },
@@ -168,28 +197,36 @@
     "title": "Before you start",
     "items": [
       {
-        "q": "Does my data leave my computer?",
-        "a": "No, unless you ask and authorise it. Your data is processed in your browser and only goes to our servers if you explicitly request it, for example to share."
+        "q": "What is BI+?",
+        "a": "It is business intelligence plus the geographic component: the \"plus\" is GIS. Beyond answering how much and when, the analysis also answers where, and takes into account proximity and neighbourhood relationships between customers, locations, incidents and the surrounding territory."
+      },
+      {
+        "q": "My data isn't organised yet. Can you help?",
+        "a": "Yes. We support surveying, organising and qualifying geographic datasets, so the analysis starts from consistent data."
+      },
+      {
+        "q": "Where does my data live?",
+        "a": "You choose. Data can stay in your organisation's environment, isolated and access-controlled, or, in solutions such as apps created from files, be processed only in your browser, without leaving your machine. Nothing is shared without your authorisation."
       },
       {
         "q": "Do I need to know GIS or how to code?",
-        "a": "No. You open the file and the platform builds the interactive app. Whoever accesses it only needs a browser."
+        "a": "No. The platform is designed for people who need answers, not tools to configure. Anyone viewing the result only needs a browser."
       },
       {
-        "q": "Which file formats are supported?",
-        "a": "The formats most used in geoprocessing. The full list will be announced at launch, and you can tell us which format you're missing."
+        "q": "Does the platform replace my GIS?",
+        "a": "Not necessarily. It complements tools such as QGIS and ArcGIS: your team keeps using what it already knows and relies on Coordenada Geo to analyse, integrate and communicate more easily."
       },
       {
-        "q": "How does sharing work?",
-        "a": "Sharing is optional and always your decision. Details of the sharing options will be announced at launch."
+        "q": "Which data formats are supported?",
+        "a": "The formats most used in geoprocessing, plus spreadsheets with coordinates. The full list will be published at launch, and you can tell us which formats you need."
       },
       {
-        "q": "Does it work for any field?",
-        "a": "Yes. Agriculture and the environment have a strong culture of geographic data, but the same goes for health, security, the economy, logistics and the public sector: where there is territory, there is something to show."
+        "q": "Does it work for any sector?",
+        "a": "Yes. Agriculture and the environment have a strong tradition with geographic data, but the same applies to retail, commercial expansion, health, security, logistics and the public sector: wherever there is territory, there is something to discover."
       },
       {
         "q": "How much does it cost?",
-        "a": "The platform is in beta. Terms will be announced at launch, and beta users talk directly with the team and help shape the product."
+        "a": "The platform is in beta. Terms for each solution will be announced at launch, and beta participants talk directly with the team and help shape the product."
       }
     ]
   },
@@ -206,15 +243,18 @@
   "contact": {
     "eyebrow": "Beta",
     "title": "Ready to wow and win people over with your data?",
-    "body": "We're opening the beta to our first users. Tell us what you want to show and we'll let you know when it's your turn.",
+    "body": "We're opening the beta to our first organisations. Tell us what data you have, or need to have, and what you want to discover with it. We'll get back to you with next steps.",
     "emailCta": "Join the beta",
     "whatsappCta": "Chat on WhatsApp"
   },
   "footer": {
-    "tagline": "We turn geographic data into insights. Interactive web apps with maps, charts and tables, with your data protected in your browser.",
+    "tagline": "We turn geographic data into insights. Business intelligence with geographic data (BI+) to produce, analyse and communicate location information, with you in control of your data.",
     "product": "Platform",
     "connect": "Connect",
-    "rights": "All rights reserved."
+    "rights": "All rights reserved.",
+    "location": "Where we are",
+    "city": "Santa Catarina · Brazil",
+    "mapLabel": "Interactive map showing Coordenada Geo in Florianópolis, Brazil"
   },
   "notFound": {
     "eyebrow": "Error 404",
@@ -231,7 +271,7 @@
       "eyebrow": "Coming soon",
       "status": "In development",
       "title": "The platform is almost ready",
-      "body": "You open a geographic file and the platform turns it into an interactive web app with maps, charts and tables, right in your browser. We're finishing the last details and opening access to our first users in stages. Get in touch to join the beta and hear when it's your turn.",
+      "body": "We're finishing Coordenada Geo's geographic intelligence platform: spatial analysis, collaborative maps and interactive apps to explore, analyse and share geographic data. Access is opening to our first users in stages. Get in touch to join the beta and hear when it's your turn.",
       "eta": "Launch plan: on-demand access opening in stages.",
       "steps": [
         {

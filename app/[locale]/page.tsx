@@ -4,20 +4,27 @@ import {
   Mail,
   MessageCircle,
   Map,
+  MapPin,
+  Radar,
+  Layers,
+  Quote,
   BarChart3,
-  Table2,
-  BookOpen,
-  Share2,
-  FileUp,
   Microscope,
-  Presentation,
-  FolderOpen,
-  Shuffle,
-  SlidersHorizontal,
-  Compass,
+  AppWindow,
+  Users,
   Building2,
+  Database,
+  Lightbulb,
+  ShieldCheck,
+  Search,
+  Presentation,
+  Sparkles,
+  Zap,
+  Shuffle,
+  Compass,
+  TrendingUp,
   Leaf,
-  HeartPulse,
+  Landmark,
   Target,
   Handshake,
   HeartHandshake,
@@ -29,10 +36,11 @@ import { SITE, getAppHref, isAppExternal } from '@/lib/site';
 import { getPosts, type PostMeta } from '@/lib/blog';
 import type { Locale } from '@/i18n';
 
-const problemIcons = [Microscope, Presentation, Share2];
-const stepIcons = [FolderOpen, SlidersHorizontal, Share2];
-const serviceIcons = [Map, BarChart3, Table2, BookOpen, Share2, FileUp];
-const useCaseIcons = [Compass, Building2, Leaf, HeartPulse];
+const problemIcons = [MapPin, Radar, Target];
+const solutionIcons = [Layers, Microscope, AppWindow, Users, Building2];
+const stepIcons = [Database, BarChart3, Lightbulb];
+const serviceIcons = [Zap, Search, Map, Presentation, ShieldCheck, Sparkles];
+const useCaseIcons = [Compass, TrendingUp, Leaf, Landmark];
 const valueIcons = [Target, Handshake, Shuffle, HeartHandshake];
 
 type Messages = typeof import('@/messages/pt.json');
@@ -56,20 +64,31 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
               <Button href={getAppHref(locale)} variant="primary" external={isAppExternal()}>
                 {messages.hero.primaryCta} <ArrowRight className="h-4 w-4" />
               </Button>
-              <Button href="#platform" variant="secondary">
+              <Button href="#solutions" variant="secondary">
                 {messages.hero.secondaryCta}
               </Button>
             </div>
-            <p className="mt-5 text-sm text-ink-400 dark:text-sand-light/70">{messages.hero.note}</p>
           </div>
         </div>
       </section>
 
-      {/* Value (do dado ao impacto) */}
+      {/* BI+G (business intelligence com dados geográficos) */}
       <Section id="problem" tone="light">
-        <div className="max-w-3xl">
-          <p className="eyebrow">{messages.problem.eyebrow}</p>
-          <h2 className="heading-lg mt-3">{messages.problem.title}</h2>
+        <div className="grid gap-10 lg:grid-cols-12 lg:items-center">
+          <div className="lg:col-span-7">
+            <p className="eyebrow">{messages.problem.eyebrow}</p>
+            <h2 className="heading-lg mt-3">{messages.problem.title}</h2>
+            <p className="mt-5 text-lg text-ink-400 dark:text-sand-light/90">{messages.problem.body}</p>
+          </div>
+          <figure className="lg:col-span-5 rounded-3xl border-l-4 border-terracota bg-sand-light p-6 dark:border-ocre dark:bg-white/[0.06]">
+            <Quote className="h-6 w-6 text-terracota dark:text-ocre" aria-hidden />
+            <blockquote className="mt-3 font-display text-xl font-bold leading-snug text-ink dark:text-sand-light">
+              {messages.problem.quote}
+            </blockquote>
+            <figcaption className="mt-4 text-sm text-ink-400 dark:text-sand-light/80">
+              {messages.problem.quoteAuthor}
+            </figcaption>
+          </figure>
         </div>
         <div className="mt-10 grid gap-5 md:grid-cols-3">
           {messages.problem.items.map((it: { title: string; body: string }, i: number) => {
@@ -80,6 +99,29 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
         <p className="mt-10 max-w-3xl font-display text-xl font-bold text-ink dark:text-sand-light">
           {messages.problem.closing}
         </p>
+      </Section>
+
+      {/* Solutions (Plataforma -> Soluções) */}
+      <Section id="solutions" tone="sand">
+        <div className="max-w-2xl">
+          <p className="eyebrow">{messages.solutions.eyebrow}</p>
+          <h2 className="heading-lg mt-3">{messages.solutions.title}</h2>
+          <p className="mt-4 text-lg text-ink-400 dark:text-sand-light/90">{messages.solutions.intro}</p>
+        </div>
+        <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-6">
+          {messages.solutions.items.map((it: { title: string; body: string }, i: number) => {
+            const Icon = solutionIcons[i % solutionIcons.length];
+            return (
+              <Card
+                key={it.title}
+                title={it.title}
+                body={it.body}
+                icon={<Icon className="h-5 w-5" />}
+                className={i < 3 ? 'lg:col-span-2' : 'lg:col-span-3'}
+              />
+            );
+          })}
+        </div>
       </Section>
 
       {/* Platform (Plataforma -> Como funciona) */}
