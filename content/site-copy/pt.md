@@ -28,9 +28,6 @@ Sobre
 - Propósito
 - Valores
 
-**[Item "Capacidades"]**
-Capacidades
-
 **[Item "Conteúdo"]**
 Conteúdo
 
@@ -57,40 +54,27 @@ Somos especialistas em análise de informações geográficas: sensoriamento rem
 Ver estudos de caso
 
 **[Botão secundário]**
-Conhecer as capacidades
+Conhecer a empresa
 
 ---
 
-## 2. Capacidades
+## 2. Quem somos
 
 **[Chamada]**
-Capacidades
+Quem somos
 
 **[Título]**
-Tecnologia da informação geoespacial
+Mais de vinte anos de geoprocessamento.
 
-**[Parágrafo]**
+**[Parágrafo 1]**
+A equipe da Coordenada Geo reúne mais de vinte anos de experiência com geoprocessamento e com o desenvolvimento de tecnologias para modelagem e análise em sistemas de informações geográficas.
+
+**[Parágrafo 2]**
 Combinamos imagens de satélite, dados de campo, análise estatística e tecnologia da informação para entender as mudanças no uso da terra e seus impactos ambientais, sociais e econômicos, gerando informações que fazem a diferença na hora de decidir.
 
 ---
 
-## 3. Estudos de caso (chamada para a plataforma)
-
-**[Chamada]**
-Estudos de caso
-
-**[Título]**
-Veja as capacidades em projetos
-
-**[Texto]**
-A plataforma da Coordenada Geo reúne estudos de caso e projetos do nosso portfólio, com mapas e análises interativas. O acesso é gratuito.
-
-**[Botão]**
-Acessar a plataforma
-
----
-
-## 4. Propósito
+## 3. Propósito
 
 **[Chamada]**
 Propósito
@@ -103,29 +87,7 @@ Dados geográficos guardam respostas sobre saúde, produção, meio ambiente, se
 
 ---
 
-## 5. Quem somos
-
-**[Chamada]**
-Quem somos
-
-**[Título]**
-Mais de vinte anos de geoprocessamento.
-
-**[Texto]**
-A equipe da Coordenada Geo reúne mais de vinte anos de experiência com geoprocessamento e com o desenvolvimento de tecnologias para modelagem e análise em sistemas de informações geográficas. Aplicamos esse conhecimento à análise de informações geográficas, com rigor técnico-científico e comunicação clara para quem não é especialista.
-
-**[Destaque 1]**
-Mais de 20 anos de experiência em geoprocessamento e sistemas de informações geográficas.
-
-**[Destaque 2]**
-Desenvolvimento de tecnologias para modelagem e análise geoespacial.
-
-**[Destaque 3]**
-Rigor técnico-científico em cada etapa: da produção do dado à análise e à comunicação dos resultados.
-
----
-
-## 6. Valores
+## 4. Valores
 
 **[Chamada]**
 Valores
@@ -228,8 +190,8 @@ A página que você procura pode ter sido movida, renomeada ou ainda não foi pu
 **[Botão voltar para home]**
 Voltar para a home
 
-**[Botão capacidades]**
-Conhecer as capacidades
+**[Botão empresa]**
+Conhecer a empresa
 
 **[Botão blog]**
 Ver o blog

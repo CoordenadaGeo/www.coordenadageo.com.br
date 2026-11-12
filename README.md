@@ -40,7 +40,7 @@ npx serve out      # serve o build local para validar
 app/
   [locale]/
     layout.tsx       # chrome (Header/Footer/i18n/GA)
-    page.tsx         # home (Hero, Capacidades, Estudos de caso, Propósito, Quem somos, Valores, Blog)
+    page.tsx         # home (Hero, Quem somos, Propósito, Valores, Blog)
     blog/
       page.tsx       # listagem de posts
       [slug]/page.tsx

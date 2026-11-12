@@ -16,41 +16,25 @@
     "content": "Conteúdo",
     "contact": "Contato",
     "openApp": "Acessar plataforma",
-    "toggleTheme": "Alternar tema",
-    "capabilities": "Capacidades"
+    "toggleTheme": "Alternar tema"
   },
   "hero": {
     "eyebrow": "Para quem vê beleza nos dados geográficos",
     "title": "Transformamos dados geográficos em eureka.",
     "subtitle": "Somos especialistas em análise de informações geográficas: sensoriamento remoto e geoprocessamento aplicados ao território e ao meio ambiente, com rigor técnico-científico e uma comunicação clara para quem decide.",
     "primaryCta": "Ver estudos de caso",
-    "secondaryCta": "Conhecer as capacidades"
+    "secondaryCta": "Conhecer a empresa"
   },
-  "capabilities": {
-    "eyebrow": "Capacidades",
-    "title": "Tecnologia da informação geoespacial",
-    "body": "Combinamos imagens de satélite, dados de campo, análise estatística e tecnologia da informação para entender as mudanças no uso da terra e seus impactos ambientais, sociais e econômicos, gerando informações que fazem a diferença na hora de decidir."
-  },
-  "cases": {
-    "eyebrow": "Estudos de caso",
-    "title": "Veja as capacidades em projetos",
-    "body": "A plataforma da Coordenada Geo reúne estudos de caso e projetos do nosso portfólio, com mapas e análises interativas. O acesso é gratuito.",
-    "cta": "Acessar a plataforma"
+  "about": {
+    "eyebrow": "Quem somos",
+    "title": "Mais de vinte anos de geoprocessamento.",
+    "body": "A equipe da Coordenada Geo reúne mais de vinte anos de experiência com geoprocessamento e com o desenvolvimento de tecnologias para modelagem e análise em sistemas de informações geográficas.",
+    "body2": "Combinamos imagens de satélite, dados de campo, análise estatística e tecnologia da informação para entender as mudanças no uso da terra e seus impactos ambientais, sociais e econômicos, gerando informações que fazem a diferença na hora de decidir."
   },
   "purpose": {
     "eyebrow": "Propósito",
     "title": "Encurtar o caminho entre o dado e a decisão",
     "body": "Dados geográficos guardam respostas sobre saúde, produção, meio ambiente, segurança e economia, mas essas respostas só geram impacto quando alguém consegue enxergá-las. Nosso propósito é facilitar esse momento de descoberta: tornar mais simples extrair, compreender e consumir a informação que os dados guardam, para que cada insight chegue mais longe e qualifique mais decisões."
-  },
-  "about": {
-    "eyebrow": "Quem somos",
-    "title": "Mais de vinte anos de geoprocessamento.",
-    "body": "A equipe da Coordenada Geo reúne mais de vinte anos de experiência com geoprocessamento e com o desenvolvimento de tecnologias para modelagem e análise em sistemas de informações geográficas. Aplicamos esse conhecimento à análise de informações geográficas, com rigor técnico-científico e comunicação clara para quem não é especialista.",
-    "bullets": [
-      "Mais de 20 anos de experiência em geoprocessamento e sistemas de informações geográficas.",
-      "Desenvolvimento de tecnologias para modelagem e análise geoespacial.",
-      "Rigor técnico-científico em cada etapa: da produção do dado à análise e à comunicação dos resultados."
-    ]
   },
   "values": {
     "eyebrow": "Valores",
@@ -99,7 +83,7 @@
     "title": "Essa coordenada não existe no nosso mapa",
     "body": "A página que você procura pode ter sido movida, renomeada ou ainda não foi publicada. Use os atalhos abaixo para voltar ao território conhecido.",
     "cta": "Voltar para a home",
-    "secondaryCta": "Conhecer as capacidades",
+    "secondaryCta": "Conhecer a empresa",
     "blogCta": "Ver o blog",
     "illustrationLabel": "Ilustração de uma coordenada não localizada"
   },

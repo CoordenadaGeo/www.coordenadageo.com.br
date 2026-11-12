@@ -40,8 +40,8 @@ export default function Footer({ locale }: { locale: Locale }) {
           </h4>
           <ul className="mt-3 space-y-2 text-sm text-ink-100">
             <li>
-              <Link href={`${base}/#capabilities`} className="hover:text-white">
-                {t('nav.capabilities')}
+              <Link href={`${base}/#about`} className="hover:text-white">
+                {t('nav.about.items.who')}
               </Link>
             </li>
             <li>

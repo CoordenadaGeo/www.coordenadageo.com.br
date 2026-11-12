@@ -13,7 +13,7 @@ export default function LocaleNotFound() {
       body={t('body')}
       homeHref={`${base}/`}
       homeLabel={t('cta')}
-      secondaryHref={`${base}/#capabilities`}
+      secondaryHref={`${base}/#about`}
       secondaryLabel={t('secondaryCta')}
       tertiaryHref={`${base}/blog/`}
       tertiaryLabel={t('blogCta')}

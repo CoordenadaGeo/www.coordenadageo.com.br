@@ -16,41 +16,25 @@
     "content": "Content",
     "contact": "Contact",
     "openApp": "Open platform",
-    "toggleTheme": "Toggle theme",
-    "capabilities": "Capabilities"
+    "toggleTheme": "Toggle theme"
   },
   "hero": {
     "eyebrow": "For those who see beauty in geographic data",
     "title": "We turn geographic data into eureka.",
     "subtitle": "We specialise in geographic information analysis: remote sensing and geoprocessing applied to land and the environment, with technical and scientific rigour and clear communication for decision-makers.",
     "primaryCta": "See case studies",
-    "secondaryCta": "Explore our capabilities"
+    "secondaryCta": "About the company"
   },
-  "capabilities": {
-    "eyebrow": "Capabilities",
-    "title": "Geospatial information technology",
-    "body": "We combine satellite imagery, field data, statistical analysis and information technology to understand land-use change and its environmental, social and economic impacts, producing information that makes a difference when it's time to decide."
-  },
-  "cases": {
-    "eyebrow": "Case studies",
-    "title": "See our capabilities in projects",
-    "body": "Coordenada Geo's platform brings together case studies and projects from our portfolio, with interactive maps and analysis. Access is free.",
-    "cta": "Open the platform"
+  "about": {
+    "eyebrow": "Who we are",
+    "title": "Over twenty years of geoprocessing.",
+    "body": "The Coordenada Geo team brings over twenty years of experience in geoprocessing and in developing modelling and analysis technologies for geographic information systems.",
+    "body2": "We combine satellite imagery, field data, statistical analysis and information technology to understand land-use change and its environmental, social and economic impacts, producing information that makes a difference when it's time to decide."
   },
   "purpose": {
     "eyebrow": "Purpose",
     "title": "Shortening the path from data to decision",
     "body": "Geographic data holds answers about health, production, the environment, security and the economy, but those answers only make an impact when someone can see them. Our purpose is to make that moment of discovery easier: to make it simpler to extract, understand and consume the information data holds, so every insight reaches further and informs more decisions."
-  },
-  "about": {
-    "eyebrow": "Who we are",
-    "title": "Over twenty years of geoprocessing.",
-    "body": "The Coordenada Geo team brings over twenty years of experience in geoprocessing and in developing modelling and analysis technologies for geographic information systems. We apply that knowledge to geographic information analysis, with technical and scientific rigour and clear communication for non-specialists.",
-    "bullets": [
-      "Over 20 years of experience in geoprocessing and geographic information systems.",
-      "Development of technologies for geospatial modelling and analysis.",
-      "Technical and scientific rigour at every stage: from producing the data to analysing and communicating the results."
-    ]
   },
   "values": {
     "eyebrow": "Values",
@@ -99,7 +83,7 @@
     "title": "This coordinate is off our map",
     "body": "The page you are looking for may have been moved, renamed or has not been published yet. Use the shortcuts below to get back to familiar territory.",
     "cta": "Back to home",
-    "secondaryCta": "Explore our capabilities",
+    "secondaryCta": "About the company",
     "blogCta": "Read the blog",
     "illustrationLabel": "Illustration of an unlocated coordinate"
   },

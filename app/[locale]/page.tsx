@@ -36,51 +36,13 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
               <Button href={getAppHref(locale)} variant="primary" external={isAppExternal()}>
                 {messages.hero.primaryCta} <ArrowRight className="h-4 w-4" />
               </Button>
-              <Button href="#capabilities" variant="secondary">
+              <Button href="#about" variant="secondary">
                 {messages.hero.secondaryCta}
               </Button>
             </div>
           </div>
         </div>
       </section>
-
-      {/* Capacidades */}
-      <Section id="capabilities" tone="light">
-        <div className="grid gap-8 lg:grid-cols-12 lg:items-start">
-          <div className="lg:col-span-5">
-            <p className="eyebrow">{messages.capabilities.eyebrow}</p>
-            <h2 className="heading-lg mt-3">{messages.capabilities.title}</h2>
-          </div>
-          <p className="font-display text-xl leading-relaxed text-ink dark:text-sand-light lg:col-span-7 lg:text-2xl">
-            {messages.capabilities.body}
-          </p>
-        </div>
-      </Section>
-
-      {/* Estudos de caso (plataforma) */}
-      <Section id="cases" tone="ink">
-        <div className="mx-auto max-w-3xl text-center">
-          <p className="eyebrow">{messages.cases.eyebrow}</p>
-          <h2 className="mt-3 font-display text-3xl font-bold tracking-tight text-white sm:text-4xl">
-            {messages.cases.title}
-          </h2>
-          <p className="mt-5 text-lg text-ink-100">{messages.cases.body}</p>
-          <div className="mt-8">
-            <Button href={getAppHref(locale)} variant="onDark" external={isAppExternal()}>
-              {messages.cases.cta} <ArrowRight className="h-4 w-4" />
-            </Button>
-          </div>
-        </div>
-      </Section>
-
-      {/* Purpose (Sobre -> Propósito) */}
-      <Section id="purpose" tone="moss">
-        <div className="mx-auto max-w-3xl text-center">
-          <p className="eyebrow">{messages.purpose.eyebrow}</p>
-          <h2 className="heading-lg mt-3">{messages.purpose.title}</h2>
-          <p className="mt-5 text-lg text-ink-400 dark:text-sand-light/90">{messages.purpose.body}</p>
-        </div>
-      </Section>
 
       {/* About (Sobre -> Quem somos) */}
       <Section id="about" tone="light">
@@ -91,15 +53,19 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
           </div>
           <div className="lg:col-span-7">
             <p className="text-lg text-ink-400 dark:text-sand-light/90">{messages.about.body}</p>
-            <ul className="mt-6 space-y-3 text-ink-700 dark:text-sand-light/90">
-              {messages.about.bullets.map((b: string) => (
-                <li key={b} className="flex gap-3">
-                  <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-terracota" />
-                  <span>{b}</span>
-                </li>
-              ))}
-            </ul>
+            <p className="mt-5 font-display text-xl leading-relaxed text-ink dark:text-sand-light">
+              {messages.about.body2}
+            </p>
           </div>
+        </div>
+      </Section>
+
+      {/* Purpose (Sobre -> Propósito) */}
+      <Section id="purpose" tone="moss">
+        <div className="mx-auto max-w-3xl text-center">
+          <p className="eyebrow">{messages.purpose.eyebrow}</p>
+          <h2 className="heading-lg mt-3">{messages.purpose.title}</h2>
+          <p className="mt-5 text-lg text-ink-400 dark:text-sand-light/90">{messages.purpose.body}</p>
         </div>
       </Section>
 

@@ -23,7 +23,6 @@ export default function Header({ locale }: { locale: Locale }) {
         { label: t('about.items.values'), href: `${base}/#values` },
       ],
     },
-    { label: t('capabilities'), href: `${base}/#capabilities` },
     { label: t('content'), href: `${base}/blog/` },
     { label: t('contact'), href: `${base}/#contato` },
   ];
