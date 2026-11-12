@@ -40,13 +40,13 @@ export default function Footer({ locale }: { locale: Locale }) {
           </h4>
           <ul className="mt-3 space-y-2 text-sm text-ink-100">
             <li>
-              <Link href={`${base}/#solutions`} className="hover:text-white">
-                {t('nav.services.items.offer')}
+              <Link href={`${base}/#capabilities`} className="hover:text-white">
+                {t('nav.capabilities')}
               </Link>
             </li>
             <li>
-              <Link href={`${base}/#platform`} className="hover:text-white">
-                {t('nav.services.items.platform')}
+              <Link href={`${base}/blog/`} className="hover:text-white">
+                {t('nav.content')}
               </Link>
             </li>
             <li>
@@ -61,7 +61,7 @@ export default function Footer({ locale }: { locale: Locale }) {
             </li>
           </ul>
         </div>
-        <div>
+        <div id="contato" className="scroll-mt-24">
           <h4 className="text-xs font-semibold uppercase tracking-[0.2em] text-ocre">
             {t('footer.connect')}
           </h4>

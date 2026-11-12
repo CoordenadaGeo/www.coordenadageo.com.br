@@ -1,8 +1,8 @@
 {
   "site": {
     "name": "Coordenada Geo",
-    "tagline": "Transformamos dados geográficos em insights",
-    "description": "A Coordenada Geo é uma empresa de inteligência geográfica: unimos business intelligence e dados geográficos (BI+) para produzir, analisar e comunicar dados de localização com rigor técnico-científico, por meio de análise espacial, mapas colaborativos e apps interativos sem código."
+    "tagline": "Sensoriamento remoto e geoprocessamento",
+    "description": "Análise de informações geográficas com rigor técnico-científico: sensoriamento remoto e geoprocessamento aplicados ao território e ao meio ambiente."
   },
   "nav": {
     "about": {
@@ -13,89 +13,44 @@
         "values": "Valores"
       }
     },
-    "services": {
-      "label": "Plataforma",
-      "items": {
-        "platform": "Como funciona",
-        "offer": "Soluções",
-        "useCases": "Para quem"
-      }
-    },
     "content": "Conteúdo",
     "contact": "Contato",
     "openApp": "Acessar plataforma",
-    "toggleTheme": "Alternar tema"
+    "toggleTheme": "Alternar tema",
+    "capabilities": "Capacidades"
   },
   "hero": {
     "eyebrow": "Para quem vê beleza nos dados geográficos",
     "title": "Transformamos dados geográficos em eureka.",
-    "subtitle": "Inteligência geográfica para empresas e instituições: produzimos, analisamos e comunicamos dados de localização com rigor técnico-científico, em uma plataforma que coloca mapas, indicadores e análises espaciais ao alcance de quem decide, sem exigir conhecimento especializado em SIG.",
-    "primaryCta": "Quero participar do beta",
-    "secondaryCta": "Conhecer as soluções"
+    "subtitle": "Somos especialistas em análise de informações geográficas: sensoriamento remoto e geoprocessamento aplicados ao território e ao meio ambiente, com rigor técnico-científico e uma comunicação clara para quem decide.",
+    "primaryCta": "Ver estudos de caso",
+    "secondaryCta": "Conhecer as capacidades"
   },
-  "problem": {
-    "eyebrow": "BI+: business intelligence com dados geográficos",
-    "title": "Toda decisão acontece em algum lugar.",
-    "body": "Indicadores de negócio ganham outra leitura quando se sabe onde eles acontecem. Ao incorporar a dimensão geográfica ao business intelligence, relações de proximidade, concentração e vizinhança passam a fazer parte da análise e explicam o que tabelas e gráficos convencionais não mostram.",
-    "quote": "Todas as coisas estão relacionadas com todas as outras, mas coisas próximas estão mais relacionadas do que coisas distantes.",
-    "quoteAuthor": "Waldo Tobler, Primeira Lei da Geografia (1970)",
-    "items": [
-      {
-        "title": "Onde acontece",
-        "body": "Localize clientes, ativos, ocorrências e oportunidades no território e veja a distribuição real dos seus indicadores."
-      },
-      {
-        "title": "O que está por perto",
-        "body": "Relacione cada ponto ao seu entorno: concorrência, infraestrutura, população, uso do solo. A proximidade explica padrões."
-      },
-      {
-        "title": "Onde agir primeiro",
-        "body": "Priorize áreas, dimensione mercados e direcione recursos com base em evidências espaciais."
-      }
-    ],
-    "closing": "É isso que chamamos de BI+ (BI plus): business intelligence somado à dimensão que faltava, o lugar."
+  "capabilities": {
+    "eyebrow": "Capacidades",
+    "title": "Tecnologia da informação geoespacial",
+    "body": "Combinamos imagens de satélite, dados de campo, análise estatística e tecnologia da informação para entender as mudanças no uso da terra e seus impactos ambientais, sociais e econômicos, gerando informações que fazem a diferença na hora de decidir."
   },
-  "solutions": {
-    "eyebrow": "Soluções",
-    "title": "Soluções para cada etapa, do dado à decisão",
-    "intro": "Da produção do dado à comunicação dos resultados, você escolhe por onde começar e amplia conforme as necessidades da sua organização.",
-    "items": [
-      {
-        "title": "Produção e estruturação de dados geográficos",
-        "body": "Apoio técnico para levantar, organizar, padronizar e qualificar bases geográficas, com metodologia definida e controle de qualidade."
-      },
-      {
-        "title": "Inteligência de localização e análise espacial",
-        "body": "Cruze seus dados com outras bases, identifique padrões e áreas de oportunidade e responda onde atuar, investir ou intervir primeiro."
-      },
-      {
-        "title": "Apps de dados geográficos, sem código",
-        "body": "Transforme um arquivo geográfico em um app interativo com mapas, gráficos e tabelas, com a opção de processar tudo no navegador."
-      },
-      {
-        "title": "Mapas colaborativos na web",
-        "body": "Crie, organize e compartilhe mapas com equipes, clientes e parceiros, para que todos trabalhem sobre a mesma base de informação."
-      },
-      {
-        "title": "Plataforma geoespacial corporativa",
-        "body": "Um ambiente dedicado à sua organização para reunir dados geográficos, controlar permissões de acesso e integrar com os seus sistemas por API."
-      }
-    ]
-  },
-  "about": {
-    "eyebrow": "Quem somos",
-    "title": "Mais de vinte anos de geoprocessamento, agora em forma de plataforma.",
-    "body": "A equipe da Coordenada Geo reúne mais de vinte anos de experiência com geoprocessamento e com o desenvolvimento de tecnologias para modelagem e análise em sistemas de informações geográficas. Levamos esse conhecimento a uma plataforma e a serviços que trazem o rigor da análise geoespacial para empresas, instituições e analistas, com uma comunicação clara para quem não é especialista.",
-    "bullets": [
-      "Mais de 20 anos de experiência em geoprocessamento e sistemas de informações geográficas.",
-      "Desenvolvimento de tecnologias para modelagem e análise geoespacial.",
-      "Rigor técnico-científico em cada etapa: da produção do dado à análise e à comunicação dos resultados."
-    ]
+  "cases": {
+    "eyebrow": "Estudos de caso",
+    "title": "Veja as capacidades em projetos",
+    "body": "A plataforma da Coordenada Geo reúne estudos de caso e projetos do nosso portfólio, com mapas e análises interativas. O acesso é gratuito.",
+    "cta": "Acessar a plataforma"
   },
   "purpose": {
     "eyebrow": "Propósito",
     "title": "Encurtar o caminho entre o dado e a decisão",
     "body": "Dados geográficos guardam respostas sobre saúde, produção, meio ambiente, segurança e economia, mas essas respostas só geram impacto quando alguém consegue enxergá-las. Nosso propósito é facilitar esse momento de descoberta: tornar mais simples extrair, compreender e consumir a informação que os dados guardam, para que cada insight chegue mais longe e qualifique mais decisões."
+  },
+  "about": {
+    "eyebrow": "Quem somos",
+    "title": "Mais de vinte anos de geoprocessamento.",
+    "body": "A equipe da Coordenada Geo reúne mais de vinte anos de experiência com geoprocessamento e com o desenvolvimento de tecnologias para modelagem e análise em sistemas de informações geográficas. Aplicamos esse conhecimento à análise de informações geográficas, com rigor técnico-científico e comunicação clara para quem não é especialista.",
+    "bullets": [
+      "Mais de 20 anos de experiência em geoprocessamento e sistemas de informações geográficas.",
+      "Desenvolvimento de tecnologias para modelagem e análise geoespacial.",
+      "Rigor técnico-científico em cada etapa: da produção do dado à análise e à comunicação dos resultados."
+    ]
   },
   "values": {
     "eyebrow": "Valores",
@@ -107,126 +62,15 @@
       },
       {
         "title": "Colaboração",
-        "body": "Construímos o produto junto com quem o usa, ouvindo analistas, empresas e usuários para evoluir a plataforma no que realmente importa."
+        "body": "Trabalhamos junto com clientes, parceiros e especialistas de outras áreas, ouvindo quem vai usar a informação para que a análise responda ao que realmente importa."
       },
       {
         "title": "Adaptação",
-        "body": "Uma plataforma flexível, que se adapta a diferentes tipos de dado, setores e necessidades de análise, e evolui continuamente."
+        "body": "Métodos e soluções que se adaptam a diferentes tipos de dado, setores e necessidades de análise, e evoluem continuamente."
       },
       {
         "title": "Revitalização",
         "body": "Priorizamos usos que geram impacto positivo em pessoas, ecossistemas e territórios."
-      }
-    ]
-  },
-  "platform": {
-    "eyebrow": "Como funciona",
-    "title": "Do dado à decisão, em três etapas.",
-    "body": "Seja uma base da sua empresa, um arquivo geográfico ou um dado que ainda precisa ser produzido, o método é o mesmo: estruturar, analisar e comunicar, com rigor em cada etapa.",
-    "cta": "Quero participar do beta",
-    "steps": [
-      {
-        "title": "Dado",
-        "body": "Partimos das suas bases, arquivos e planilhas, ou apoiamos a produção dos dados de que você precisa."
-      },
-      {
-        "title": "Informação",
-        "body": "Exploração, cruzamento e análise espacial transformam registros em indicadores e padrões."
-      },
-      {
-        "title": "Decisão",
-        "body": "Os resultados chegam a quem decide em mapas, painéis e apps interativos, compartilhados com quem você escolher."
-      }
-    ]
-  },
-  "services": {
-    "eyebrow": "Benefícios",
-    "title": "O que muda quando a análise considera o território",
-    "intro": "Menos tempo preparando dados, mais tempo compreendendo e decidindo.",
-    "items": [
-      {
-        "title": "Decisões mais bem fundamentadas",
-        "body": "Análises espaciais e indicadores claros mostram onde estão riscos e oportunidades, com base em evidências."
-      },
-      {
-        "title": "Padrões que as planilhas não revelam",
-        "body": "Concentrações, tendências e relações de vizinhança aparecem quando os dados ganham mapa e contexto."
-      },
-      {
-        "title": "Uma visão compartilhada",
-        "body": "Equipes, clientes e parceiros acessam a mesma informação no navegador, sem troca de arquivos por e-mail."
-      },
-      {
-        "title": "Comunicação clara para quem decide",
-        "body": "Mapas, painéis e apps interativos traduzem análises técnicas em uma leitura direta, que o público pode explorar por conta própria."
-      },
-      {
-        "title": "Privacidade e controle dos dados",
-        "body": "Você decide onde seus dados ficam: no ambiente isolado da sua organização ou, quando preferir, processados direto no navegador, sem sair da sua máquina. Nada é compartilhado sem a sua autorização."
-      },
-      {
-        "title": "Acessível a quem não é especialista",
-        "body": "Quem analisa não precisa programar. Quem consulta não precisa instalar software de SIG."
-      }
-    ]
-  },
-  "useCases": {
-    "eyebrow": "Para quem",
-    "title": "Para organizações que decidem sobre o território",
-    "items": [
-      {
-        "title": "Analistas e profissionais de geo",
-        "body": "Mais agilidade nas análises e resultados entregues em mapas e apps interativos, que valorizam o trabalho técnico."
-      },
-      {
-        "title": "Empresas, equipes comerciais e de expansão",
-        "body": "Entenda onde estão seus clientes, suas unidades e as melhores oportunidades de mercado, com toda a equipe sobre a mesma base."
-      },
-      {
-        "title": "Agro e meio ambiente",
-        "body": "Propriedades, áreas protegidas, cobertura vegetal e desmatamento: analise o território e apresente os resultados a produtores, órgãos, financiadores e comunidades."
-      },
-      {
-        "title": "Setor público, saúde, segurança e economia",
-        "body": "Casos, ocorrências, equipamentos e indicadores regionais: um mapa interativo comunica em segundos o que uma tabela leva páginas para explicar e ajuda a priorizar onde agir."
-      }
-    ]
-  },
-  "faq": {
-    "eyebrow": "Perguntas frequentes",
-    "title": "Antes de começar",
-    "items": [
-      {
-        "q": "O que é BI+?",
-        "a": "É business intelligence somado à componente geográfica: o \"plus\" é o SIG. Além de responder quanto e quando, a análise passa a responder onde, e a considerar relações de proximidade e vizinhança entre clientes, unidades, ocorrências e o território ao redor."
-      },
-      {
-        "q": "Ainda não tenho dados organizados. Vocês podem ajudar?",
-        "a": "Sim. Apoiamos o levantamento, a organização e a qualificação de bases geográficas, para que a análise parta de dados consistentes."
-      },
-      {
-        "q": "Onde meus dados ficam?",
-        "a": "Você escolhe. Os dados podem ficar no ambiente da sua organização, isolado e com controle de acesso, ou, em soluções como os apps criados a partir de arquivos, ser processados apenas no seu navegador, sem sair da sua máquina. Nada é compartilhado sem a sua autorização."
-      },
-      {
-        "q": "Preciso saber usar SIG ou programar?",
-        "a": "Não. A plataforma foi pensada para quem precisa de respostas, não de ferramentas para configurar. Quem consulta o resultado só precisa de um navegador."
-      },
-      {
-        "q": "A plataforma substitui o meu SIG?",
-        "a": "Não necessariamente. Ela complementa ferramentas como QGIS e ArcGIS: sua equipe continua usando o que já conhece e conta com a Coordenada Geo para analisar, integrar e comunicar com mais facilidade."
-      },
-      {
-        "q": "Quais formatos de dados são aceitos?",
-        "a": "Os formatos mais usados em geoprocessamento e planilhas com coordenadas. A lista completa será divulgada no lançamento, e você pode nos indicar formatos de que precisa."
-      },
-      {
-        "q": "Funciona para qualquer setor?",
-        "a": "Sim. Agro e meio ambiente têm forte tradição em dados geográficos, mas o mesmo vale para varejo, expansão comercial, saúde, segurança, logística e setor público: onde há território, há o que descobrir."
-      },
-      {
-        "q": "Quanto custa?",
-        "a": "A plataforma está em fase de beta. As condições de cada solução serão divulgadas no lançamento, e quem participa do beta conversa diretamente com a equipe e contribui para a evolução do produto."
       }
     ]
   },
@@ -240,15 +84,8 @@
     "backToList": "Voltar para o blog",
     "publishedOn": "Publicado em"
   },
-  "contact": {
-    "eyebrow": "Beta",
-    "title": "Pronto para encantar e conquistar com seus dados?",
-    "body": "Estamos abrindo o beta para as primeiras organizações. Conte quais dados você tem, ou precisa ter, e o que quer descobrir com eles. Retornamos com os próximos passos.",
-    "emailCta": "Quero participar do beta",
-    "whatsappCta": "Falar no WhatsApp"
-  },
   "footer": {
-    "tagline": "Transformamos dados geográficos em insights. Business intelligence com dados geográficos (BI+) para produzir, analisar e comunicar informação de localização, com você no controle dos seus dados.",
+    "tagline": "Análise de informações geográficas com rigor técnico-científico: sensoriamento remoto e geoprocessamento aplicados ao território e ao meio ambiente.",
     "product": "Plataforma",
     "connect": "Conecte-se",
     "rights": "Todos os direitos reservados.",
@@ -262,7 +99,7 @@
     "title": "Essa coordenada não existe no nosso mapa",
     "body": "A página que você procura pode ter sido movida, renomeada ou ainda não foi publicada. Use os atalhos abaixo para voltar ao território conhecido.",
     "cta": "Voltar para a home",
-    "secondaryCta": "Conhecer a plataforma",
+    "secondaryCta": "Conhecer as capacidades",
     "blogCta": "Ver o blog",
     "illustrationLabel": "Ilustração de uma coordenada não localizada"
   },
@@ -271,23 +108,23 @@
       "eyebrow": "Em breve",
       "status": "Em desenvolvimento",
       "title": "A plataforma está quase pronta",
-      "body": "Estamos finalizando a plataforma de inteligência geográfica da Coordenada Geo: análise espacial, mapas colaborativos e apps interativos para explorar, analisar e compartilhar dados geográficos. Estamos abrindo o acesso aos primeiros usuários em etapas. Escreva para a gente para entrar no beta e ser avisado quando chegar a sua vez.",
-      "eta": "Previsão de abertura: primeiros acessos em etapas, sob demanda.",
+      "body": "Estamos adaptando a plataforma da Coordenada Geo para reunir estudos de caso e projetos do nosso portfólio em sensoriamento remoto e geoprocessamento, com acesso gratuito. Escreva para a gente para ser avisado quando ela estiver no ar.",
+      "eta": "Acesso gratuito aos estudos de caso e projetos do portfólio.",
       "steps": [
         {
           "label": "Pesquisa e arquitetura concluídas",
           "state": "done"
         },
         {
-          "label": "Desenvolvimento em andamento",
+          "label": "Adaptação da plataforma para o portfólio",
           "state": "current"
         },
         {
-          "label": "Beta privado com clientes selecionados",
+          "label": "Publicação dos primeiros estudos de caso",
           "state": "next"
         }
       ],
-      "contactHeading": "Quer entrar no beta ou ser avisado no lançamento? Escreva para a gente.",
+      "contactHeading": "Quer ser avisado quando a plataforma abrir? Escreva para a gente.",
       "homeCta": "Voltar para o site",
       "emailCta": "Falar por e-mail",
       "whatsappCta": "Falar no WhatsApp"

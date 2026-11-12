@@ -1,7 +1,7 @@
 # www.coordenadageo.com.br
 
-Site institucional da **Coordenada Geo** — startup de geotecnologia cuja plataforma web transforma arquivos de dados
-geográficos (shapefile, GeoJSON, KML...) em páginas interativas com mapas, gráficos e tabelas. Publicado no domínio
+Site institucional da **Coordenada Geo** — empresa especializada em análise de informações geográficas (sensoriamento remoto e
+geoprocessamento). O site apresenta as capacidades da empresa e leva à plataforma com os estudos de caso. Publicado no domínio
 [coordenadageo.com.br](https://coordenadageo.com.br) via GitHub Pages.
 
 > O app SaaS da Coordenada Geo vive em outro repositório e no domínio
@@ -40,7 +40,7 @@ npx serve out      # serve o build local para validar
 app/
   [locale]/
     layout.tsx       # chrome (Header/Footer/i18n/GA)
-    page.tsx         # home (Hero, Sobre, Propósito, Valores, Serviços, Plataforma, Atuação, Novidades, Contato)
+    page.tsx         # home (Hero, Capacidades, Estudos de caso, Propósito, Quem somos, Valores, Blog)
     blog/
       page.tsx       # listagem de posts
       [slug]/page.tsx

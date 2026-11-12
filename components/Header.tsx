@@ -23,16 +23,9 @@ export default function Header({ locale }: { locale: Locale }) {
         { label: t('about.items.values'), href: `${base}/#values` },
       ],
     },
-    {
-      label: t('services.label'),
-      items: [
-        { label: t('services.items.offer'), href: `${base}/#solutions` },
-        { label: t('services.items.platform'), href: `${base}/#platform` },
-        { label: t('services.items.useCases'), href: `${base}/#use-cases` },
-      ],
-    },
+    { label: t('capabilities'), href: `${base}/#capabilities` },
     { label: t('content'), href: `${base}/blog/` },
-    { label: t('contact'), href: `${base}/#contact` },
+    { label: t('contact'), href: `${base}/#contato` },
   ];
 
   return (
