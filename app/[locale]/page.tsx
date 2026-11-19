@@ -9,7 +9,7 @@ import {
 import Section from '@/components/Section';
 import Card from '@/components/Card';
 import Button from '@/components/Button';
-import { getAppHref, isAppExternal } from '@/lib/site';
+import { SITE, getAppHref, isAppExternal } from '@/lib/site';
 import { getPosts, type PostMeta } from '@/lib/blog';
 import type { Locale } from '@/i18n';
 
@@ -21,7 +21,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
   const { locale: rawLocale } = await params;
   const locale = rawLocale as Locale;
   const messages = (await import(`@/messages/${locale}.json`)).default as Messages;
-  const posts = getPosts(locale).slice(0, 3);
+  const posts = SITE.blogEnabled ? getPosts(locale).slice(0, 3) : [];
 
   return (
     <>
@@ -83,43 +83,45 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
         </div>
       </Section>
 
-      {/* Latest posts (Conteúdo) */}
-      <Section tone="light">
-        <div className="flex flex-wrap items-end justify-between gap-4">
-          <div className="max-w-2xl">
-            <p className="eyebrow">{messages.blog.eyebrow}</p>
-            <h2 className="heading-lg mt-3">{messages.blog.title}</h2>
+      {/* Latest posts (Conteúdo): oculto enquanto SITE.blogEnabled for false */}
+      {SITE.blogEnabled ? (
+        <Section tone="light">
+          <div className="flex flex-wrap items-end justify-between gap-4">
+            <div className="max-w-2xl">
+              <p className="eyebrow">{messages.blog.eyebrow}</p>
+              <h2 className="heading-lg mt-3">{messages.blog.title}</h2>
+            </div>
+            <Link
+              href={`/${locale}/blog/`}
+              className="text-sm font-semibold text-terracota hover:text-terracota-dark dark:text-ocre dark:hover:text-ocre-300"
+            >
+              {messages.blog.all} <span aria-hidden>&rarr;</span>
+            </Link>
           </div>
-          <Link
-            href={`/${locale}/blog/`}
-            className="text-sm font-semibold text-terracota hover:text-terracota-dark dark:text-ocre dark:hover:text-ocre-300"
-          >
-            {messages.blog.all} <span aria-hidden>&rarr;</span>
-          </Link>
-        </div>
-        {posts.length === 0 ? (
-          <p className="mt-8 text-ink-400 dark:text-sand-light/80">{messages.blog.empty}</p>
-        ) : (
-          <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
-            {posts.map((p: PostMeta) => (
-              <Link
-                key={p.slug}
-                href={`/${locale}/blog/${p.slug}/`}
-                className="flex h-full flex-col gap-3 rounded-2xl border border-ink/10 bg-white p-6 shadow-sm transition hover:shadow-md dark:border-white/10 dark:bg-white/[0.03]"
-              >
-                <time className="text-xs uppercase tracking-widest text-terracota dark:text-ocre">
-                  {new Date(p.date).toLocaleDateString(locale === 'en' ? 'en-US' : 'pt-BR')}
-                </time>
-                <h3 className="font-display text-lg font-bold text-ink dark:text-sand-light">{p.title}</h3>
-                <p className="text-sm text-ink-400 dark:text-sand-light/80">{p.excerpt}</p>
-                <span className="mt-auto text-sm font-semibold text-terracota dark:text-ocre">
-                  {messages.blog.readMore} &rarr;
-                </span>
-              </Link>
-            ))}
-          </div>
-        )}
-      </Section>
+          {posts.length === 0 ? (
+            <p className="mt-8 text-ink-400 dark:text-sand-light/80">{messages.blog.empty}</p>
+          ) : (
+            <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+              {posts.map((p: PostMeta) => (
+                <Link
+                  key={p.slug}
+                  href={`/${locale}/blog/${p.slug}/`}
+                  className="flex h-full flex-col gap-3 rounded-2xl border border-ink/10 bg-white p-6 shadow-sm transition hover:shadow-md dark:border-white/10 dark:bg-white/[0.03]"
+                >
+                  <time className="text-xs uppercase tracking-widest text-terracota dark:text-ocre">
+                    {new Date(p.date).toLocaleDateString(locale === 'en' ? 'en-US' : 'pt-BR')}
+                  </time>
+                  <h3 className="font-display text-lg font-bold text-ink dark:text-sand-light">{p.title}</h3>
+                  <p className="text-sm text-ink-400 dark:text-sand-light/80">{p.excerpt}</p>
+                  <span className="mt-auto text-sm font-semibold text-terracota dark:text-ocre">
+                    {messages.blog.readMore} &rarr;
+                  </span>
+                </Link>
+              ))}
+            </div>
+          )}
+        </Section>
+      ) : null}
     </>
   );
 }

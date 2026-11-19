@@ -1,6 +1,7 @@
 'use client';
 
 import { useEffect, useState } from 'react';
+import { SITE } from '@/lib/site';
 import { NextIntlClientProvider } from 'next-intl';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
@@ -72,8 +73,8 @@ export default function NotFoundShell() {
             homeLabel={t.cta}
             secondaryHref={`${base}/#about`}
             secondaryLabel={t.secondaryCta}
-            tertiaryHref={`${base}/blog/`}
-            tertiaryLabel={t.blogCta}
+            tertiaryHref={SITE.blogEnabled ? `${base}/blog/` : undefined}
+            tertiaryLabel={SITE.blogEnabled ? t.blogCta : undefined}
             illustrationLabel={t.illustrationLabel}
           />
         </main>

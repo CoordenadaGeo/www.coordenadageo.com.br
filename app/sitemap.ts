@@ -19,19 +19,21 @@ export default function sitemap(): MetadataRoute.Sitemap {
         languages: Object.fromEntries(locales.map((l) => [l, `${SITE.url}/${l}/`])),
       },
     });
-    entries.push({
-      url: `${SITE.url}/${locale}/blog/`,
-      lastModified: now,
-      changeFrequency: 'weekly',
-      priority: 0.7,
-    });
-    for (const post of getPosts(locale)) {
+    if (SITE.blogEnabled) {
       entries.push({
-        url: `${SITE.url}/${locale}/blog/${post.slug}/`,
-        lastModified: new Date(post.date),
-        changeFrequency: 'yearly',
-        priority: 0.5,
+        url: `${SITE.url}/${locale}/blog/`,
+        lastModified: now,
+        changeFrequency: 'weekly',
+        priority: 0.7,
       });
+      for (const post of getPosts(locale)) {
+        entries.push({
+          url: `${SITE.url}/${locale}/blog/${post.slug}/`,
+          lastModified: new Date(post.date),
+          changeFrequency: 'yearly',
+          priority: 0.5,
+        });
+      }
     }
   }
 

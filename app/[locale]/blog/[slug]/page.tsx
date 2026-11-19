@@ -7,11 +7,14 @@ import { setRequestLocale, getTranslations } from 'next-intl/server';
 import Section from '@/components/Section';
 import { mdxComponents } from '@/components/MDXComponents';
 import { getAllPostSlugs, getPost } from '@/lib/blog';
+import { SITE } from '@/lib/site';
 import type { Locale } from '@/i18n';
 import { locales } from '@/i18n';
 
 export function generateStaticParams() {
-  return getAllPostSlugs();
+  // O export estático exige ao menos uma rota; com o blog oculto geramos um
+  // parâmetro fictício, que cai em notFound() na página.
+  return SITE.blogEnabled ? getAllPostSlugs() : locales.map((locale) => ({ locale, slug: '_' }));
 }
 
 export async function generateMetadata({
@@ -31,7 +34,7 @@ export default async function PostPage({
   params: Promise<{ locale: Locale; slug: string }>;
 }) {
   const { locale, slug } = await params;
-  if (!locales.includes(locale)) notFound();
+  if (!SITE.blogEnabled || !locales.includes(locale)) notFound();
   setRequestLocale(locale);
   const post = getPost(locale, slug);
   if (!post) notFound();

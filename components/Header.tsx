@@ -5,7 +5,7 @@ import Button from './Button';
 import LocaleSwitcher from './LocaleSwitcher';
 import ThemeToggle from './ThemeToggle';
 import { DesktopNav, MobileNav, type NavGroup } from './NavMenu';
-import { getAppHref, isAppExternal } from '@/lib/site';
+import { SITE, getAppHref, isAppExternal } from '@/lib/site';
 import type { Locale } from '@/i18n';
 
 export default function Header({ locale }: { locale: Locale }) {
@@ -23,7 +23,7 @@ export default function Header({ locale }: { locale: Locale }) {
         { label: t('about.items.values'), href: `${base}/#values` },
       ],
     },
-    { label: t('content'), href: `${base}/blog/` },
+    ...(SITE.blogEnabled ? [{ label: t('content'), href: `${base}/blog/` }] : []),
     { label: t('contact'), href: `${base}/#contato` },
   ];
 

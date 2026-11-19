@@ -48,7 +48,7 @@ Para quem sabe o valor dos dados geográficos
 Transformamos dados geográficos em eureka.
 
 **[Subtítulo]**
-Somos especialistas em análise de informações geográficas: sensoriamento remoto e geoprocessamento aplicados ao território e ao meio ambiente, com rigor técnico-científico e uma comunicação clara para quem decide.
+Somos especialistas em análise de informações geográficas. Integramos sensoriamento remoto, geoprocessamento e modelagem estatística, com tecnologia da informação, para transformar grandes volumes de dados do território e do meio ambiente em informações acionáveis, com rigor técnico-científico e clareza para quem decide.
 
 **[Botão principal]**
 Ver estudos de caso
@@ -70,7 +70,7 @@ Mais de vinte anos de geoprocessamento.
 A equipe da Coordenada Geo reúne mais de vinte anos de experiência com geoprocessamento e com o desenvolvimento de tecnologias para modelagem e análise em sistemas de informações geográficas.
 
 **[Parágrafo 2]**
-Combinamos imagens de satélite, dados de campo, análise estatística e tecnologia da informação para entender as mudanças no uso da terra e seus impactos ambientais, sociais e econômicos, gerando informações que fazem a diferença na hora de decidir.
+Usamos tecnologia da informação para integrar imagens de satélite, dados de campo, geoprocessamento e modelagem estatística e transformar grandes volumes de dados em insights que fazem a diferença na hora de decidir: entender as mudanças no uso da terra e seus impactos ambientais, sociais e econômicos.
 
 ---
 
@@ -121,7 +121,7 @@ Priorizamos usos que geram impacto positivo em pessoas, ecossistemas e territór
 
 ---
 
-## Blog (seção "Do nosso radar")
+## Blog (seção "Do nosso radar") — OCULTO por enquanto (SITE.blogEnabled = false)
 
 **[Chamada]**
 Conteúdo

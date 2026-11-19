@@ -44,11 +44,13 @@ export default function Footer({ locale }: { locale: Locale }) {
                 {t('nav.about.items.who')}
               </Link>
             </li>
-            <li>
-              <Link href={`${base}/blog/`} className="hover:text-white">
-                {t('nav.content')}
-              </Link>
-            </li>
+            {SITE.blogEnabled ? (
+              <li>
+                <Link href={`${base}/blog/`} className="hover:text-white">
+                  {t('nav.content')}
+                </Link>
+              </li>
+            ) : null}
             <li>
               <a
                 href={appHref}

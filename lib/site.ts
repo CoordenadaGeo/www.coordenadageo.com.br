@@ -8,6 +8,11 @@ export const SITE = {
    * /<locale>/em-breve/ page instead of appUrl.
    */
   appAvailable: false,
+  /**
+   * Set to `true` to bring the blog back (home section, menu, footer, 404,
+   * sitemap and the /blog routes). While `false`, it is hidden everywhere.
+   */
+  blogEnabled: false,
   defaultLocale: 'pt' as const,
   locales: ['pt', 'en'] as const,
   contact: {

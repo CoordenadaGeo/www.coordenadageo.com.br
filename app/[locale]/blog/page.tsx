@@ -4,6 +4,8 @@ import { setRequestLocale } from 'next-intl/server';
 import type { Metadata } from 'next';
 import Section from '@/components/Section';
 import { getPosts } from '@/lib/blog';
+import { notFound } from 'next/navigation';
+import { SITE } from '@/lib/site';
 import type { Locale } from '@/i18n';
 
 export async function generateMetadata({
@@ -17,6 +19,7 @@ export async function generateMetadata({
 }
 
 export default async function BlogIndex({ params }: { params: Promise<{ locale: Locale }> }) {
+  if (!SITE.blogEnabled) notFound();
   const { locale } = await params;
   setRequestLocale(locale);
   const posts = getPosts(locale);

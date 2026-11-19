@@ -1,5 +1,6 @@
 import { useTranslations, useLocale } from 'next-intl';
 import NotFoundHero from '@/components/NotFoundHero';
+import { SITE } from '@/lib/site';
 
 export default function LocaleNotFound() {
   const t = useTranslations('notFound');
@@ -15,8 +16,8 @@ export default function LocaleNotFound() {
       homeLabel={t('cta')}
       secondaryHref={`${base}/#about`}
       secondaryLabel={t('secondaryCta')}
-      tertiaryHref={`${base}/blog/`}
-      tertiaryLabel={t('blogCta')}
+      tertiaryHref={SITE.blogEnabled ? `${base}/blog/` : undefined}
+      tertiaryLabel={SITE.blogEnabled ? t('blogCta') : undefined}
       illustrationLabel={t('illustrationLabel')}
     />
   );
