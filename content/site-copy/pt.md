@@ -42,7 +42,7 @@ Acessar plataforma
 ## 1. Hero (promessa)
 
 **[Chamada acima do título]**
-Para quem vê beleza nos dados geográficos
+Para quem sabe o valor dos dados geográficos
 
 **[Título principal]**
 Transformamos dados geográficos em eureka.
